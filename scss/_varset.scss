@@ -1,0 +1,96 @@
+// **********************
+// CONTROLE DOS HEXAGONOS
+// *********************
+
+$hw: 400;
+$wh: ((50*$hw)/86)*1px;
+
+$mhw: 80;
+$mwh: ((50*$mhw)/86)*1px;
+
+$hhw: 125;
+$hwh: ((50*$hhw)/86)*1px;
+
+$mehw: 280;
+$mewh: ((50*$mehw)/86)*1px;
+
+
+// **********************
+// CORES
+// **********************
+
+$cor-fundo-primaria: #272a34;
+$cor-fundo-secundaria: #1C2331;
+$cor-fundo-terciaria: #161e2c;
+
+$cor-pri-top: #9daf0f;
+$cor-pri-mid: #87c232;
+$cor-pri-low: #d5d510;
+
+$cor-branca: #ffffff;
+$cor-preta: #000000;
+
+$cor-descritiva-a: #003686;
+$cor-descritiva-b: #003584;
+$cor-descritiva-c: #003f8f;
+$cor-descritiva-d: #00519c;
+
+$cor-preditiva-a: #ff1e36;
+$cor-preditiva-b: #ff1629;
+$cor-preditiva-c: #ff1313;
+$cor-preditiva-d: #e53700;
+$cor-preditiva-e: #eb4400;
+$cor-preditiva-f: #f26100;
+
+$cor-prescritiva-a: #f69915;
+$cor-prescritiva-b: #f59113;
+$cor-prescritiva-c: #f9bc30;
+$cor-prescritiva-d: #fac334;
+
+$cor-discovery-a: #012549;
+$cor-discovery-b: #013b63;
+$cor-discovery-c: #024770;
+
+$cor-sucesso-a: #dd4e00;
+$cor-sucesso-b: #df6e00;
+$cor-sucesso-c: #dc8100;
+$cor-sucesso-d: #e79400;
+$cor-sucesso-e: #263041;
+
+
+// **********************
+// FONTES E TEXTOS
+// **********************
+
+$fonte-primaria: 'Barlow', sans-serif;
+$fonte-secundaria: 'Heebo', sans-serif;
+$fonte-terciaria: 'Lato', sans-serif;
+
+$txt-tam-12px: 0.75rem;     // 12px
+$txt-tam-14px: 0.875rem;    // 14px
+$txt-tam-15px: 0.9375rem;   // 15px
+$txt-tam-16px: 1rem;        // 16px
+$txt-tam-17px: 1.0625rem;   // 17px
+$txt-tam-18px: 1.125rem;    // 18px
+$txt-tam-20px: 1.25rem;     // 20px
+$txt-tam-22px: 1.5rem;      // 22px
+$txt-tam-24px: 1.5rem;      // 24px
+$txt-tam-26px: 1.625rem;    // 26px
+$txt-tam-34px: 2.125rem;    // 34px
+$txt-tam-48px: 3rem;        // 48px
+$txt-tam-70px: 4.375rem;    // 70px
+
+$txt-peso-400: 400;         // regular
+$txt-peso-500: 500;         // medium
+$txt-peso-600: 600;         // semi-bold
+$txt-peso-700: 700;         // bold
+
+
+// **********************
+// TRANSIÇÃO
+// **********************
+
+$transicao1x: 0.33s all;
+$transicao2x: 0.66s all;
+$transicao3x:    1s all;
+$transicao4x:  1.5s all;

@@ -1,713 +1,535 @@
-<?php get_header(); ?>
+<?php get_header(); 
+	$wp_theme_url = get_template_directory_uri();
+	?>
 
-	<!-- Navbar -->
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+<?php include("src/slider.php"); ?>
+
+<!-- INICIO DO SITE FORA DO SLIDER -->
+<main class="pagina-principal">
+
+	<section id="gs-ciencia" class="ciencia-container fundo-parallax">
+		<div class="fundo-principal"></div>
+		<div class="fundo-foguete"></div>
+
+		<div class="topo-divisor"></div>	
+
 		<div class="container">
 
-			<!-- Brand -->
-			<a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-				<strong>MDB</strong>
-			</a>
+			<div class="row">
+				<div class="col-12">
+					<div class="home-titulo ciencia">
+						<h2 class="chamada-meio">
+							Somos especialistas<br>em Ciência do Consumo
+						</h2>
+						<p  class="chamada-baixo">
+							Desenvolvemos uma metodologia end-to-end exclusiva<br>no mercado, que proporciona aos nossos clientes:
+						</p>
+						<span class="bottom-liner"></span>
+					</div>
+				</div>
+			</div>
 
-			<!-- Collapse -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<!-- Links -->
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-				<!-- Left -->
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home
-							<span class="sr-only">(current)</span>
+			<div class="row">
+				<div class="col-12">
+					<div class="ciencia-getfish primeiro d-flex align-items-start justify-content-between">
+						<div class="hexa-animado">
+							<a class="hexa-padrao hexa-descritiva">
+								<div class="hexa-conteudo">
+									<span class="hexa-tit">Análise Descritiva</span>
+									<span class="hexa-desc">Captura de Dados, qualificação e análise de comportamento dos consumidores, do negócio e do mercado.</span>
+									<span class="bottom-liner"></span>
+								</div>
+							</a>
+						</div>
+						<div>
+							<a class="mini-hexas hexa-esquerda mini-hexa-cliente">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-01-getfish.png">
+								</div>
+								<span class="hexa-texto esquerda"><span>Cliente</span></span>
+							</a>
+							<a class="mini-hexas hexa-esquerda mini-hexa-loja">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-02-getfish.png">
+								</div>
+								<span class="hexa-texto esquerda"><span>Loja</span></span>
+							</a>
+							<a class="mini-hexas hexa-esquerda mini-hexa-indice">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-03-getfish.png">
+								</div>
+								<span class="hexa-texto esquerda"><span>Índice de Sacrifício</span></span>
+							</a>
+						</div>
+						<a class="logo-getfish">
+							<img src="<?= $wp_theme_url; ?>/img/index/02-logo-getfish.png">>
 						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">About MDB</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://mdbootstrap.com/getting-started/" target="_blank">Free download</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Free tutorials</a>
-					</li>
-				</ul>
+					</div>
+				</div>
 
-				<!-- Right -->
-				<ul class="navbar-nav nav-flex-icons">
-					<li class="nav-item">
-						<a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
-							<i class="fab fa-facebook"></i>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
-							<i class="fab fa-twitter"></i>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
-						target="_blank">
-							<i class="fab fa-github mr-2"></i>MDB GitHub
-						</a>
-					</li>
-				</ul>
+				<div class="col-12">
+					<div class="ciencia-getfish segundo d-flex align-items-start justify-content-end">
+						<div>
+							<a class="mini-hexas hexa-direita mini-hexa-potencial">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-04-getfish.png">
+								</div>
+								<span class="hexa-texto direita"><span>Potencial de Faturamento</span></span>
+							</a>
+							<a class="mini-hexas hexa-direita mini-hexa-pareto">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-05-getfish.png">
+								</div>
+								<span class="hexa-texto direita"><span>Pareto</span></span>
+							</a>
+							<a class="mini-hexas hexa-direita mini-hexa-missao">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-06-getfish.png">
+								</div>
+								<span class="hexa-texto direita"><span>Missão de Compra</span></span>
+							</a>
+							<a class="mini-hexas hexa-direita mini-hexa-share">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-07-getfish.png">
+								</div>
+								<span class="hexa-texto direita"><span>Share Domiciliar</span></span>
+							</a>
+							<a class="mini-hexas hexa-direita mini-hexa-quantidade">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-08-getfish.png">
+								</div>
+								<span class="hexa-texto direita" style="margin: -10px 0 0 0;"><span>Quantidade e Frequência de Cliente</span></span>
+							</a>
+						</div>	
+						<div class="hexa-animado">
+							<a class="hexa-padrao hexa-preditiva">
+								<div class="hexa-conteudo">
+									<span class="hexa-tit">Análise Preditiva</span>
+									<span class="hexa-desc">Geração de oportunidades comerciais, oportunidades de mercado e oportunidades impulsionamento de  consumo.</span>
+									<span class="bottom-liner"></span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
 
+				<div class="col-12">
+					<div class="ciencia-getfish terceiro d-flex align-items-start justify-content-start">
+						<div class="hexa-animado">
+							<a class="hexa-padrao hexa-prescritiva">
+								<div class="hexa-conteudo">
+									<span class="hexa-tit">Análise Prescritiva</span>
+									<span class="hexa-desc">Clusterização de base de clientes, ativações personalizadas, motores promocionais, gestão ativa de relacionamento com o cliente, direcionamento de conteúdo e recomendação 1:1.</span>
+									<span class="bottom-liner"></span>
+								</div>
+							</a>
+						</div>
+						<div>
+							<a class="mini-hexas hexa-esquerda mini-hexa-cluster">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-09-getfish.png">
+								</div>
+								<span class="hexa-texto esquerda"><span>Clusters</span></span>
+							</a>
+							<a class="mini-hexas hexa-esquerda mini-hexa-ativacao">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-10-getfish.png">
+								</div>
+								<span class="hexa-texto esquerda"><span>Ativação Segmentada</span></span>
+							</a>
+							<a class="mini-hexas hexa-esquerda mini-hexa-promocao">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/02-11-getfish.png">
+								</div>
+								<span class="hexa-texto esquerda"><span>Promoções Individualizadas</span></span>
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 
 		</div>
-	</nav>
-	<!-- Navbar -->
 
-	<!--Carousel Wrapper-->
-	<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+		<div class="ciencia-divisor"></div>		
+		
+	</section>
 
-		<!--Indicators-->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-1z" data-slide-to="1"></li>
-			<li data-target="#carousel-example-1z" data-slide-to="2"></li>
-		</ol>
-		<!--/.Indicators-->
+	<section id="gs-zoombox" class="zoombox-container zoombox-parallax">
+		<div id="particles-js" class="zoombox-particles"></div>
+		
+		<div class="zoombox-divisor"></div>	
 
-		<!--Slides-->
-		<div class="carousel-inner" role="listbox">
-
-			<!--First slide-->
-			<div class="carousel-item active">
-				<div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-					<!-- Mask & flexbox options-->
-					<div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-						<!-- Content -->
-						<div class="text-center white-text mx-5 wow fadeIn">
-							<h1 class="mb-4">
-								<strong>Learn Bootstrap 4 with MDB</strong>
-							</h1>
-
-							<p>
-								<strong>Best & free guide of responsive web design</strong>
-							</p>
-
-							<p class="mb-4 d-none d-md-block">
-								<strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written
-									versions
-									available. Create your own, stunning website.</strong>
-							</p>
-
-							<a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-outline-white btn-lg">Start
-								free tutorial
-								<i class="fa fa-graduation-cap ml-2"></i>
-							</a>
-						</div>
-						<!-- Content -->
-
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="home-titulo zoombox">
+						<h2 class="chamada-meio">
+							ZoOmBOX<br>Muito mais que um CRM!
+						</h2>
+						<p  class="chamada-baixo">
+							Desenvolvemos uma metodologia end-to-end exclusiva<br>no mercado, que proporciona aos nossos clientes:
+						</p>
+						<span class="bottom-liner"></span>
 					</div>
-					<!-- Mask & flexbox options-->
-
 				</div>
 			</div>
-			<!--/First slide-->
 
-			<!--Second slide-->
-			<div class="carousel-item">
-				<div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-					<!-- Mask & flexbox options-->
-					<div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-						<!-- Content -->
-						<div class="text-center white-text mx-5 wow fadeIn">
-							<h1 class="mb-4">
-								<strong>Learn Bootstrap 4 with MDB</strong>
-							</h1>
-
-							<p>
-								<strong>Best & free guide of responsive web design</strong>
-							</p>
-
-							<p class="mb-4 d-none d-md-block">
-								<strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written
-									versions
-									available. Create your own, stunning website.</strong>
-							</p>
-
-							<a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-outline-white btn-lg">Start
-								free tutorial
-								<i class="fa fa-graduation-cap ml-2"></i>
+			<div class="row">
+				<div class="col-8">
+					<div class="orbita-zoombox">
+						<div class="logo-zoombox">
+							<img src="<?= $wp_theme_url; ?>/img/index/03-logo-zoombox.png">
+						</div>
+						<div id="thumbs" class="itens-zoombox solucoes-mouseover" >
+							<a class="thumb-solucao-image" id="thumb_1" data="<?= $wp_theme_url; ?>/img/index/03-01-inteligencia-detalhe.png"
+							data-title="Inteligência de Captura" data-text="texto marcação 1">
+								<div class="inteligencia intel-captura">	
+									<div class="intel-icone">
+										<img src="<?= $wp_theme_url; ?>/img/index/03-01-zoombox.png">
+									</div>
+									<div class="intel-txt">
+										<span class="intel-txt-topo">Inteligência</span>
+										<span class="intel-txt-meio">De Captura</span>
+									</div>
+								</div>
+							</a>
+							<a class="thumb-solucao-image" id="thumb_2" data="<?= $wp_theme_url; ?>/img/index/03-02-inteligencia-detalhe.png"
+							data-title="Inteligência Analítica" data-text="texto marcação 2">
+								<div class="inteligencia intel-analitica">
+									<div class="intel-icone">
+										<img src="<?= $wp_theme_url; ?>/img/index/03-02-zoombox.png">
+									</div>
+									<div class="intel-txt">
+										<span class="intel-txt-topo">Inteligência</span>
+										<span class="intel-txt-meio">Analítica</span>
+									</div>
+								</div>
+							</a>
+							<a class="thumb-solucao-image" id="thumb_3" data="<?= $wp_theme_url; ?>/img/index/03-03-inteligencia-detalhe.png"
+							data-title="Inteligência Promocional" data-text="texto marcação 3">
+								<div class="inteligencia intel-promocional">	
+									<div class="intel-icone">
+										<img src="<?= $wp_theme_url; ?>/img/index/03-03-zoombox.png">
+									</div>
+									<div class="intel-txt">
+										<span class="intel-txt-topo">Inteligência</span>
+										<span class="intel-txt-meio">Promocional</span>
+									</div>
+								</div>
+							</a>
+							<a class="thumb-solucao-image" id="thumb_4" data="<?= $wp_theme_url; ?>/img/index/03-04-inteligencia-detalhe.png"
+							data-title="Inteligência Acionável" data-text="texto marcação 4">
+								<div class="inteligencia intel-acionavel">
+									<div class="intel-icone">
+										<img src="<?= $wp_theme_url; ?>/img/index/03-04-zoombox.png">
+									</div>
+									<div class="intel-txt">
+										<span class="intel-txt-topo">Inteligência</span>
+										<span class="intel-txt-meio">Acionável</span>
+									</div>
+								</div>
 							</a>
 						</div>
-						<!-- Content -->
-
+						<div class="orbitas">
+							<img src="<?= $wp_theme_url; ?>/img/index/03-bg-orbits.png">
+						</div>
 					</div>
-					<!-- Mask & flexbox options-->
-
+				</div>
+				<div class="col-4">
+					<div class="solucao-image">
+						<img src="<?= $wp_theme_url; ?>/img/index/03-01-inteligencia-detalhe.png">
+						<h3>
+							Inteligência de Captura
+						</h3>
+						<p>
+							Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+						</p>
+					</div>
 				</div>
 			</div>
-			<!--/Second slide-->
+		</div>
+	</section>
 
-			<!--Third slide-->
-			<div class="carousel-item">
-				<div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/79.jpg'); background-repeat: no-repeat; background-size: cover;">
+	<section id="gs-discovery" class="discovery-container fundo-parallax">
+		<div class="fundo-discovery"></div>
+		
+		<div class="discovery-divisor"></div>	
 
-					<!-- Mask & flexbox options-->
-					<div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+		<div class="container">
+			<div class="discovery-rastro"></div>
+			<div class="row">
+				<div class="col-12">
+					<div class="home-titulo discovery">
+						<h2 class="chamada-meio">
+							Discovery<br>Comunicando com o Universo!
+						</h2>
+						<p  class="chamada-baixo">
+							Desenvolvemos uma metodologia end-to-end exclusiva<br>no mercado, que proporciona aos nossos clientes:
+						</p>
+						<span class="bottom-liner"></span>
+					</div>
+				</div>
+			</div>
 
-						<!-- Content -->
-						<div class="text-center white-text mx-5 wow fadeIn">
-							<h1 class="mb-4">
-								<strong>Learn Bootstrap 4 with MDB</strong>
-							</h1>
+			<div class="row">
+				<div class="col">
+					<div class="logo-discovery">
+						<img src="<?= $wp_theme_url; ?>/img/index/04-logo-discovery.png">
+					</div>
+				</div>
+			</div>
 
-							<p>
-								<strong>Best & free guide of responsive web design</strong>
-							</p>
-
-							<p class="mb-4 d-none d-md-block">
-								<strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written
-									versions
-									available. Create your own, stunning website.</strong>
-							</p>
-
-							<a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-outline-white btn-lg">Start
-								free tutorial
-								<i class="fa fa-graduation-cap ml-2"></i>
+			<div class="row">
+				<div class="col-12">
+					<div class="discovery-infos disc-cluster">
+						<div class="disc-imagem">
+							<img src="<?= $wp_theme_url; ?>/img/index/04-01-mockup-discovery.png">
+						</div>
+						<div class="disc-hexa-icon">
+							<a class="mid-hexas">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/04-01-icon-discovery.png">
+								</div>
 							</a>
 						</div>
-						<!-- Content -->
-
+						<div class="disc-texto">
+							<h4 class="disc-tit">
+								Cluster Dimensional
+							</h4>
+							<p class="disc-desc">
+								Segmente e ative seus clientes.Entenda o seu comportamento e perfil
+							</p>
+						</div>
 					</div>
-					<!-- Mask & flexbox options-->
-
+				</div>
+				<div class="col-12">
+					<div class="discovery-infos disc-entrega">
+						<div class="disc-imagem">
+							<img src="<?= $wp_theme_url; ?>/img/index/04-02-mockup-discovery.png">
+						</div>
+						<div class="disc-hexa-icon">
+							<a class="mid-hexas">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/04-02-icon-discovery.png">
+								</div>
+							</a>
+						</div>
+						<div class="disc-texto">
+							<h4 class="disc-tit">
+								Ativação com Qualidade de Entrega
+							</h4>
+							<p class="disc-desc">
+								Nuvem de dados íntegra e atualizada
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="discovery-infos disc-resultados">
+						<div class="disc-imagem">
+							<img src="<?= $wp_theme_url; ?>/img/index/04-03-mockup-discovery.png">
+						</div>
+						<div class="disc-hexa-icon">
+							<a class="mid-hexas">
+								<div class="hexa-conteudo">
+									<img src="<?= $wp_theme_url; ?>/img/index/04-03-icon-discovery.png">
+								</div>
+							</a>
+						</div>
+						<div class="disc-texto">
+							<h4 class="disc-tit">
+								Monitoramento Inteligente de Resultados
+							</h4>
+							<p class="disc-desc">
+								Compreenda de forma clara a performance das suas campanhas
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<!--/Third slide-->
 
 		</div>
-		<!--/.Slides-->
 
-		<!--Controls-->
-		<a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-		<!--/.Controls-->
+		<div class="sucesso-divisor"></div>
+
+		<div class="container sucesso-container fundo-parallax">
+			<div class="fundo-globular-parallax">
+				<div class="fundo-globular-animate">
+					<div class="fundo-globular"></div>
+				</div>
+			</div>
+
+			<div class="row titulo-sucesso">
+				<div class="col-12">
+					<div class="home-titulo sucesso">
+						<h2 class="chamada-meio">
+							Sucesso do Cliente<br>Fique tranquilo!
+						</h2>
+						<p  class="chamada-baixo">
+							Desenvolvemos uma metodologia end-to-end exclusiva<br>no mercado, que proporciona aos nossos clientes:
+						</p>
+						<span class="bottom-liner"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row sucesso-infos d-flex flex-nowrap ">
+
+				<div class="col-md-4 coluna-base order-md-2">
+					<div class="row linha-base d-flex flex-md-column">
+						<div class="col-12 coluna-simplificada c">
+							<div class="hexa-sucesso">
+								<a class="med-hexas hexa-sucesso-logo">
+									<div class="hexa-conteudo">
+										<span class="hexa-logo"><img src="<?= $wp_theme_url; ?>/img/index/05-logo-sucesso.png"></span>
+										<span class="hexa-tit"><span class="hexa-tit-lit">Time de</span>Sucesso do Cliente</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 coluna-base order-md-1">
+					<div class="row linha-base d-flex flex-md-column-reverse">
+
+						<div class="col-10 coluna-simplificada a">
+							<div class="sucesso-item sucesso-item-a">
+								<div class="sucesso-hexa-icon">
+									<a class="max-hexas">
+										<div class="hexa-conteudo">
+											<img src="<?= $wp_theme_url; ?>/img/index/05-01-sucesso.png">
+										</div>
+									</a>
+								</div>
+								<div class="sucesso-texto">
+									<h4 class="sucesso-tit">
+										Sucesso do Cliente 01
+									</h4>
+									<p class="sucesso-desc">
+										Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-10 coluna-simplificada a">
+							<div class="sucesso-item sucesso-item-b">
+								<div class="sucesso-hexa-icon">
+									<a class="max-hexas">
+										<div class="hexa-conteudo">
+											<img src="<?= $wp_theme_url; ?>/img/index/05-01-sucesso.png">
+										</div>
+									</a>
+								</div>
+								<div class="sucesso-texto">
+									<h4 class="sucesso-tit">
+										Sucesso do Cliente 02
+									</h4>
+									<p class="sucesso-desc">
+										Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-md-4 coluna-base order-md-3">
+					<div class="row linha-base d-flex flex-md-column">
+
+						<div class="col-10 coluna-simplificada b">
+							<div class="sucesso-item sucesso-item-c">
+								<div class="sucesso-hexa-icon">
+									<a class="max-hexas">
+										<div class="hexa-conteudo">
+											<img src="<?= $wp_theme_url; ?>/img/index/05-01-sucesso.png">
+										</div>
+									</a>
+								</div>
+								<div class="sucesso-texto">
+									<h4 class="sucesso-tit">
+										Sucesso do Cliente 03
+									</h4>
+									<p class="sucesso-desc">
+										Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-10 coluna-simplificada b">
+							<div class="sucesso-item sucesso-item-d">
+								<div class="sucesso-hexa-icon">
+									<a class="max-hexas">
+										<div class="hexa-conteudo">
+											<img src="<?= $wp_theme_url; ?>/img/index/05-01-sucesso.png">
+										</div>
+									</a>
+								</div>
+								<div class="sucesso-texto">
+									<h4 class="sucesso-tit">
+										Sucesso do Cliente 04
+									</h4>
+									<p class="sucesso-desc">
+										Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+	<section id="gs-clientes" class="clientes-container">
+		<div class="clientes-divisor"></div>	
+		<div class="container">
+
+			<div class="row">
+				<div class="col-12">
+					<div class="home-titulo clientes">
+						<h2 class="chamada-meio">
+							Clientes
+						</h2>
+						<p  class="chamada-baixo">
+							Atuamos em todas as regiões do Brasil, levando resultados concretos para o varejo, o atacado e a industria
+						</p>
+						<span class="bottom-liner"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-2">
+					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
+				</div>
+				<div class="col-2">
+					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
+				</div>
+				<div class="col-2">
+					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
+				</div>
+				<div class="col-2">
+					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
+				</div>
+				<div class="col-2">
+					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
+				</div>
+				<div class="col-2">
+					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
+				</div>
+			</div>
 
 		</div>
-		<!--/.Carousel Wrapper-->
+	</section>
 
-		<!--Main layout-->
-		<main>
-			<div class="container">
+</main>
 
-				<!--Section: Main info-->
-				<section class="mt-5 wow fadeIn">
-
-					<!--Grid row-->
-					<div class="row">
-
-						<!--Grid column-->
-						<div class="col-md-6 mb-4">
-
-							<img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg" class="img-fluid z-depth-1-half"
-							 alt="">
-
-						</div>
-						<!--Grid column-->
-
-						<!--Grid column-->
-						<div class="col-md-6 mb-4">
-
-							<!-- Main heading -->
-							<h3 class="h3 mb-3">Material Design for Bootstrap</h3>
-							<p>This template is created with Material Design for Bootstrap (
-								<strong>MDB</strong> ) framework.</p>
-							<p>Read details below to learn more about MDB.</p>
-							<!-- Main heading -->
-
-							<hr>
-
-							<p>
-								<strong>400+</strong> material UI elements,
-								<strong>600+</strong> material icons,
-								<strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
-								<strong>Free for personal and commercial use.</strong>
-							</p>
-
-							<!-- CTA -->
-							<a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-grey btn-md">Download
-								<i class="fa fa-download ml-1"></i>
-							</a>
-							<a target="_blank" href="https://mdbootstrap.com/components/" class="btn btn-grey btn-md">Live demo
-								<i class="fa fa-image ml-1"></i>
-							</a>
-
-						</div>
-						<!--Grid column-->
-
-					</div>
-					<!--Grid row-->
-
-				</section>
-				<!--Section: Main info-->
-
-				<hr class="my-5">
-
-				<!--Section: Main features & Quick Start-->
-				<section>
-
-					<h3 class="h3 text-center mb-5">About MDB</h3>
-
-					<!--Grid row-->
-					<div class="row wow fadeIn">
-
-						<!--Grid column-->
-						<div class="col-lg-6 col-md-12 px-4">
-
-							<!--First row-->
-							<div class="row">
-								<div class="col-1 mr-3">
-									<i class="fa fa-code fa-2x indigo-text"></i>
-								</div>
-								<div class="col-10">
-									<h5 class="feature-title">Bootstrap 4</h5>
-									<p class="grey-text">Thanks to MDB you can take advantage of all feature of newest Bootstrap 4.</p>
-								</div>
-							</div>
-							<!--/First row-->
-
-							<div style="height:30px"></div>
-
-							<!--Second row-->
-							<div class="row">
-								<div class="col-1 mr-3">
-									<i class="fa fa-book fa-2x blue-text"></i>
-								</div>
-								<div class="col-10">
-									<h5 class="feature-title">Detailed documentation</h5>
-									<p class="grey-text">We give you detailed user-friendly documentation at your disposal. It will help you to
-										implement your ideas
-										easily.
-									</p>
-								</div>
-							</div>
-							<!--/Second row-->
-
-							<div style="height:30px"></div>
-
-							<!--Third row-->
-							<div class="row">
-								<div class="col-1 mr-3">
-									<i class="fa fa-graduation-cap fa-2x cyan-text"></i>
-								</div>
-								<div class="col-10">
-									<h5 class="feature-title">Lots of tutorials</h5>
-									<p class="grey-text">We care about the development of our users. We have prepared numerous tutorials, which
-										allow you to learn
-										how to use MDB as well as other technologies.</p>
-								</div>
-							</div>
-							<!--/Third row-->
-
-						</div>
-						<!--/Grid column-->
-
-						<!--Grid column-->
-						<div class="col-lg-6 col-md-12">
-
-							<p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
-							<div class="embed-responsive embed-responsive-16by9">
-								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
-							</div>
-						</div>
-						<!--/Grid column-->
-
-					</div>
-					<!--/Grid row-->
-
-				</section>
-				<!--Section: Main features & Quick Start-->
-
-				<hr class="my-5">
-
-				<!--Section: Not enough-->
-				<section>
-
-					<h2 class="my-5 h3 text-center">Not enough?</h2>
-
-					<!--First row-->
-					<div class="row features-small mb-5 mt-3 wow fadeIn">
-
-						<!--First column-->
-						<div class="col-md-4">
-							<!--First row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-check-circle fa-2x indigo-text"></i>
-								</div>
-								<div class="col-10">
-									<h6 class="feature-title">Free for personal and commercial use</h6>
-									<p class="grey-text">Our license is user-friendly. Feel free to use MDB for both private as well as commercial
-										projects.
-									</p>
-									<div style="height:15px"></div>
-								</div>
-							</div>
-							<!--/First row-->
-
-							<!--Second row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-check-circle fa-2x indigo-text"></i>
-								</div>
-								<div class="col-10">
-									<h6 class="feature-title">400+ UI elements</h6>
-									<p class="grey-text">An impressive collection of flexible components allows you to develop any project.
-									</p>
-									<div style="height:15px"></div>
-								</div>
-							</div>
-							<!--/Second row-->
-
-							<!--Third row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-check-circle fa-2x indigo-text"></i>
-								</div>
-								<div class="col-10">
-									<h6 class="feature-title">600+ icons</h6>
-									<p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
-									<div style="height:15px"></div>
-								</div>
-							</div>
-							<!--/Third row-->
-
-							<!--Fourth row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-check-circle fa-2x indigo-text"></i>
-								</div>
-								<div class="col-10">
-									<h6 class="feature-title">Fully responsive</h6>
-									<p class="grey-text">It doesn't matter whether your project will be displayed on desktop, laptop, tablet or
-										mobile phone. MDB
-										looks great on each screen.</p>
-									<div style="height:15px"></div>
-								</div>
-							</div>
-							<!--/Fourth row-->
-						</div>
-						<!--/First column-->
-
-						<!--Second column-->
-						<div class="col-md-4 flex-center">
-							<img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone" class="z-depth-0 img-fluid">
-						</div>
-						<!--/Second column-->
-
-						<!--Third column-->
-						<div class="col-md-4 mt-2">
-							<!--First row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-check-circle fa-2x indigo-text"></i>
-								</div>
-								<div class="col-10">
-									<h6 class="feature-title">70+ CSS animations</h6>
-									<p class="grey-text">Neat and easy to use animations, which will increase the interactivity of your project
-										and delight your visitors.
-									</p>
-									<div style="height:15px"></div>
-								</div>
-							</div>
-							<!--/First row-->
-
-							<!--Second row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-check-circle fa-2x indigo-text"></i>
-								</div>
-								<div class="col-10">
-									<h6 class="feature-title">Plenty of useful templates</h6>
-									<p class="grey-text">Need inspiration? Use one of our predefined templates for free.</p>
-									<div style="height:15px"></div>
-								</div>
-							</div>
-							<!--/Second row-->
-
-							<!--Third row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-check-circle fa-2x indigo-text"></i>
-								</div>
-								<div class="col-10">
-									<h6 class="feature-title">Easy installation</h6>
-									<p class="grey-text">5 minutes, a few clicks and... done. You will be surprised at how easy it is.
-									</p>
-									<div style="height:15px"></div>
-								</div>
-							</div>
-							<!--/Third row-->
-
-							<!--Fourth row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-check-circle fa-2x indigo-text"></i>
-								</div>
-								<div class="col-10">
-									<h6 class="feature-title">Easy to use and customize</h6>
-									<p class="grey-text">Using MDB is straightforward and pleasant. Components flexibility allows you deep
-										customization. You will
-										easily adjust each component to suit your needs.</p>
-									<div style="height:15px"></div>
-								</div>
-							</div>
-							<!--/Fourth row-->
-						</div>
-						<!--/Third column-->
-
-					</div>
-					<!--/First row-->
-
-				</section>
-				<!--Section: Not enough-->
-
-				<hr class="mb-5">
-
-				<!--Section: More-->
-				<section>
-
-					<h2 class="my-5 h3 text-center">...and even more</h2>
-
-					<!--First row-->
-					<div class="row features-small mt-5 wow fadeIn">
-
-						<!--Grid column-->
-						<div class="col-xl-3 col-lg-6">
-							<!--Grid row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-firefox fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-								</div>
-								<div class="col-10 mb-2 pl-3">
-									<h5 class="feature-title font-bold mb-1">Cross-browser compatibility</h5>
-									<p class="grey-text mt-2">Chrome, Firefox, IE, Safari, Opera, Microsoft Edge - MDB loves all browsers; all
-										browsers love MDB.
-									</p>
-								</div>
-							</div>
-							<!--/Grid row-->
-						</div>
-						<!--/Grid column-->
-
-						<!--Grid column-->
-						<div class="col-xl-3 col-lg-6">
-							<!--Grid row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-level-up fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-								</div>
-								<div class="col-10 mb-2">
-									<h5 class="feature-title font-bold mb-1">Frequent updates</h5>
-									<p class="grey-text mt-2">MDB becomes better every month. We love the project and enhance as much as possible.
-									</p>
-								</div>
-							</div>
-							<!--/Grid row-->
-						</div>
-						<!--/Grid column-->
-
-						<!--Grid column-->
-						<div class="col-xl-3 col-lg-6">
-							<!--Grid row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-comments-o fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-								</div>
-								<div class="col-10 mb-2">
-									<h5 class="feature-title font-bold mb-1">Active community</h5>
-									<p class="grey-text mt-2">Our society grows day by day. Visit our forum and check how it is to be a part of
-										our family.
-									</p>
-								</div>
-							</div>
-							<!--/Grid row-->
-						</div>
-						<!--/Grid column-->
-
-						<!--Grid column-->
-						<div class="col-xl-3 col-lg-6">
-							<!--Grid row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-								</div>
-								<div class="col-10 mb-2">
-									<h5 class="feature-title font-bold mb-1">jQuery 3.x</h5>
-									<p class="grey-text mt-2">MDB is integrated with newest jQuery. Therefore you can use all the latest features
-										which come along with
-										it.
-									</p>
-								</div>
-							</div>
-							<!--/Grid row-->
-						</div>
-						<!--/Grid column-->
-
-					</div>
-					<!--/First row-->
-
-					<!--Second row-->
-					<div class="row features-small mt-4 wow fadeIn">
-
-						<!--Grid column-->
-						<div class="col-xl-3 col-lg-6">
-							<!--Grid row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-cubes fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-								</div>
-								<div class="col-10 mb-2">
-									<h5 class="feature-title font-bold mb-1">Modularity</h5>
-									<p class="grey-text mt-2">Material Design for Bootstrap comes with both, compiled, ready to use libraries
-										including all features as
-										well as modules for CSS (SASS files) and JS.</p>
-								</div>
-							</div>
-							<!--/Grid row-->
-						</div>
-						<!--/Grid column-->
-
-						<!--Grid column-->
-						<div class="col-xl-3 col-lg-6">
-							<!--Grid row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-question fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-								</div>
-								<div class="col-10 mb-2">
-									<h5 class="feature-title font-bold mb-1">Technical support</h5>
-									<p class="grey-text mt-2">We care about reliability. If you have any questions - do not hesitate to contact
-										us.
-									</p>
-								</div>
-							</div>
-							<!--/Grid row-->
-						</div>
-						<!--/Grid column-->
-
-						<!--Grid column-->
-						<div class="col-xl-3 col-lg-6">
-							<!--Grid row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-th fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-								</div>
-								<div class="col-10 mb-2">
-									<h5 class="feature-title font-bold mb-1">Flexbox</h5>
-									<p class="grey-text mt-2">MDB fully supports Flex Box. You can forget about alignment issues.</p>
-								</div>
-							</div>
-							<!--/Grid row-->
-						</div>
-						<!--/Grid column-->
-
-						<!--Grid column-->
-						<div class="col-xl-3 col-lg-6">
-							<!--Grid row-->
-							<div class="row">
-								<div class="col-2">
-									<i class="fa fa-file-code-o fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-								</div>
-								<div class="col-10 mb-2">
-									<h5 class="feature-title font-bold mb-1">SASS files</h5>
-									<p class="grey-text mt-2">Arranged and well documented .scss files can't wait until you compile them.</p>
-								</div>
-							</div>
-							<!--/Grid row-->
-						</div>
-						<!--/Grid column-->
-
-					</div>
-					<!--/Second row-->
-
-				</section>
-				<!--Section: More-->
-
-			</div>
-		</main>
-		<!--Main layout-->
-
-		<!--Footer-->
-		<footer class="page-footer text-center font-small mt-4 wow fadeIn">
-
-			<!--Call to action-->
-			<div class="pt-4">
-				<a class="btn btn-outline-white" href="https://mdbootstrap.com/getting-started/" target="_blank" role="button">Download
-					MDB
-					<i class="fa fa-download ml-2"></i>
-				</a>
-				<a class="btn btn-outline-white" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank" role="button">Start
-					free tutorial
-					<i class="fa fa-graduation-cap ml-2"></i>
-				</a>
-			</div>
-			<!--/.Call to action-->
-
-			<hr class="my-4">
-
-			<!-- Social icons -->
-			<div class="pb-4">
-				<a href="https://www.facebook.com/mdbootstrap" target="_blank">
-					<i class="fa fa-facebook mr-3"></i>
-				</a>
-
-				<a href="https://twitter.com/MDBootstrap" target="_blank">
-					<i class="fa fa-twitter mr-3"></i>
-				</a>
-
-				<a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
-					<i class="fa fa-youtube mr-3"></i>
-				</a>
-
-				<a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-					<i class="fa fa-google-plus mr-3"></i>
-				</a>
-
-				<a href="https://dribbble.com/mdbootstrap" target="_blank">
-					<i class="fa fa-dribbble mr-3"></i>
-				</a>
-
-				<a href="https://pinterest.com/mdbootstrap" target="_blank">
-					<i class="fa fa-pinterest mr-3"></i>
-				</a>
-
-				<a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
-					<i class="fa fa-github mr-3"></i>
-				</a>
-
-				<a href="http://codepen.io/mdbootstrap/" target="_blank">
-					<i class="fa fa-codepen mr-3"></i>
-				</a>
-			</div>
-			<!-- Social icons -->
-
-			<!--Copyright-->
-			<div class="footer-copyright py-3">
-				© 2018 Copyright:
-				<a href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank"> MDBootstrap.com </a>
-			</div>
-			<!--/.Copyright-->
-
-		</footer>
-		<!--/.Footer-->
 
 <?php get_footer(); ?>

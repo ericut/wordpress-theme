@@ -1,0 +1,1049 @@
+// **********************
+// **********************
+// HOME - CAROUSEL
+// **********************
+// **********************
+
+.pagina-principal {
+    background: $cor-fundo-primaria;
+}
+
+.carousel {
+    height: 100%;
+}
+
+.pattern-5 {
+    background-image: url(../img/overlays/05.png);
+}
+
+.rgba-black-strong,
+.rgba-black-strong:after {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+    height: 100%;
+}
+
+.chamada-container {
+    display: block;
+    font-family: $fonte-primaria;
+    color: $cor-branca;
+    .chamada-topo {
+        font-size: $txt-tam-34px;
+        font-weight: $txt-peso-600;
+        line-height: 10px;
+        text-transform: uppercase;
+    }
+    .chamada-meio {
+        font-size: $txt-tam-70px;
+        font-weight: $txt-peso-600;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    .chamada-baixo {
+        font-size: $txt-tam-17px;
+        font-weight: $txt-peso-500;
+    }
+    .bottom-liner {
+        height: 2px;
+        background: $cor-pri-top;
+        width: 130px;
+        display: block;
+        margin: 50px auto 0;
+    }
+}
+
+.numeros-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    font-family: $fonte-primaria;
+    color: $cor-branca;
+    background-color: rgba($cor-fundo-primaria, 0.8);
+    .numero-item {
+        padding: 20px 0 10px 0;
+        overflow: hidden;
+        .numero-img {
+            display: inline-block;
+            overflow: hidden;
+            img {
+                width: 70px;
+            }
+        }
+        .numero-info {
+            display: inline-block;
+            padding: 23px 0 0 0;
+            vertical-align: top;
+            overflow: hidden;
+            .numero-qtd {
+                font-size: $txt-tam-26px;
+                line-height: $txt-tam-17px;
+                font-weight: $txt-peso-500;
+            }
+            .numero-txt {
+                font-size: $txt-tam-12px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 770px) {
+
+}
+
+@media (max-width: 475px) {
+    .numeros-container {
+        display: none;
+    }
+}
+
+
+// **********************
+// **********************
+// FUNDOS PARALLAX
+// **********************
+// **********************
+
+@keyframes rodarodaroda {
+    0%   { transform: rotate(0); }
+    40%  { transform: rotate(144deg); }
+    50%  { transform: rotate(180deg) scale(1.025); }
+    60%  { transform: rotate(216deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fundo-parallax {
+    overflow: hidden;
+}
+.fundo-parallax > .fundo-principal {
+    background: url('../img/index/02-bg-ciencia.jpg');
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.fundo-parallax > .fundo-foguete {
+    background: url('../img/index/02-bg-foguetes.png') no-repeat;
+    height: 1027px;
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    width: 1000px;
+    margin: 0 0 0 -500px;
+}
+.fundo-parallax > .fundo-discovery {
+    background: url('../img/index/04-bg-discovery.jpg');
+    background-position-y: 100px;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.fundo-parallax > .fundo-globular-parallax {
+    height: 860px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -430px;
+    width: 860px;
+    .fundo-globular {
+        background: url('../img/index/05-bg-globular.png') center center no-repeat;
+        height: 860px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -430px;
+        width: 860px;
+        transition: $transicao2x;
+        animation-name: rodarodaroda;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-timing-function: linear;
+        animation-delay: 0;
+        opacity: 0.7;
+    }
+}
+
+
+// **********************
+// **********************
+// HOME - TITULOS
+// **********************
+// **********************
+
+.ciencia-container, .zoombox-container, .discovery-container, .clientes-container {
+    position: relative;
+    .home-titulo {
+        display: block;
+        font-family: $fonte-primaria;
+        color: $cor-branca;
+        text-align: center;
+        position: relative;
+        z-index: 99999;
+        text-shadow: 1px 3px 3px rgba($cor-preta, 0.2);
+        .chamada-meio {
+            font-size: $txt-tam-48px;
+            font-weight: $txt-peso-600;
+            line-height: 50px;
+        }
+        .chamada-baixo {
+            font-size: $txt-tam-17px;
+            font-weight: $txt-peso-500;
+            line-height: 22px;
+        }
+        .bottom-liner {
+            height: 2px;
+            width: 130px;
+            display: block;
+            margin: 30px auto 0;
+        }
+        &.ciencia {
+            padding: 0 0 0 0;
+            .bottom-liner {
+                background: $cor-preditiva-a;
+            }
+        }
+        &.zoombox {
+            padding: 0 0 0 0;
+            .bottom-liner {
+                background: $cor-preditiva-f;
+            }
+        }
+        &.discovery {
+            padding: 0 0 0 0;
+            .bottom-liner {
+                background: $cor-descritiva-d;
+            }
+        }
+        &.sucesso {
+            padding: 0 0 0 0;
+            .bottom-liner {
+                background: $cor-prescritiva-c;
+            }
+        }
+        &.clientes {
+            color: $cor-fundo-primaria;
+            .bottom-liner {
+                background: $cor-descritiva-a;
+            }
+        }
+    }
+
+    .topo-divisor {
+        height: 140px;
+    }
+    .ciencia-divisor {
+        height: 450px;
+    }
+    .zoombox-divisor {
+        height: 240px;
+    }
+    .discovery-divisor {
+        height: 200px;
+    }
+    .sucesso-divisor {
+        height: 160px;
+    }
+    .clientes-divisor {
+        height: 100px;
+    }
+}
+
+
+// **********************
+// **********************
+// HOME - HEXAS
+// **********************
+// **********************
+
+.hexa-padrao {
+    position: relative;
+    display: block;
+    width: $hw*1px;
+    height: $wh;
+    z-index: 999;
+    transition: $transicao1x;
+    cursor: default;
+    &:hover {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: $transicao1x;
+        opacity: 0.9 !important;
+    }
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(60deg);
+                transform: rotate(60deg);
+        background-color: inherit;
+    }
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(-60deg);
+                transform: rotate(-60deg);
+        background-color: inherit;
+    }
+    .hexa-conteudo {
+        position: absolute;
+        z-index: 1000;
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+        text-align: center;
+        color: #fff;
+        .hexa-tit {
+            display: block;
+            font-family: $fonte-primaria;
+            font-size: $txt-tam-24px;
+            font-weight: $txt-peso-600;
+        }
+        .hexa-desc {
+            display: block;
+            font-family: $fonte-secundaria;
+            font-size: $txt-tam-16px;
+            font-weight: $txt-peso-400;
+        }
+        .bottom-liner {
+            height: 2px;
+            width: 80px;
+            display: block;
+            margin: 30px auto 0;
+        }
+    }
+}
+
+.med-hexas {
+    position: relative;
+    display: block;
+    width: $mehw*1px;
+    height: $mewh;
+    z-index: 999;
+    transition: $transicao1x;
+    cursor: default;
+    &:hover {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: $transicao1x;
+        opacity: 0.9 !important;
+    }
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(60deg);
+                transform: rotate(60deg);
+        background-color: inherit;
+    }
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(-60deg);
+                transform: rotate(-60deg);
+        background-color: inherit;
+    }
+    .hexa-conteudo {
+        position: absolute;
+        z-index: 1000;
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+        text-align: center;
+        color: #fff;
+        .hexa-tit {
+            display: block;
+            font-family: $fonte-primaria;
+            font-size: $txt-tam-24px;
+            font-weight: $txt-peso-600;
+        }
+        .hexa-desc {
+            display: block;
+            font-family: $fonte-secundaria;
+            font-size: $txt-tam-16px;
+            font-weight: $txt-peso-400;
+        }
+        .bottom-liner {
+            height: 2px;
+            width: 80px;
+            display: block;
+            margin: 30px auto 0;
+        }
+    }
+}
+
+.mid-hexas {
+    position: relative;
+    display: block;
+    width: $hhw*1px;
+    height: $hwh;
+    z-index: 999;
+    transition: $transicao1x;
+    &:hover {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: $transicao1x;
+        opacity: 0.9 !important;
+        .hexa-texto {
+            width: 120px;
+        }
+    }
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(60deg);
+                transform: rotate(60deg);
+        background-color: inherit;
+    }
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(-60deg);
+                transform: rotate(-60deg);
+        background-color: inherit;
+    }
+    .hexa-conteudo {
+        position: absolute;
+        z-index: 1000;
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+        text-align: center;
+        color: $cor-branca;
+    }
+}
+
+.mini-hexas {
+    position: absolute;
+    display: block;
+    width: $mhw*1px;
+    height: $mwh;
+    z-index: 999;
+    transition: $transicao1x;
+    &:hover {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: $transicao1x;
+        opacity: 0.9 !important;
+        .hexa-texto {
+            width: 120px;
+        }
+    }
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(60deg);
+                transform: rotate(60deg);
+        background-color: inherit;
+    }
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(-60deg);
+                transform: rotate(-60deg);
+        background-color: inherit;
+    }
+    .hexa-conteudo {
+        position: absolute;
+        z-index: 1000;
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+        text-align: center;
+        color: $cor-branca;
+    }
+    .hexa-texto {
+        color: $cor-branca;
+        overflow: hidden;
+        width: 0px;
+        display: block;
+        position: relative;
+        transition: $transicao1x;
+        font-size: $txt-tam-18px;
+        font-family: $fonte-primaria;
+        font-weight: $txt-peso-600;
+        line-height: $txt-tam-16px;
+        z-index: 99999;
+        span {
+            width: 120px;
+            display: block;
+            position: relative;
+        }
+        &.esquerda {
+            text-align: left;
+            left: 90px;
+            top: 10px;
+        }
+        &.direita {
+            text-align: right;
+            right: 130px;
+            top: 10px;
+        }
+    }
+}
+
+.max-hexas {
+    position: relative;
+    display: block;
+    width: $hhw*1px;
+    height: $hwh;
+    z-index: 999;
+    transition: $transicao1x;
+    &:hover {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: $transicao1x;
+        opacity: 0.9 !important;
+        .hexa-texto {
+            width: 120px;
+        }
+    }
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(60deg);
+                transform: rotate(60deg);
+        background-color: inherit;
+    }
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0px;
+        width: inherit;
+        height: inherit;
+        -webkit-transform: rotate(-60deg);
+                transform: rotate(-60deg);
+        background-color: inherit;
+    }
+    .hexa-conteudo {
+        position: absolute;
+        z-index: 1000;
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+        text-align: center;
+        color: $cor-branca;
+    }
+}
+
+
+// **********************
+// **********************
+// HOME - CIÊNCIA DO CONSUMO
+// **********************
+// **********************
+
+.ciencia-getfish {
+    position: relative;
+    &.primeiro {
+        padding: 140px 0 0 0;
+    }
+    &.segundo {
+        padding: 120px 0 0 0;
+    }
+    &.terceiro {
+        padding: 80px 0 0 0;
+    }
+    .logo-getfish {
+        transition: $transicao1x;
+        width: 300px;
+        margin: 0 50px 0 auto;
+        img {
+            width: 300px;
+        }
+        &:hover {
+            -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+            opacity: 0.9 !important;
+        }
+    }
+    .hexa-descritiva {
+        background-color: $cor-descritiva-a;
+        .hexa-conteudo {
+            .bottom-liner {
+                background: $cor-descritiva-d;
+            }
+        }
+    }
+    .hexa-preditiva {
+        background-color: $cor-preditiva-a;
+        .hexa-conteudo {
+            .bottom-liner {
+                background: $cor-preditiva-d;
+            }
+        }
+    }
+    .hexa-prescritiva {
+        background-color: $cor-prescritiva-a;
+        .hexa-conteudo {
+            .bottom-liner {
+                background: $cor-prescritiva-d;
+            }
+        }
+    }
+}
+
+@mixin minihexa($nome, $corfundo, $posicao) {
+    .mini-hexa-#{$nome} {
+        background-color: $corfundo;
+        margin: $posicao;
+    }
+}
+
+.ciencia-getfish { 
+    @include minihexa(cliente, $cor-descritiva-b, -80px 0px 0px -20px);
+    @include minihexa(loja, $cor-descritiva-c, 0px 0px 0px 20px);
+    @include minihexa(indice, $cor-descritiva-d, 100px 0px 0px 20px);
+
+    @include minihexa(potencial, $cor-preditiva-b, -100px 0px 0px -40px);
+    @include minihexa(pareto, $cor-preditiva-c, -20px 0px 0px -100px);
+    @include minihexa(missao, $cor-preditiva-d, 80px 0px 0px -120px);
+    @include minihexa(share, $cor-preditiva-e, 180px 0px 0px -100px);
+    @include minihexa(quantidade, $cor-preditiva-f, 270px 0px 0px -50px);
+
+    @include minihexa(cluster, $cor-prescritiva-b, 80px 0px 0px 20px);
+    @include minihexa(ativacao, $cor-prescritiva-c, 180px 0px 0px 20px);
+    @include minihexa(promocao, $cor-prescritiva-d, 270px 0px 0px -20px);
+}
+
+@media (max-width: 770px) {
+
+}
+
+@media (max-width: 475px) {
+    .ciencia-container {
+        .ciencia-titulo {
+            padding: 40px 0 0 0;
+        }
+    }
+}
+
+
+// **********************
+// **********************
+// HOME - ZOOMBOX
+// **********************
+// **********************
+
+.zoombox-container {
+    background: url('../img/index/03-bg-zoombox.png') center top no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 1188px;
+    width: 100%;
+    margin: -250px 0 0 0;
+    .zoombox-particles {
+        height: 1500px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 999;
+    }
+    .solucao-image {
+        color: $cor-branca;
+        text-shadow: 1px 3px 3px rgba($cor-preta, 0.2);
+        img {
+            width: 100%;
+            text-align: center;
+        }
+        h3 {
+            margin: 20px 0 0 0;
+            text-align: center;
+            font-family: $fonte-primaria;
+            font-size: $txt-tam-26px;
+            font-weight: $txt-peso-600;
+        }
+        p {
+            margin: 10px 0 0 0;
+            text-align: center;
+            font-family: $fonte-secundaria;
+            font-size: $txt-tam-14px;
+            font-weight: $txt-peso-400;
+        }
+    }
+}
+
+.orbita-zoombox {
+    position: relative;
+    .logo-zoombox {
+        position: absolute;
+        margin: 250px 0 0 40px;
+        z-index: 999999;
+        img {
+            display: block;
+        }
+    }
+    .itens-zoombox {
+        z-index: 99999;
+        font-family: $fonte-primaria;
+        position: absolute;
+        .inteligencia {
+            display: block;
+            .intel-icone {
+                display: inline-block;
+                width: 70px;
+                img {
+                    display: block;
+                    width: 70px;
+                }
+            }
+            .intel-txt {
+                display: inline-block;
+                position: absolute;
+                vertical-align: top;
+                margin: 10px 0 0 5px;
+                color: $cor-branca;
+                text-shadow: 1px 3px 3px rgba($cor-preta, 0.2);
+                font-weight: $txt-peso-600;
+                width: 260px;
+                .intel-txt-topo {
+                    display: block;
+                    font-size: $txt-tam-24px;
+                    line-height: $txt-tam-24px;
+                }
+                .intel-txt-meio {
+                    display: block;
+                    font-size: $txt-tam-34px;
+                    line-height: $txt-tam-24px;
+                }
+            }
+            &.intel-captura {
+                margin: 70px 0 0 270px;
+            }
+            &.intel-analitica {
+                margin: 50px 0 0 420px;
+            }
+            &.intel-promocional {
+                margin: 50px 0 0 420px;
+            }
+            &.intel-acionavel {
+                margin: 60px 0 0 270px;
+            }
+        }
+    }
+    .orbitas {
+        position: absolute;
+        margin: 20px 0 0 -40px;
+        img {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+}
+
+@media (max-width: 475px) {
+}
+
+// **********************
+// **********************
+// HOME - DISCOVERY
+// **********************
+// **********************
+
+.discovery-container {
+    position: relative;
+    height: 3000px;
+    width: 100%;
+    margin: -150px 0 0 0;
+    .logo-discovery {
+        margin: 100px 0 0 0;
+    }
+    .discovery-rastro {
+        background: url('../img/index/04-bg-rastro.png') center top no-repeat;
+        position: absolute;
+        height: 1170px;
+        width: 223px;
+        margin: 370px 0 0 -47px;
+    }
+}
+
+.discovery-infos {
+    .disc-imagem {
+        display: inline-block;
+        position: relative;
+        img {
+            display: block;
+        }
+    }
+    .disc-texto {
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        color: $cor-branca;
+        .disc-tit {
+            font-size: $txt-tam-26px;
+            line-height: $txt-tam-26px;
+            font-weight: $txt-peso-600;
+            font-family: $fonte-primaria;
+        }
+        .disc-desc {
+            font-size: $txt-tam-17px;
+            font-weight: $txt-peso-500;
+            line-height: $txt-tam-17px;
+            font-family: $fonte-secundaria;
+        }
+    }
+    .disc-hexa-icon {
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        
+    }
+    &.disc-cluster {
+        .disc-imagem {
+            margin: 30px 0 0 30px;
+        }
+        .disc-texto {
+            margin: 120px 0 0 0;
+            width: 360px;
+            .disc-tit {
+                margin: 10px 0 0 0;
+            }
+            .disc-desc {
+                margin: 10px 0 0 0;
+            }
+        }
+        .disc-hexa-icon {
+            margin: 120px 20px 0 0;
+            .mid-hexas {
+                background-color: $cor-discovery-a;
+            }
+        }
+    }
+    &.disc-entrega {
+        .disc-imagem {
+            margin: 30px 0 0 60px;
+        }
+        .disc-texto {
+            margin: 120px 0 0 0;
+            width: 360px;
+            .disc-tit {
+                margin: 0 0 0 0;
+            }
+            .disc-desc {
+                margin: 10px 0 0 0;
+            }
+        }
+        .disc-hexa-icon {
+            margin: 120px 20px 0 0;
+            .mid-hexas {
+                background-color: $cor-discovery-b;
+            }
+        }
+    }
+    &.disc-resultados {
+        .disc-imagem {
+            margin: 30px 0 0 90px;
+        }
+        .disc-texto {
+            margin: 120px 0 0 0;
+            width: 360px;
+            .disc-tit {
+                margin: 0 0 0 0;
+            }
+            .disc-desc {
+                margin: 10px 0 0 0;
+            }
+        }
+        .disc-hexa-icon {
+            margin: 120px 20px 0 0;
+            .mid-hexas {
+                background-color: $cor-discovery-c;
+            }
+        }
+    }
+    
+    
+}
+
+
+// **********************
+// **********************
+// HOME - SUCESSO
+// **********************
+// **********************
+
+.sucesso-container {
+    position: relative;
+    height: 1020px;
+    .hexa-sucesso {
+        .hexa-sucesso-logo {
+            margin: 150px auto 0;
+            background: $cor-sucesso-e;
+            .hexa-conteudo {
+                .hexa-logo {
+                    margin: -20px 0 0 0;
+                }
+                .hexa-tit {
+                    font-size: $txt-tam-34px;
+                    line-height: $txt-tam-34px;
+                    font-weight: $txt-peso-700;
+                    text-transform: uppercase;
+                    .hexa-tit-lit {
+                        display: block;
+                        font-size: $txt-tam-20px;
+                        line-height: $txt-tam-20px;
+                    }
+                }
+            }
+        }
+    }
+    .sucesso-infos {
+        position: relative;
+        .coluna-base {
+            .linha-base {
+                margin: 20px 0 0 0;
+                .coluna-simplificada {
+                    margin: 100px auto 0;
+                }
+            }
+        }
+        .sucesso-item {
+            text-align: center;
+            .sucesso-texto {
+                margin: 40px 0 0 0;
+                display: inline-block;
+                position: relative;
+                vertical-align: top;
+                color: $cor-branca;
+                .sucesso-tit {
+                    font-size: $txt-tam-24px;
+                    line-height: $txt-tam-26px;
+                    font-weight: $txt-peso-600;
+                    font-family: $fonte-primaria;
+                }
+                .sucesso-desc {
+                    font-size: $txt-tam-16px;
+                    font-weight: $txt-peso-400;
+                    line-height: $txt-tam-17px;
+                    font-family: $fonte-secundaria;
+                }
+            }
+            .sucesso-hexa-icon {
+                display: inline-block;
+                position: relative;
+                vertical-align: top;
+            }
+            &.sucesso-item-a {
+                .sucesso-hexa-icon {
+                    margin: 0 0 0 0;
+                    .max-hexas {
+                        background-color: $cor-sucesso-a;
+                    }
+                }
+            }
+            &.sucesso-item-b {
+                .sucesso-hexa-icon {
+                    margin: 0 0 0 0;
+                    .max-hexas {
+                        background-color: $cor-sucesso-b;
+                    }
+                }
+            }
+            &.sucesso-item-c {
+                .sucesso-hexa-icon {
+                    margin: 0 0 0 0;
+                    .max-hexas {
+                        background-color: $cor-sucesso-c;
+                    }
+                }
+            }
+            &.sucesso-item-d {
+                .sucesso-hexa-icon {
+                    margin: 0 0 0 0;
+                    .max-hexas {
+                        background-color: $cor-sucesso-d;
+                    }
+                }
+            }
+        }
+        
+    } 
+
+}
+
+// **********************
+// **********************
+// HOME - CLIENTES
+// **********************
+// **********************
+.clientes-container {
+    background: url('../img/index/06-bg-clientes.png') center top no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 1070px;
+    width: 100%;
+    margin: -50px 0 0 0;
+}

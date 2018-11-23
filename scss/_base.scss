@@ -1,0 +1,244 @@
+// **********************
+// **********************
+// PADRÃO HTML BODY TAGS // NECESSÁRIO ALTURA 100%
+// **********************
+// **********************
+
+// @import url('https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700|Heebo:400,500,700');
+
+
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/barlow/Barlow-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    src: url(../font/barlow/Barlow-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../font/barlow/Barlow-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/barlow/Barlow-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/heebo/Heebo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 500;
+    src: url(../font/heebo/Heebo-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/heebo/Heebo-Bold.ttf);
+}
+
+%view {
+    height: 100%;
+}
+
+html,
+body {
+    @extend %view;
+    font-size: 100%;
+    font-size: 1rem;
+}
+
+.view {
+    @extend %view;
+}
+
+a {
+    opacity: 1;
+    transition: $transicao1x;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.cor-fonte-primaria {
+    color: $cor-pri-top;
+}
+
+.cor-fundo-primaria {
+    background-color: $cor-pri-top;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+
+// **********************
+// NAVBAR
+// **********************
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+    color: $cor-branca;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    box-shadow: none;
+    padding: 0 !important;
+    display: block;
+    z-index: 99999999999999;
+    .navbar-top {
+        background-color: $cor-fundo-terciaria;
+        height: 30px;        
+        .contato-esquerda {
+            font-size: $txt-tam-14px;
+            text-align: left;
+            padding: 0.25rem 0 0 0;
+            a.topo-telefone {
+                color: $cor-branca;
+                &:hover{
+                    color: $cor-branca;
+                }
+            }
+        }
+        .social-direita {
+            font-size: $txt-tam-17px;
+            text-align: right;
+            padding: 0.15rem 0 0 0;
+            a.rede-social {
+                color: $cor-branca;
+                margin: 0 0.4rem 0;
+                &:hover {
+                    opacity: 1;
+                    color: $cor-pri-top;
+                }
+            }
+        }
+    }
+    .topo-logo {
+        margin: 0;
+        padding: 0;
+        .navbar-brand img {
+            height: 100px;
+            transition: $transicao3x;
+            margin: 0.25rem 0;
+        }
+    }
+    .menu-principal {
+        font-weight: $txt-peso-500;
+        font-size: $txt-tam-16px;
+        .nav-item {
+            margin: 0 0.25rem;
+            a, a > span {
+                position: relative;
+                color: inherit;
+                text-decoration: none;
+                line-height: 24px;
+                &:before, &:after {
+                    content: '';
+                    position: absolute;
+                    transition: $transicao1x;
+                }
+            }
+            .nav-link {
+                padding-top: 10px;
+                &:before {
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 2px;
+                    background: $cor-pri-top;
+                    transform:  scaleX(0);
+                }
+                &:hover:before {
+                    transform:  scaleX(1);
+                }
+                &:hover {
+                    color: $cor-pri-top !important;
+                }
+            } 
+            &.active > .nav-link {
+                background: none !important; 
+                &:before {
+                    transform:  scaleX(1);
+                }
+            }
+
+        }
+    }
+}
+
+.top-nav-collapse {
+    background-color: rgba($cor-fundo-secundaria, 0.95);
+    .topo-logo {
+        margin: 0;
+        padding: 0;
+        .navbar-brand img {
+            height: 70px;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .navbar {
+        background-color: rgba($cor-fundo-secundaria, 0.1);
+    }
+    .top-nav-collapse {
+        background-color: rgba($cor-fundo-secundaria, 0.95);
+        .topo-logo {
+            margin: 0;
+            padding: 0;
+            .navbar-brand img {
+                height: 70px;
+            }
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .navbar {
+        .navbar-top {
+            .contato-esquerda {
+                text-align: left;
+            }
+            .social-direita {
+                text-align: right;
+            }
+        }
+    }
+}
+
+
+// **********************
+// RODAPÉ
+// **********************
+
+.page-footer {
+    font-family: 'Heebo', sans-serif;
+    background-color: #1C2331;
+}
+
+@media (max-width: 770px) {
+
+}
+
+@media (max-width: 475px) {
+
+}
