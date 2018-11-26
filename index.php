@@ -505,27 +505,187 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-2">
-					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
+			<div class="row listagem-clientes">
+				<div class="col-md-12 home-sub-titulo clientes">
+					<h3 class="chamada-meio">
+						Varejo
+					</h3>
 				</div>
-				<div class="col-2">
-					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
-				</div>
-				<div class="col-2">
-					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
-				</div>
-				<div class="col-2">
-					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
-				</div>
-				<div class="col-2">
-					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
-				</div>
-				<div class="col-2">
-					col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- col 2 --- 
+				<div class="col-12">
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-01.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-02.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-03.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-04.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-05.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-06.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-07.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-08.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-09.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-10.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-11.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-12.png">
+						</div>
+					</div>
 				</div>
 			</div>
 
+			<div class="row listagem-clientes">
+				<div class="col-md-12 home-sub-titulo clientes">
+					<h3 class="chamada-meio">
+						Atacado
+					</h3>
+				</div>
+				<div class="col-12">
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-14.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-15.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-16.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-17.png">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row listagem-clientes">
+				<div class="col-md-12 home-sub-titulo clientes">
+					<h3 class="chamada-meio">
+						Indústria
+					</h3>
+				</div>
+				<div class="col-12">
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-18.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-19.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-20.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-21.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-22.png">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row listagem-clientes mt-5">
+				<div class="col-md-12 home-titulo clientes">
+					<span class="chamada-top">
+						Presente na
+					</span>
+					<h2 class="chamada-meio">
+						Imprensa e Mídia
+					</h2>
+					<span class="bottom-liner mt-2"></span>
+				</div>
+				<div class="col-12">
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-2 col-6">
+							<a href="#">
+								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-01.png">
+							</a>
+						</div>
+						<div class="col-md-2 col-6">
+							<a href="#">
+								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-02.png">
+							</a>
+						</div>
+						<div class="col-md-2 col-6">
+							<a href="#">
+								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-03.png">
+							</a>
+						</div>
+						<div class="col-md-2 col-6">
+							<a href="#">
+								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-04.png">
+							</a>
+						</div>
+						<div class="col-md-2 col-6">
+							<a href="#">
+								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-05.png">
+							</a>
+						</div>
+						<div class="col-md-2 col-6">
+							<a href="#">
+								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-06.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="gs-rodape" class="rodape-container-home">
+		<div class="container rodape-home">
+			<div class="row">
+				<div class="col-md-6 mt-4">
+					<div class="rodapetopo-divisor"></div>
+					<div class="rodape-titulo">
+						<span class="chamada-top">
+							Junte-se ao
+						</span>
+						<h2 class="chamada-meio">
+							Nosso Time
+						</h2>
+						<p  class="chamada-baixo">
+							Vamos unir forças e trabalhar juntos!
+						</p>
+					</div>
+					<div class="row botoes">
+						<div class="col-12">
+							<a class="btn btn-linha botao-principal-linha home-button">
+								Seja um Canal de Negócios
+							</a>
+						</div>
+						<div class="col-12">
+							<a class="btn btn-linha botao-secundario-linha home-button">
+								Carreira
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img class="mapa-brasil" src="<?= $wp_theme_url; ?>/img/index/07-bg-mapa-brasil.png">
+				</div>
+			</div>
 		</div>
 	</section>
 

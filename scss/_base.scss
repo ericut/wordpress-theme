@@ -230,9 +230,55 @@ a {
 // RODAPÉ
 // **********************
 
-.page-footer {
-    font-family: 'Heebo', sans-serif;
-    background-color: #1C2331;
+.rodape-container {
+    background: url('../img/index/07-bg-rodape.jpg') center bottom no-repeat #1C2331;
+    color: $cor-branca;
+    font-family: $fonte-secundaria;
+    a {
+        color: $cor-branca;
+    }
+    .rodape-enderecos {
+        padding: 50px 0;
+        .enderecos-container {
+            .end-icone {
+                font-size: $txt-tam-20px;
+                &.sp {
+                    color: $cor-sec-top;
+                }
+                &.rp {
+                    color: $cor-pri-top;
+                }
+            }
+            .end-txt {
+                font-size: $txt-tam-14px;
+            }
+            .end-tel {
+                font-size: $txt-tam-18px;
+                strong {
+                    font-weight: $txt-peso-600;
+                }
+            }
+        }
+    }
+    .rodape-copyright {
+        padding: 10px 0;
+        font-size: $txt-tam-12px;
+        font-family: $fonte-primaria;
+        background: $cor-fundo-quartenaria;
+        strong {
+            font-weight: $txt-peso-600;
+        }
+        span {
+            color: $cor-pri-low;
+        }
+    }
+    .rede-social-icon {
+        transition: $transicao1x;
+        font-size: $txt-tam-20px;
+        &:hover {
+            color: $cor-pri-top;
+        }
+    }
 }
 
 @media (max-width: 770px) {
@@ -241,4 +287,43 @@ a {
 
 @media (max-width: 475px) {
 
+}
+
+
+// **********************
+// BOTOES
+// **********************
+
+@mixin botao-padrao-linha($nome, $cor, $corhover) {
+    .botao-#{$nome}-linha {
+        border: 2px solid $cor;
+        color: $cor !important;
+        &:hover {
+            border-color: $corhover;
+            color: $corhover !important;
+        }
+    }
+}
+
+@include botao-padrao-linha(principal, $cor-sec-top, $cor-sec-mid);
+
+@include botao-padrao-linha(secundario, $cor-pri-top, $cor-pri-mid);
+
+.btn {
+    border-radius: 6px;
+    transition: $transicao1x;
+    font-weight: $txt-peso-600;
+    text-transform: capitalize;
+    &.btn-linha {
+        border-radius: 6px;
+        transition: $transicao1x;
+        font-weight: $txt-peso-600;
+        text-transform: capitalize;
+    }
+    &:hover {
+        transform: scale(1.025);
+    }
+    &.home-button {
+        width: 360px;
+    }
 }

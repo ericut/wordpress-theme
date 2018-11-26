@@ -193,10 +193,15 @@
         position: relative;
         z-index: 99999;
         text-shadow: 1px 3px 3px rgba($cor-preta, 0.2);
+        .chamada-top {
+            font-size: $txt-tam-18px;
+            font-weight: $txt-peso-600;
+            line-height: 2px;
+        }
         .chamada-meio {
             font-size: $txt-tam-48px;
             font-weight: $txt-peso-600;
-            line-height: 50px;
+            line-height: 46px;
         }
         .chamada-baixo {
             font-size: $txt-tam-17px;
@@ -234,13 +239,31 @@
             }
         }
         &.clientes {
+            padding: 0 0 20px 0;
             color: $cor-fundo-primaria;
             .bottom-liner {
                 background: $cor-descritiva-a;
             }
         }
     }
+    .home-sub-titulo {
+        display: block;
+        font-family: $fonte-primaria;
+        color: $cor-fundo-primaria;
+        text-align: center;
+        position: relative;
+        z-index: 99999;
+        text-shadow: 1px 3px 3px rgba($cor-preta, 0.2);
+        .chamada-meio {
+            font-size: $txt-tam-24px;
+            font-weight: $txt-peso-600;
+            text-transform: uppercase;
+            margin: 0 0 20px 0;
+        }
+    }
+}
 
+.ciencia-container, .zoombox-container, .discovery-container, .clientes-container, .rodape-container-home {
     .topo-divisor {
         height: 140px;
     }
@@ -257,7 +280,10 @@
         height: 160px;
     }
     .clientes-divisor {
-        height: 100px;
+        height: 70px;
+    }
+    .rodapetopo-divisor {
+        height: 70px;
     }
 }
 
@@ -673,6 +699,15 @@
     @include minihexa(promocao, $cor-prescritiva-d, 270px 0px 0px -20px);
 }
 
+.ciencia-getfish:hover {
+    .mini-hexas {
+        .hexa-texto {
+            width: 140px;
+        }
+    }
+}
+
+
 @media (max-width: 770px) {
 
 }
@@ -1033,11 +1068,13 @@
 
 }
 
+
 // **********************
 // **********************
 // HOME - CLIENTES
 // **********************
 // **********************
+
 .clientes-container {
     background: url('../img/index/06-bg-clientes.png') center top no-repeat;
     background-size: cover;
@@ -1046,4 +1083,78 @@
     height: 1070px;
     width: 100%;
     margin: -50px 0 0 0;
+    .listagem-clientes {
+        text-align: center;
+        margin: 20px 0 0 0;
+        .logo-cliente {
+            display: block;
+            width: 100%;
+            margin: 0 0 20px 0;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+
+}
+
+@media (max-width: 475px) {
+    .clientes-container {
+        background: url('../img/index/06-bg-clientes.png') center top no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+        height: 1070px;
+        width: 100%;
+        margin: -50px 0 0 0;
+    }
+}
+
+
+// **********************
+// **********************
+// HOME - RODAPE
+// **********************
+// **********************
+
+.rodape-container-home {
+    background: url('../img/index/07-bg-rodape.jpg') center top no-repeat #1C2331;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: $cor-branca;
+    .rodape-titulo {
+        display: block;
+        font-family: $fonte-primaria;
+        color: $cor-branca;
+        text-align: left;
+        position: relative;
+        z-index: 99999;
+        text-shadow: 1px 3px 3px rgba($cor-preta, 0.2);
+        .chamada-top {
+            font-size: $txt-tam-18px;
+            font-weight: $txt-peso-600;
+            line-height: 2px;
+            text-transform: uppercase;
+        }
+        .chamada-meio {
+            font-size: $txt-tam-48px;
+            font-weight: $txt-peso-600;
+            line-height: 30px;
+            text-transform: uppercase;
+        }
+        .chamada-baixo {
+            font-size: $txt-tam-17px;
+            font-weight: $txt-peso-500;
+            line-height: 22px;
+        }
+    }
+    .mapa-brasil {
+        margin: -60px 0 0 0;
+        transition: $transicao1x;
+        &:hover {
+            transform: scale(1.025);
+            filter: saturate(1) hue-rotate(35deg) brightness(105%);
+        }
+    }
 }
