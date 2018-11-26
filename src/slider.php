@@ -20,7 +20,7 @@
 					<!-- FLEXBOX -->
 					<div class="mask rgba-black-strong pattern-5 d-flex justify-content-center align-items-center">
 						<!-- CONTEÚDO TEXTO -->
-						<div class="chamada-container text-center white-text mx-5">
+						<div class="chamada-container text-center white-text mx-5 wow fadeInUp">
 							<p class="chamada-topo">
 								Somos Especialistas
 							</p>

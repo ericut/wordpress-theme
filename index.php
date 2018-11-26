@@ -17,7 +17,7 @@
 
 			<div class="row">
 				<div class="col-12">
-					<div class="home-titulo ciencia">
+					<div class="home-titulo ciencia wow fadeInUp">
 						<h2 class="chamada-meio">
 							Somos especialistas<br>em Ciência do Consumo
 						</h2>
@@ -32,7 +32,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="ciencia-getfish primeiro d-flex align-items-start justify-content-between">
-						<div class="hexa-animado">
+						<div class="hexa-animado wow fadeInUp">
 							<a class="hexa-padrao hexa-descritiva">
 								<div class="hexa-conteudo">
 									<span class="hexa-tit">Análise Descritiva</span>
@@ -42,27 +42,27 @@
 							</a>
 						</div>
 						<div>
-							<a class="mini-hexas hexa-esquerda mini-hexa-cliente">
+							<a class="mini-hexas hexa-esquerda mini-hexa-cliente wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-01-getfish.png">
 								</div>
 								<span class="hexa-texto esquerda"><span>Cliente</span></span>
 							</a>
-							<a class="mini-hexas hexa-esquerda mini-hexa-loja">
+							<a class="mini-hexas hexa-esquerda mini-hexa-loja wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-02-getfish.png">
 								</div>
 								<span class="hexa-texto esquerda"><span>Loja</span></span>
 							</a>
-							<a class="mini-hexas hexa-esquerda mini-hexa-indice">
+							<a class="mini-hexas hexa-esquerda mini-hexa-indice wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-03-getfish.png">
 								</div>
 								<span class="hexa-texto esquerda"><span>Índice de Sacrifício</span></span>
 							</a>
 						</div>
-						<a class="logo-getfish">
-							<img src="<?= $wp_theme_url; ?>/img/index/02-logo-getfish.png">>
+						<a class="logo-getfish wow fadeInUp">
+							<img src="<?= $wp_theme_url; ?>/img/index/02-logo-getfish.png">
 						</a>
 					</div>
 				</div>
@@ -70,38 +70,38 @@
 				<div class="col-12">
 					<div class="ciencia-getfish segundo d-flex align-items-start justify-content-end">
 						<div>
-							<a class="mini-hexas hexa-direita mini-hexa-potencial">
+							<a class="mini-hexas hexa-direita mini-hexa-potencial wow rotateInUpRight">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-04-getfish.png">
 								</div>
 								<span class="hexa-texto direita"><span>Potencial de Faturamento</span></span>
 							</a>
-							<a class="mini-hexas hexa-direita mini-hexa-pareto">
+							<a class="mini-hexas hexa-direita mini-hexa-pareto wow rotateInUpRight">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-05-getfish.png">
 								</div>
 								<span class="hexa-texto direita"><span>Pareto</span></span>
 							</a>
-							<a class="mini-hexas hexa-direita mini-hexa-missao">
+							<a class="mini-hexas hexa-direita mini-hexa-missao wow rotateInUpRight">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-06-getfish.png">
 								</div>
 								<span class="hexa-texto direita"><span>Missão de Compra</span></span>
 							</a>
-							<a class="mini-hexas hexa-direita mini-hexa-share">
+							<a class="mini-hexas hexa-direita mini-hexa-share wow rotateInUpRight">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-07-getfish.png">
 								</div>
 								<span class="hexa-texto direita"><span>Share Domiciliar</span></span>
 							</a>
-							<a class="mini-hexas hexa-direita mini-hexa-quantidade">
+							<a class="mini-hexas hexa-direita mini-hexa-quantidade wow rotateInUpRight">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-08-getfish.png">
 								</div>
 								<span class="hexa-texto direita" style="margin: -10px 0 0 0;"><span>Quantidade e Frequência de Cliente</span></span>
 							</a>
 						</div>	
-						<div class="hexa-animado">
+						<div class="hexa-animado wow fadeInUp">
 							<a class="hexa-padrao hexa-preditiva">
 								<div class="hexa-conteudo">
 									<span class="hexa-tit">Análise Preditiva</span>
@@ -115,7 +115,7 @@
 
 				<div class="col-12">
 					<div class="ciencia-getfish terceiro d-flex align-items-start justify-content-start">
-						<div class="hexa-animado">
+						<div class="hexa-animado wow fadeInUp">
 							<a class="hexa-padrao hexa-prescritiva">
 								<div class="hexa-conteudo">
 									<span class="hexa-tit">Análise Prescritiva</span>
@@ -125,19 +125,19 @@
 							</a>
 						</div>
 						<div>
-							<a class="mini-hexas hexa-esquerda mini-hexa-cluster">
+							<a class="mini-hexas hexa-esquerda mini-hexa-cluster wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-09-getfish.png">
 								</div>
 								<span class="hexa-texto esquerda"><span>Clusters</span></span>
 							</a>
-							<a class="mini-hexas hexa-esquerda mini-hexa-ativacao">
+							<a class="mini-hexas hexa-esquerda mini-hexa-ativacao wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-10-getfish.png">
 								</div>
 								<span class="hexa-texto esquerda"><span>Ativação Segmentada</span></span>
 							</a>
-							<a class="mini-hexas hexa-esquerda mini-hexa-promocao">
+							<a class="mini-hexas hexa-esquerda mini-hexa-promocao wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-11-getfish.png">
 								</div>
@@ -162,7 +162,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<div class="home-titulo zoombox">
+					<div class="home-titulo zoombox wow fadeInUp">
 						<h2 class="chamada-meio">
 							ZoOmBOX<br>Muito mais que um CRM!
 						</h2>
@@ -175,8 +175,9 @@
 			</div>
 
 			<div class="row">
-				<div class="col-8">
-					<div class="orbita-zoombox">
+
+				<div class="col-md-8 col-sm-12">
+					<div class="orbita-zoombox wow pulse">
 						<div class="logo-zoombox">
 							<img src="<?= $wp_theme_url; ?>/img/index/03-logo-zoombox.png">
 						</div>
@@ -235,8 +236,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="solucao-image">
+
+				<div class="col-md-4 col-sm-12">
+					<div class="solucao-image wow fadeInUp">
 						<img src="<?= $wp_theme_url; ?>/img/index/03-01-inteligencia-detalhe.png">
 						<h3>
 							Inteligência de Captura
@@ -246,6 +248,7 @@
 						</p>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>
@@ -256,10 +259,10 @@
 		<div class="discovery-divisor"></div>	
 
 		<div class="container">
-			<div class="discovery-rastro"></div>
+			<div class="discovery-rastro wow fadeInUp"></div>
 			<div class="row">
 				<div class="col-12">
-					<div class="home-titulo discovery">
+					<div class="home-titulo discovery wow fadeInUp">
 						<h2 class="chamada-meio">
 							Discovery<br>Comunicando com o Universo!
 						</h2>
@@ -273,7 +276,7 @@
 
 			<div class="row">
 				<div class="col">
-					<div class="logo-discovery">
+					<div class="logo-discovery wow fadeInUp">
 						<img src="<?= $wp_theme_url; ?>/img/index/04-logo-discovery.png">
 					</div>
 				</div>
@@ -281,18 +284,18 @@
 
 			<div class="row">
 				<div class="col-12">
-					<div class="discovery-infos disc-cluster">
+					<div class="discovery-infos disc-cluster wow fadeInUp">
 						<div class="disc-imagem">
 							<img src="<?= $wp_theme_url; ?>/img/index/04-01-mockup-discovery.png">
 						</div>
-						<div class="disc-hexa-icon">
+						<div class="disc-hexa-icon wow fadeInRight">
 							<a class="mid-hexas">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/04-01-icon-discovery.png">
 								</div>
 							</a>
 						</div>
-						<div class="disc-texto">
+						<div class="disc-texto wow fadeInRight">
 							<h4 class="disc-tit">
 								Cluster Dimensional
 							</h4>
@@ -304,17 +307,17 @@
 				</div>
 				<div class="col-12">
 					<div class="discovery-infos disc-entrega">
-						<div class="disc-imagem">
+						<div class="disc-imagem wow fadeInUp">
 							<img src="<?= $wp_theme_url; ?>/img/index/04-02-mockup-discovery.png">
 						</div>
-						<div class="disc-hexa-icon">
+						<div class="disc-hexa-icon wow fadeInRight">
 							<a class="mid-hexas">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/04-02-icon-discovery.png">
 								</div>
 							</a>
 						</div>
-						<div class="disc-texto">
+						<div class="disc-texto wow fadeInRight">
 							<h4 class="disc-tit">
 								Ativação com Qualidade de Entrega
 							</h4>
@@ -326,17 +329,17 @@
 				</div>
 				<div class="col-12">
 					<div class="discovery-infos disc-resultados">
-						<div class="disc-imagem">
+						<div class="disc-imagem wow fadeInUp">
 							<img src="<?= $wp_theme_url; ?>/img/index/04-03-mockup-discovery.png">
 						</div>
-						<div class="disc-hexa-icon">
+						<div class="disc-hexa-icon wow fadeInRight">
 							<a class="mid-hexas">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/04-03-icon-discovery.png">
 								</div>
 							</a>
 						</div>
-						<div class="disc-texto">
+						<div class="disc-texto wow fadeInRight">
 							<h4 class="disc-tit">
 								Monitoramento Inteligente de Resultados
 							</h4>
@@ -361,7 +364,7 @@
 
 			<div class="row titulo-sucesso">
 				<div class="col-12">
-					<div class="home-titulo sucesso">
+					<div class="home-titulo sucesso wow fadeInUp">
 						<h2 class="chamada-meio">
 							Sucesso do Cliente<br>Fique tranquilo!
 						</h2>
@@ -373,12 +376,12 @@
 				</div>
 			</div>
 
-			<div class="row sucesso-infos d-flex flex-nowrap ">
+			<div class="row sucesso-infos d-flex flex-sm-wrap flex-md-nowrap">
 
-				<div class="col-md-4 coluna-base order-md-2">
+				<div class="col-sm-12 col-md-4 coluna-base order-md-2 order-sm-1">
 					<div class="row linha-base d-flex flex-md-column">
 						<div class="col-12 coluna-simplificada c">
-							<div class="hexa-sucesso">
+							<div class="hexa-sucesso wow fadeInUp">
 								<a class="med-hexas hexa-sucesso-logo">
 									<div class="hexa-conteudo">
 										<span class="hexa-logo"><img src="<?= $wp_theme_url; ?>/img/index/05-logo-sucesso.png"></span>
@@ -390,10 +393,10 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 coluna-base order-md-1">
-					<div class="row linha-base d-flex flex-md-column-reverse">
+				<div class="col-sm-12 col-md-4 coluna-base order-md-1 order-sm-2">
+					<div class="row linha-base d-flex flex-sm-row flex-md-column-reverse ">
 
-						<div class="col-10 coluna-simplificada a">
+						<div class="col-6 col-md-10 coluna-simplificada a wow fadeInUp">
 							<div class="sucesso-item sucesso-item-a">
 								<div class="sucesso-hexa-icon">
 									<a class="max-hexas">
@@ -413,7 +416,7 @@
 							</div>
 						</div>
 
-						<div class="col-10 coluna-simplificada a">
+						<div class="col-6 col-md-10 coluna-simplificada a wow fadeInUp">
 							<div class="sucesso-item sucesso-item-b">
 								<div class="sucesso-hexa-icon">
 									<a class="max-hexas">
@@ -436,10 +439,10 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 coluna-base order-md-3">
+				<div class="col-sm-12 col-md-4 coluna-base order-md-3 order-sm-3">
 					<div class="row linha-base d-flex flex-md-column">
 
-						<div class="col-10 coluna-simplificada b">
+						<div class="col-6 col-md-10 coluna-simplificada b wow fadeInUp">
 							<div class="sucesso-item sucesso-item-c">
 								<div class="sucesso-hexa-icon">
 									<a class="max-hexas">
@@ -459,7 +462,7 @@
 							</div>
 						</div>
 
-						<div class="col-10 coluna-simplificada b">
+						<div class="col-6 col-md-10 coluna-simplificada b wow fadeInUp">
 							<div class="sucesso-item sucesso-item-d">
 								<div class="sucesso-hexa-icon">
 									<a class="max-hexas">
@@ -491,7 +494,7 @@
 		<div class="clientes-divisor"></div>	
 		<div class="container">
 
-			<div class="row">
+			<div class="row wow fadeInUp">
 				<div class="col-12">
 					<div class="home-titulo clientes">
 						<h2 class="chamada-meio">
@@ -505,7 +508,7 @@
 				</div>
 			</div>
 
-			<div class="row listagem-clientes">
+			<div class="row listagem-clientes wow fadeInUp">
 				<div class="col-md-12 home-sub-titulo clientes">
 					<h3 class="chamada-meio">
 						Varejo
@@ -553,7 +556,7 @@
 				</div>
 			</div>
 
-			<div class="row listagem-clientes">
+			<div class="row listagem-clientes wow fadeInUp">
 				<div class="col-md-12 home-sub-titulo clientes">
 					<h3 class="chamada-meio">
 						Atacado
@@ -577,7 +580,7 @@
 				</div>
 			</div>
 
-			<div class="row listagem-clientes">
+			<div class="row listagem-clientes wow fadeInUp">
 				<div class="col-md-12 home-sub-titulo clientes">
 					<h3 class="chamada-meio">
 						Indústria
@@ -604,7 +607,7 @@
 				</div>
 			</div>
 
-			<div class="row listagem-clientes mt-5">
+			<div class="row listagem-clientes mt-5 wow fadeInUp">
 				<div class="col-md-12 home-titulo clientes">
 					<span class="chamada-top">
 						Presente na
@@ -658,7 +661,7 @@
 			<div class="row">
 				<div class="col-md-6 mt-4">
 					<div class="rodapetopo-divisor"></div>
-					<div class="rodape-titulo">
+					<div class="rodape-titulo wow fadeInLeft">
 						<span class="chamada-top">
 							Junte-se ao
 						</span>
@@ -671,19 +674,21 @@
 					</div>
 					<div class="row botoes">
 						<div class="col-12">
-							<a class="btn btn-linha botao-principal-linha home-button">
+							<a class="btn btn-linha botao-principal-linha home-button wow fadeInLeft">
 								Seja um Canal de Negócios
 							</a>
 						</div>
 						<div class="col-12">
-							<a class="btn btn-linha botao-secundario-linha home-button">
+							<a class="btn btn-linha botao-secundario-linha home-button wow fadeInLeft">
 								Carreira
 							</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<img class="mapa-brasil" src="<?= $wp_theme_url; ?>/img/index/07-bg-mapa-brasil.png">
+					<div class="mapa-animado">
+						<img class="mapa-brasil wow pulse" src="<?= $wp_theme_url; ?>/img/index/07-bg-mapa-brasil.png">
+					<div>
 				</div>
 			</div>
 		</div>

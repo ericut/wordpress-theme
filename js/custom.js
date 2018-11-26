@@ -2,80 +2,38 @@
 // ANIMATE CSS
 //
 
-$(document).ready(function(){
-    $('.hexa-animado').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 75
-    });
-
-    $('.hexa-esquerda').addClass('hidden').viewportChecker({
-        classToAdd: 'animated rotateInUpLeft',
-        offset: 100
-    });
-
-    $('.hexa-direita').addClass('hidden').viewportChecker({
-        classToAdd: 'animated rotateInUpRight',
-        offset: 100
-    });
-
-    $('.logo-getfish').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 150
-    });
-
-    $('.logo-discovery').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 150
-    });
-
-    $('.discovery-rastro').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 50
-    });
-
-    $('.discovery-infos').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 150
-    });
-
-    $('.discovery-infos > .disc-imagem').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 150
-    });
-
-    $('.discovery-infos > .disc-hexa-icon').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInLeft',
-        offset: 200
-    });
-
-    $('.discovery-infos > .disc-texto').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInLeft',
-        offset: 300
+// This code dosen't works on Firefox and IE and works on other browesers.
+$(document).ready(function () {
+        $('.animated-icon1,.animated-icon3,.animated-icon4').click(function () {
+            $(this).toggleClass('open');
+        });
     });
     
-    $('.a > .sucesso-item').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 120
-    });
+    // Works everywhere
+    $(document).ready(function () {
     
-    $('.b > .sucesso-item').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 160
-    });
-    
-    $('.c > .hexa-sucesso').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 220
-    });
-    
-    $('.fundo-globular-animate').addClass('hidden').viewportChecker({
-        classToAdd: 'animated fadeInUp',
-        offset: 260
-    });
-    
-});
+            // Hide/show animation hamburger function
+            $('.navbar-toggler').on('click', function () {
+            
+            // Take this line to first hamburger animations
+            $('.animated-icon1').toggleClass('open');
+            
+            // Take this line to second hamburger animation
+            $('.animated-icon3').toggleClass('open');
+            
+            // Take this line to third hamburger animation
+            $('.animated-icon4').toggleClass('open');
 
+        });
+    
+    });
 
+    
+//
+// ANIMATE CSS
+//
+
+new WOW().init();
 
 
 //

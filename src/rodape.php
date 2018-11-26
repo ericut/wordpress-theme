@@ -6,6 +6,7 @@
     <div class="container">
         <div class="row rodape-enderecos">
             <div class="col-md-4 col-sm-12">
+                <span class="title-social">Siga-nos</span>
                 <a class="rede-social-icon mx-3" href="https://www.facebook.com/gsgroup.inteligenciaenegocios/" target="_blank">
                     <i class="fab fa-facebook"></i>
                 </a>
@@ -13,7 +14,7 @@
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-6 col-md-4">
                 <div class="enderecos-container">
                     <p class="end-icone sp">
                         <i class="fas fa-map-marker-alt"></i>
@@ -26,7 +27,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-6 col-md-4">
                 <div class="enderecos-container">
                     <p class="end-icone rp">
                         <i class="fas fa-map-marker-alt"></i>
@@ -40,19 +41,23 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <div class="rodape-copyright">
-                    <script language=javascript type="text/javascript">
-                        now = new Date
-                        document.write (now.getFullYear())
-                    </script>
-                    © BRASIL<strong>.GS</strong> Copyright <span>•</span> Ciência do Consumo © Todos os direitos reservados.
+    </div>
+    <div class="rodape-assinatura">
+        <div class="container">
+            <div class="row rodape-copyright">
+                <div class="col-md-6 col-sm-12">
+                    <div class="assinatura">
+                        <script language=javascript type="text/javascript">
+                            now = new Date
+                            document.write (now.getFullYear())
+                        </script>
+                        © BRASIL<strong>.GS</strong> Copyright <span>•</span> Ciência do Consumo © Todos os direitos reservados.
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-12 text-right">
-                <div class="logo-rodape">
-                    <img class="logo-gs" src="<?= $wp_theme_url; ?>/img/logo-rodape.png">
+                <div class="col-md-6 col-sm-12">
+                    <div class="logo-rodape">
+                        <img class="logo-gs" src="<?= $wp_theme_url; ?>/img/logo-rodape.png">
+                    </div>
                 </div>
             </div>
         </div>

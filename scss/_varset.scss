@@ -2,17 +2,33 @@
 // CONTROLE DOS HEXAGONOS
 // *********************
 
+// HEXA PADRAO
 $hw: 400;
 $wh: ((50*$hw)/86)*1px;
 
+$hw-mob: 220;
+$wh-mob: ((50*$hw-mob)/86)*1px;
+
+// HEXA MINI
 $mhw: 80;
 $mwh: ((50*$mhw)/86)*1px;
 
+$mhw-mob: 70;
+$mwh-mob: ((50*$mhw-mob)/86)*1px;
+
+// HEXA MID
 $hhw: 125;
 $hwh: ((50*$hhw)/86)*1px;
 
+$hhw-mob: 125;
+$hwh-mob: ((50*$hhw-mob)/86)*1px;
+
+// HEXA MED
 $mehw: 280;
 $mewh: ((50*$mehw)/86)*1px;
+
+$mehw-mob: 280;
+$mewh-mob: ((50*$mehw-mob)/86)*1px;
 
 
 // **********************
@@ -32,6 +48,7 @@ $cor-sec-top: #db6403;
 $cor-sec-mid: #f79800;
 
 $cor-branca: #ffffff;
+$cor-cinza: #fafafa;
 $cor-preta: #000000;
 
 $cor-descritiva-a: #003686;

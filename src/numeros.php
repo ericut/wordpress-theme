@@ -34,7 +34,7 @@
 						</div>
 					</div>
 
-					<div class="col numero-item">
+					<div class="col numero-item recuo">
 						<div class="numero-img">
 							<img src="<?= $wp_theme_url; ?>/img/index/01-3-numeros-carrinhos.png">
 						</div>

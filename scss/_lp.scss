@@ -92,18 +92,45 @@
                 font-size: $txt-tam-12px;
             }
         }
+        &.recuo {
+            margin: 0 0 0 -60px;
+        }
     }
 }
 
 
 @media (max-width: 770px) {
-
+    .numeros-container {
+        .numero-item {
+            padding: 10px 0 0 0;
+            text-align: center;
+            .numero-img {
+                text-align: center;
+                img {
+                    width: 50px;
+                }
+            }
+            .numero-info {
+                text-align: center;
+                padding: 0 0 0 0;
+                .numero-qtd {
+                    font-size: $txt-tam-16px;
+                    line-height: 12px;
+                    font-weight: $txt-peso-500;
+                }
+                .numero-txt {
+                    font-size: 12px;
+                    line-height: 12px;
+                }
+            }
+            &.recuo {
+                margin: 0;
+            }
+        }
+    }
 }
 
 @media (max-width: 475px) {
-    .numeros-container {
-        display: none;
-    }
 }
 
 
@@ -176,10 +203,30 @@
     }
 }
 
+@media (max-width: 770px) {
+    .fundo-parallax > .fundo-principal {
+        background: $cor-fundo-primaria;
+    }
+    .fundo-parallax > .fundo-foguete {
+        display: none;
+    }
+    .fundo-parallax > .fundo-discovery {
+        background: $cor-fundo-terciaria;
+    }
+    .fundo-parallax > .fundo-globular-parallax {
+        .fundo-globular {
+            background: url('../img/index/05-bg-globular.png') center center no-repeat;
+        }
+    }
+}
+
+@media (max-width: 475px) {
+}
+
 
 // **********************
 // **********************
-// HOME - TITULOS
+// HOME - TITULOS E ESPAÇADORES
 // **********************
 // **********************
 
@@ -285,6 +332,62 @@
     .rodapetopo-divisor {
         height: 70px;
     }
+}
+
+
+@media (max-width: 770px) {
+    .ciencia-container, .zoombox-container, .discovery-container, .clientes-container {
+        .home-titulo {
+            .chamada-top {
+                font-size: $txt-tam-18px;
+                font-weight: $txt-peso-600;
+            }
+            .chamada-meio {
+                font-size: $txt-tam-34px;
+                font-weight: $txt-peso-600;
+                line-height: 32px;
+            }
+            .chamada-baixo {
+                font-size: $txt-tam-14px;
+                font-weight: $txt-peso-500;
+                line-height: 14px;
+            }
+            .bottom-liner {
+                width: 25%;
+            }
+        }
+        .home-sub-titulo {
+            .chamada-meio {
+                font-size: $txt-tam-26px;
+            }
+        }
+    }
+    .ciencia-container, .zoombox-container, .discovery-container, .clientes-container, .rodape-container-home {
+        .topo-divisor {
+            height: 60px;
+        }
+        .ciencia-divisor {
+            height: 200px;
+        }
+        .zoombox-divisor {
+            height: 60px;
+        }
+        .discovery-divisor {
+            height: 60px;
+        }
+        .sucesso-divisor {
+            height: 160px;
+        }
+        .clientes-divisor {
+            height: 70px;
+        }
+        .rodapetopo-divisor {
+            height: 20px;
+        }
+    }
+}
+
+@media (max-width: 475px) {
 }
 
 
@@ -619,6 +722,103 @@
     }
 }
 
+@media (max-width: 770px) {
+    .hexa-padrao {
+        width: $hw-mob*1px;
+        height: $wh-mob;
+        .hexa-conteudo {
+            .hexa-tit {
+                display: block;
+                font-family: $fonte-primaria;
+                font-size: $txt-tam-16px;
+                font-weight: $txt-peso-600;
+            }
+            .hexa-desc {
+                display: block;
+                font-family: $fonte-secundaria;
+                font-size: $txt-tam-12px;
+                font-weight: $txt-peso-400;
+            }
+            .bottom-liner {
+                height: 2px;
+                width: 80px;
+                display: block;
+                margin: 30px auto 0;
+            }
+        }
+    }
+    
+    .mini-hexas {
+        width: $mhw-mob*1px;
+        height: $mwh-mob;
+        .hexa-conteudo {
+            width: 80%;
+            img {
+                width: 50px;
+            }
+        }
+        .hexa-texto {
+            font-size: $txt-tam-16px;
+        }
+    }
+    
+    .max-hexas {
+        position: relative;
+        display: block;
+        width: $hhw*1px;
+        height: $hwh;
+        z-index: 999;
+        transition: $transicao1x;
+        &:hover {
+            -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+            transition: $transicao1x;
+            opacity: 0.9 !important;
+            .hexa-texto {
+                width: 120px;
+            }
+        }
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            width: inherit;
+            height: inherit;
+            -webkit-transform: rotate(60deg);
+                    transform: rotate(60deg);
+            background-color: inherit;
+        }
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0px;
+            width: inherit;
+            height: inherit;
+            -webkit-transform: rotate(-60deg);
+                    transform: rotate(-60deg);
+            background-color: inherit;
+        }
+        .hexa-conteudo {
+            position: absolute;
+            z-index: 1000;
+            width: 90%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 50%;
+            -webkit-transform: translate(0, -50%);
+                    transform: translate(0, -50%);
+            text-align: center;
+            color: $cor-branca;
+        }
+    }
+}
+
+@media (max-width: 475px) {
+}
+
 
 // **********************
 // **********************
@@ -709,15 +909,44 @@
 
 
 @media (max-width: 770px) {
-
-}
-
-@media (max-width: 475px) {
     .ciencia-container {
         .ciencia-titulo {
             padding: 40px 0 0 0;
         }
     }
+    .ciencia-getfish {
+        &.primeiro {
+            padding: 140px 0 0 0;
+        }
+        &.segundo {
+            padding: 190px 0 0 0;
+        }
+        &.terceiro {
+            padding: 180px 0 0 0;
+        }
+        .logo-getfish {
+            img {
+                visibility: hidden;
+            }
+        }
+        @include minihexa(cliente, $cor-descritiva-b, -80px 0px 0px -20px);
+        @include minihexa(loja, $cor-descritiva-c, -10px 0px 0px 20px);
+        @include minihexa(indice, $cor-descritiva-d, 80px 0px 0px 20px);
+
+        @include minihexa(potencial, $cor-preditiva-b, -100px 0px 0px -30px);
+        @include minihexa(pareto, $cor-preditiva-c, -40px 0px 0px -90px);
+        @include minihexa(missao, $cor-preditiva-d, 40px 0px 0px -110px);
+        @include minihexa(share, $cor-preditiva-e, 120px 0px 0px -90px);
+        @include minihexa(quantidade, $cor-preditiva-f, 180px 0px 0px -30px);
+
+        @include minihexa(cluster, $cor-prescritiva-b, 0px 0px 0px 20px);
+        @include minihexa(ativacao, $cor-prescritiva-c, 90px 0px 0px 20px);
+        @include minihexa(promocao, $cor-prescritiva-d, 160px 0px 0px -20px);
+    }
+}
+
+@media (max-width: 475px) {
+
 }
 
 
@@ -835,6 +1064,101 @@
 }
 
 @media (max-width: 770px) {
+    .zoombox-container {
+        background: $cor-sec-top;
+        height: 1188px;
+        width: 100%;
+        margin: 0 0 0 0;
+        .solucao-image {
+            margin: 40px 0 0 0;
+            text-align: center;
+            img {
+                width: 90%;
+                text-align: center;
+            }
+            h3 {
+                margin: 20px 0 0 0;
+                text-align: center;
+                font-family: $fonte-primaria;
+                font-size: $txt-tam-26px;
+                font-weight: $txt-peso-600;
+            }
+            p {
+                margin: 10px 0 0 0;
+                text-align: center;
+                font-family: $fonte-secundaria;
+                font-size: $txt-tam-14px;
+                font-weight: $txt-peso-400;
+            }
+        }
+    }
+    .orbita-zoombox {
+        text-align: center;
+        .logo-zoombox {
+            position: relative;
+            margin: 0 auto 40px;
+            z-index: 999999;
+            img {
+                display: block;
+                width: 240px;
+                margin: 0 auto;
+            }
+        }
+        .itens-zoombox {
+            z-index: 99999;
+            position: relative;
+            .thumb-solucao-image {
+                display: inline-block;
+                width: 23%;
+            }
+            .inteligencia {
+                text-align: center;
+                margin: 0 auto;
+                 .intel-icone {
+                    display: block;
+                    width: 40px;
+                    text-align: center;
+                    margin: 0 auto;
+                    img {
+                        display: block;
+                        width: 40px;
+                        margin: 0 auto;
+                    }
+                }
+                .intel-txt {
+                    display: block;
+                    position: relative;
+                    width: 100%;
+                    text-align: center;
+                    .intel-txt-topo {
+                        display: block;
+                        font-size: $txt-tam-14px;
+                        line-height: $txt-tam-14px;
+                    }
+                    .intel-txt-meio {
+                        display: block;
+                        font-size: $txt-tam-18px;
+                        line-height: $txt-tam-18px;
+                    }
+                }
+                &.intel-captura {
+                    margin: 0 0 0 0;
+                }
+                &.intel-analitica {
+                    margin: 0 0 0 0;
+                }
+                &.intel-promocional {
+                    margin: 0 0 0 0;
+                }
+                &.intel-acionavel {
+                    margin: 0 0 0 0;
+                }
+            }
+        }
+        .orbitas {
+            display: none;
+        }
+    }
 }
 
 @media (max-width: 475px) {
@@ -958,8 +1282,128 @@
             }
         }
     }
+}
+
+@media (max-width: 770px) {
+    .discovery-container {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        height: 3150px;
+        .logo-discovery {
+            margin: 50px 0 0 0;
+            text-align: center;
+            img {
+                width: 290px;
+            }
+        }
+        .discovery-rastro {
+            display: none;;
+        }
+    }
     
-    
+    .discovery-infos {
+        text-align: center;
+        .disc-imagem {
+            display: block;
+            position: relative;
+            text-align: center;
+            img {
+                display: block;
+            }
+        }
+        .disc-texto {
+            display: inline-block;
+            text-align: center;
+            .disc-tit {
+                font-size: $txt-tam-22px;
+                line-height: $txt-tam-22px;
+                font-weight: $txt-peso-600;
+                font-family: $fonte-primaria;
+            }
+            .disc-desc {
+                font-size: $txt-tam-16px;
+                font-weight: $txt-peso-500;
+                line-height: $txt-tam-16px;
+                font-family: $fonte-secundaria;
+            }
+        }
+        .disc-hexa-icon {
+            display: inline-block;
+            position: relative;
+            vertical-align: top;
+            text-align: center;
+        }
+        &.disc-cluster {
+            margin: 60px 0 0 0;
+            .disc-imagem {
+                margin: 30px 0 0 0;
+            }
+            .disc-texto {
+                margin: 30px 0 0 10px;
+                width: 60%;
+                .disc-tit {
+                    margin: 10px 0 0 0;
+                }
+                .disc-desc {
+                    margin: 10px 0 0 0;
+                }
+            }
+            .disc-hexa-icon {
+                margin: 40px 0 0 0;
+                .mid-hexas {
+                    background-color: $cor-discovery-a;
+                }
+            }
+        }
+        &.disc-entrega {
+            margin: 90px 0 0 0;
+            .disc-imagem {
+                margin: 30px 0 0 0;
+            }
+            .disc-texto {
+                margin: 40px 0 0 10px;
+                width: 60%;
+                .disc-tit {
+                    margin: 0 0 0 0;
+                }
+                .disc-desc {
+                    margin: 10px 0 0 0;
+                }
+            }
+            .disc-hexa-icon {
+                margin: 40px 0 0 0;
+                .mid-hexas {
+                    background-color: $cor-discovery-b;
+                }
+            }
+        }
+        &.disc-resultados {
+            margin: 90px 0 0 0;
+            .disc-imagem {
+                margin: 30px 0 0 0;
+            }
+            .disc-texto {
+                margin: 20px 0 0 10px;
+                width: 60%;
+                .disc-tit {
+                    margin: 0 0 0 0;
+                }
+                .disc-desc {
+                    margin: 10px 0 0 0;
+                }
+            }
+            .disc-hexa-icon {
+                margin: 40px 0 0 0;
+                .mid-hexas {
+                    background-color: $cor-discovery-c;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 475px) {
 }
 
 
@@ -1065,9 +1509,63 @@
         }
         
     } 
-
 }
 
+@media (max-width: 770px) {
+    .sucesso-container {
+        position: relative;
+        height: inherit;
+        .hexa-sucesso {
+            .hexa-sucesso-logo {
+                margin: 100px auto 0;
+                background: $cor-sucesso-e;
+                .hexa-conteudo {
+                    .hexa-logo {
+                        margin: -20px 0 0 0;
+                    }
+                    .hexa-tit {
+                        font-size: $txt-tam-34px;
+                        line-height: $txt-tam-34px;
+                        font-weight: $txt-peso-700;
+                        text-transform: uppercase;
+                        .hexa-tit-lit {
+                            display: block;
+                            font-size: $txt-tam-20px;
+                            line-height: $txt-tam-20px;
+                        }
+                    }
+                }
+            }
+        }
+        .sucesso-infos {
+            position: relative;
+            .coluna-base {
+                .linha-base {
+                    margin: 20px 0 0 0;
+                    .coluna-simplificada {
+                        margin: 0 auto 60px;
+                    }
+                }
+            }
+            .sucesso-item {
+                text-align: center;
+                .sucesso-texto {
+                    .sucesso-tit {
+                        font-size: $txt-tam-22px;
+                        line-height: $txt-tam-24px;
+                    }
+                    .sucesso-desc {
+                        font-size: $txt-tam-14px;
+                        line-height: $txt-tam-14px;
+                    }
+                }
+            }
+        } 
+    }
+}
+
+@media (max-width: 475px) {
+}
 
 // **********************
 // **********************
@@ -1095,19 +1593,13 @@
 }
 
 @media (max-width: 770px) {
-
+    .clientes-container {
+        background: $cor-cinza;
+        height: inherit;
+    }
 }
 
 @media (max-width: 475px) {
-    .clientes-container {
-        background: url('../img/index/06-bg-clientes.png') center top no-repeat;
-        background-size: cover;
-        position: relative;
-        z-index: 1;
-        height: 1070px;
-        width: 100%;
-        margin: -50px 0 0 0;
-    }
 }
 
 
@@ -1157,4 +1649,41 @@
             filter: saturate(1) hue-rotate(35deg) brightness(105%);
         }
     }
+}
+
+@media (max-width: 770px) {
+    .rodape-container-home {
+        background: #1C2331;
+        .rodape-titulo {
+            text-align: center;
+            .chamada-top {
+                font-size: $txt-tam-16px;
+                font-weight: $txt-peso-600;
+                line-height: 2px;
+                text-transform: uppercase;
+            }
+            .chamada-meio {
+                font-size: $txt-tam-34px;
+                font-weight: $txt-peso-600;
+                line-height: 24px;
+                text-transform: uppercase;
+            }
+            .chamada-baixo {
+                font-size: $txt-tam-14px;
+                font-weight: $txt-peso-500;
+                line-height: 22px;
+            }
+        }
+        .mapa-brasil {
+            display: none;
+        }
+        .botoes {
+            text-align: center;
+            margin: 0 0 40px 0;
+        }
+    }
+}
+
+@media (max-width: 475px) {
+
 }

@@ -30,11 +30,12 @@
         <!-- MENU MOBILE -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <div class="animated-icon1"><span></span><span></span><span></span></div>
         </button>
 
         <!-- MENU DIREITO -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse menu-mobile" id="navbarSupportedContent">
+
             <ul class="navbar-nav nav-flex-icons ml-auto menu-principal">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
@@ -49,6 +50,7 @@
                     <a class="nav-link" href="#">Contato</a>
                 </li>
             </ul>
+
         </div>
     </div>
 
