@@ -14,7 +14,6 @@
 
     //posts types imprensa
     function imprensa_posts_types() {
-        //chamadas titulos
         register_post_type('imprensa',
             array(
                 'labels'        => array(
@@ -41,7 +40,6 @@
 
     //posts types orange pape
     function orangepaper_posts_types() {
-        //chamadas titulos
         register_post_type('orangepaper',
             array(
                 'labels'        => array(
@@ -50,7 +48,6 @@
                     'add_new_item' => __('Adicionar um Orange Paper || Utilize o botão Adicionar Mídia para subir o PDF e adicione a mídia'),
                     'edit_item' => __('Editar Orange Paper'),
                 ),
-                'description'   => 'Utilizeeeeeeeeeeeeeee',
                 'public'        => true,
                 'has_archive'   => true,
                 'menu_icon'     => 'dashicons-analytics',

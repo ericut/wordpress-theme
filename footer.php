@@ -8,7 +8,7 @@
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/popper.min.js"></script>
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/mdb.min.js"></script>
-
+		
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/particles/particles.js"></script>
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/particles/particlesjson.js"></script>
 

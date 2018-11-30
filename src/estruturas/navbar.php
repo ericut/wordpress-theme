@@ -28,7 +28,7 @@
         
         <!-- LOGO -->
         <h2 class="topo-logo">
-            <a class="navbar-brand" href="index">
+            <a class="navbar-brand" href="<?php echo get_home_url(); ?>">
                 <img src="<?= $wp_theme_url; ?>/img/logo.png">
             </a>
         </h2>

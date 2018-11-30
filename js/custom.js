@@ -1,12 +1,12 @@
 //
-// ANIMATE CSS
+// WOW
 //
 
 new WOW().init();
 
 
 //
-// ANIMATE CSS
+// ANIMATE MENU ICON
 //
 
 $(document).ready(function () {

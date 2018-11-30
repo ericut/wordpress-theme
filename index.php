@@ -1,6 +1,6 @@
 <?php
 	/*
-		template name: Index
+		
 	*/
 
 	$wp_theme_url = get_template_directory_uri();

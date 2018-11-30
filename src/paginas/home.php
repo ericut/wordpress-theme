@@ -161,7 +161,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<div class="home-titulo zoombox wow fadeInUp">
+					<div class="home-titulo zoombox wow fadeInUp ">
 						<h2 class="chamada-meio">
 							ZoOmBOX<br>Muito mais que um CRM!
 						</h2>

@@ -7,7 +7,7 @@
 
 <main class="pagina-interna" style="background: #ffffff;">
 
-    <section id="gs-single" class="blog-container">
+    <section id="gs-orangepaper" class="blog-container">
         
         <div class="divisores"><div class="blog-top-divisor"></div></div>
 
@@ -23,25 +23,9 @@
                 ?>
 
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="interna-titulo blogdetalhes">
-                                <h2 class="chamada-meio">
-                                    <?php the_title(); ?>
-                                </h2>
-                                <p class="chamada-baixo">
-                                    <?php the_content(); ?>
-                                </p>
+                        <div class="col-sm-12 col-md-9">
 
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            
-                            <div class="imagem-detalhe-thumbnail">
-                                <?php the_post_thumbnail(); ?>
-                            </div>
+                            <?php the_content(); ?>
 
                         </div>
                     </div>

@@ -10,6 +10,11 @@
     min-height: 100%;
 }
 
+.pagina-default {
+    position: relative;
+    display: block;
+}
+
 
 // **********************
 // **********************
@@ -57,6 +62,20 @@
                     font-size: $txt-tam-17px;
                     font-weight: $txt-peso-500;
                     padding: 0;
+                }
+                .post-categories {
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    li {
+                        list-style: none;
+                        padding: 0;
+                        display: inline-block;
+                        a {
+                            padding: 0 10px;
+                            color: $cor-branca !important;
+                        }
+                    }
                 }
                 .bottom-liner {
                     height: 2px;
@@ -533,7 +552,7 @@
 
 .sala-imprensa {
     width: 100%;
-    max-width: 99%;
+    max-width: 100%;
     margin: 1% auto;
     column-count: 4;
     column-gap: 2%;
@@ -574,6 +593,42 @@
     }
 }
 
+.orange-paper {
+    width: 100%;
+    margin: 1% auto;
+    .orange-paper-item {
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .mascara-item {
+            cursor: pointer;
+        }
+    }
+    .link-post {
+        display: block;
+        position: relative;
+        z-index: 99999;
+        color: $cor-preta;
+        cursor: pointer;
+    }
+    h4 {
+        font-family: $fonte-primaria;
+        font-size: $txt-tam-18px;
+        font-weight: $txt-peso-600;
+        text-align: center;
+    }
+    p {
+
+    }
+}
+
+
 .imagem-detalhe-thumbnail {
     width: 100%;
     position: relative;
@@ -584,4 +639,19 @@
         margin: 0 auto;
         height: auto;
     }
+}
+
+
+// **********************
+// **********************
+// DEFAULT PAGE
+// **********************
+// **********************
+
+.page-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    background: $cor-branca;
 }
