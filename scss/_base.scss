@@ -57,6 +57,7 @@
 
 %view {
     height: 100%;
+    min-height: 100%;
 }
 
 html,
@@ -87,9 +88,23 @@ a {
     background-color: $cor-pri-top;
 }
 
+.rgba-cor-fundo-primaria {
+    background-color: rgba($cor-pri-top, 0.75);
+}
+
 .hidden {
     opacity: 0;
 }
+
+.blurred {
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+.opacityhalf {
+    opacity: 0.25;
+}
+
 
 
 // **********************
@@ -151,61 +166,91 @@ a {
             margin: 0.25rem 0;
         }
     }
+}
 
-    .menu-principal {
-        font-weight: $txt-peso-500;
-        font-size: $txt-tam-16px;
+.menu-menu-principal-container {
+    margin: 0 0 0 auto;
+}
 
-        .nav-item {
-            margin: 0 0.25rem;
+#menu-menu-principal {
+    font-weight: $txt-peso-500;
+    font-size: $txt-tam-16px;
+    margin: 0 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
 
-            a,
-            a>span {
-                position: relative;
-                color: inherit;
-                text-decoration: none;
-                line-height: 24px;
-
-                &:before,
-                &:after {
-                    content: '';
-                    position: absolute;
-                    transition: $transicao1x;
-                }
+    .menu-item {
+        margin: 0 0.5rem;
+        display: inline;
+        position: relative;
+        a,
+        a>span {
+            position: relative;
+            color: inherit;
+            text-decoration: none;
+            line-height: 24px;
+            &:before,
+            &:after {
+                content: '';
+                position: absolute;
+                transition: $transicao1x;
             }
-
-            .nav-link {
-                padding-top: 10px;
-
-                &:before {
-                    left: 0;
-                    bottom: 0;
-                    width: 100%;
-                    height: 2px;
-                    background: $cor-pri-top;
-                    transform: scaleX(0);
-                }
-
-                &:hover:before {
-                    transform: scaleX(1);
-                }
-
-                &:hover {
-                    color: $cor-pri-top !important;
-                }
+        }
+        a {
+            padding: 0.7rem 0.5rem;
+            &:before {
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 2px;
+                background: $cor-pri-top;
+                transform: scaleX(0);
             }
-
-            &.active>.nav-link {
-                background: none !important;
-
-                &:before {
-                    transform: scaleX(1);
-                }
+            &:hover:before {
+                transform: scaleX(1);
             }
-
+            &:hover {
+                color: $cor-pri-top !important;
+            }
+        }
+        &.active>.nav-link {
+            background: none !important;
+            &:before {
+                transform: scaleX(1);
+            }
+        }
+        .sub-menu {
+            display: none;
+            position: absolute;
+            z-index: 1;
+            margin: 0;
+            padding: 0;
+            left: 50%;
+            width: 160px;
+            margin-left: -80px;
+            text-align: center;
+            padding: 0 10px;
+            transition: $transicao1x;
+            opacity: 0;
+            font-size: $txt-tam-14px;
+            a {
+                padding: 0.5rem 0.5rem;
+                display: block;
+                margin: -10px 0;
+            }
+        }
+        &:hover .sub-menu {
+            display: block;
+            opacity: 1;
         }
     }
 }
+
 
 .top-nav-collapse {
     background-color: rgba($cor-fundo-secundaria, 0.95);
@@ -216,6 +261,15 @@ a {
 
         .navbar-brand img {
             height: 70px;
+        }
+    }
+    .menu-item {
+        .sub-menu {
+            transition: $transicao1x;
+        }
+        &:hover .sub-menu {
+            background-color: rgba($cor-fundo-secundaria, 0.95);
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         }
     }
 }
@@ -306,7 +360,7 @@ a {
             width: 100%;
             text-align: center;
             margin: 30px auto;
-            .menu-principal {
+            #menu-menu-principal {
                 width: 100%;
                 text-align: center;
                 display: block;
@@ -364,7 +418,8 @@ a {
     background: url('../img/index/07-bg-rodape.jpg') center bottom no-repeat #1C2331;
     color: $cor-branca;
     font-family: $fonte-secundaria;
-
+    display: block;
+    position: relative;
     a {
         color: $cor-branca;
     }

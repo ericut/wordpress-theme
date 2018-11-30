@@ -30,6 +30,13 @@ $mewh: ((50*$mehw)/86)*1px;
 $mehw-mob: 280;
 $mewh-mob: ((50*$mehw-mob)/86)*1px;
 
+// HEXA HIST
+$hishw: 150;
+$hiswh: ((50*$hishw)/86)*1px;
+
+$hishw-mob: 150;
+$hiswh-mob: ((50*$hishw-mob)/86)*1px;
+
 
 // **********************
 // CORES
@@ -46,10 +53,12 @@ $cor-pri-low: #d5d510;
 
 $cor-sec-top: #db6403;
 $cor-sec-mid: #f79800;
+$cor-sec-lit: #fc7b00;
 
 $cor-branca: #ffffff;
 $cor-cinza: #fafafa;
 $cor-preta: #000000;
+$cor-escura: #333333;
 
 $cor-descritiva-a: #003686;
 $cor-descritiva-b: #003584;
@@ -78,6 +87,14 @@ $cor-sucesso-c: #dc8100;
 $cor-sucesso-d: #e79400;
 $cor-sucesso-e: #263041;
 
+$cor-timeline-a: #86920c;
+$cor-timeline-b: #938d0a;
+$cor-timeline-c: #9f8509;
+$cor-timeline-d: #bc7c05;
+$cor-timeline-e: #c47303;
+$cor-timeline-f: #d36401;
+$cor-timeline-g: #d25001;
+
 
 // **********************
 // FONTES E TEXTOS
@@ -98,7 +115,10 @@ $txt-tam-22px: 1.5rem;      // 22px
 $txt-tam-24px: 1.5rem;      // 24px
 $txt-tam-26px: 1.625rem;    // 26px
 $txt-tam-34px: 2.125rem;    // 34px
+$txt-tam-40px: 2.5rem;      // 40px
+$txt-tam-42px: 2.625rem;    // 42px
 $txt-tam-48px: 3rem;        // 48px
+$txt-tam-56px: 3.5rem;      // 56px
 $txt-tam-70px: 4.375rem;    // 70px
 
 $txt-peso-400: 400;         // regular

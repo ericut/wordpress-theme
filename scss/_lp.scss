@@ -8,10 +8,6 @@
     background: $cor-fundo-primaria;
 }
 
-.carousel {
-    height: 100%;
-}
-
 .pattern-5 {
     background-image: url(../img/overlays/05.png);
 }
@@ -19,6 +15,10 @@
 .rgba-black-strong,
 .rgba-black-strong:after {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel {
+    height: 95%;
 }
 
 .carousel .carousel-inner {
@@ -64,7 +64,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 120px;
+    height: 110px;
     font-family: $fonte-primaria;
     color: $cor-branca;
     background-color: rgba($cor-fundo-primaria, 0.8);
@@ -100,7 +100,28 @@
 
 
 @media (max-width: 770px) {
+    .carousel {
+        height: 70%;
+    }
+    .chamada-container {
+        margin: 60px 0 0 0 !important;
+        .chamada-topo {
+            font-size: $txt-tam-18px;
+            line-height: 5px;
+        }
+        .chamada-meio {
+            font-size: $txt-tam-48px;
+            line-height: 30px;
+        }
+        .chamada-baixo {
+            font-size: $txt-tam-14px;
+        }
+        .bottom-liner {
+            margin: 20px auto 0;
+        }
+    }
     .numeros-container {
+        display: none;
         .numero-item {
             padding: 10px 0 0 0;
             text-align: center;
@@ -151,6 +172,7 @@
 .fundo-parallax {
     overflow: hidden;
 }
+
 .fundo-parallax > .fundo-principal {
     background: url('../img/index/02-bg-ciencia.jpg');
     height: 200%;
@@ -159,6 +181,7 @@
     left: 0;
     width: 100%;
 }
+
 .fundo-parallax > .fundo-foguete {
     background: url('../img/index/02-bg-foguetes.png') no-repeat;
     height: 1027px;
@@ -168,6 +191,7 @@
     width: 1000px;
     margin: 0 0 0 -500px;
 }
+
 .fundo-parallax > .fundo-discovery {
     background: url('../img/index/04-bg-discovery.jpg');
     background-position-y: 100px;
@@ -177,6 +201,7 @@
     left: 0;
     width: 100%;
 }
+
 .fundo-parallax > .fundo-globular-parallax {
     height: 860px;
     position: absolute;

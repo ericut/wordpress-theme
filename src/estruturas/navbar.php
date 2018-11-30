@@ -1,5 +1,10 @@
+<?php 
+	$wp_theme_url = get_template_directory_uri();
+	$wp_theme_logic = get_template_directory();
+?>
+
 <!-- NAVBAR -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar wow fadeInDown">
 
     <div class="navbar-top">
         <div class="container">
@@ -11,8 +16,8 @@
                 </div>
                 <div class="col-md-6 col-3">
                     <div class="social-direita">
-                        <a class="rede-social" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="rede-social" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="rede-social" href="https://www.facebook.com/gsgroup.inteligenciaenegocios" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="rede-social" href="https://www.linkedin.com/company/gs-group/" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -20,9 +25,10 @@
     </div>
 
     <div class="container">
+        
         <!-- LOGO -->
         <h2 class="topo-logo">
-            <a class="navbar-brand" href="#topo">
+            <a class="navbar-brand" href="index">
                 <img src="<?= $wp_theme_url; ?>/img/logo.png">
             </a>
         </h2>
@@ -35,21 +41,12 @@
 
         <!-- MENU DIREITO -->
         <div class="collapse navbar-collapse menu-mobile" id="navbarSupportedContent">
-
-            <ul class="navbar-nav nav-flex-icons ml-auto menu-principal">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">A GS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Universidade GS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                </li>
-            </ul>
+            
+            <?php
+                wp_nav_menu(
+                    array('theme_location' => 'header-menu')
+                );
+            ?>
 
         </div>
     </div>

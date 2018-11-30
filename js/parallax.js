@@ -14,11 +14,6 @@ new ScrollMagic.Scene({triggerElement: "#gs-ciencia"})
 .addIndicators()
 .addTo(controller);
 
-new ScrollMagic.Scene({triggerElement: "#gs-ciencia"})
-.setTween(".logo-getfish", {y: "200%", ease: Linear.easeNone})
-.addIndicators()
-.addTo(controller);
-
 new ScrollMagic.Scene({triggerElement: "#gs-discovery"})
 .setTween("#gs-discovery > .fundo-discovery", {y: "-13%", ease: Linear.easeNone})
 .addIndicators()
@@ -29,3 +24,16 @@ new ScrollMagic.Scene({triggerElement: ".sucesso-container"})
 .addIndicators()
 .addTo(controller);
 
+// TÍTULO
+
+new ScrollMagic.Scene({triggerElement: "#gs-titulo"})
+.setTween("#gs-titulo > .titulo > .view > .imagem-titulo", {y: "-40%", x: "-10%", ease: Linear.easeNone})
+.addIndicators()
+.addTo(controller);
+
+// INTERNAS
+
+new ScrollMagic.Scene({triggerElement: "#gs-timeline"})
+.setTween("#gs-timeline > .fundo-timeline", {y: "-40%", ease: Linear.easeNone})
+.addIndicators()
+.addTo(controller);
