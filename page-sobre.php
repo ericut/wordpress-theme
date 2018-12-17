@@ -3,7 +3,7 @@
 		template name: Sobre
 	*/
 
-	$chamada = "Sobre a .GS";
+	$chamada = "";
 
 	$wp_theme_url = get_template_directory_uri();
 	$wp_theme_logic = get_template_directory();

@@ -6,57 +6,61 @@
 
 @import url('https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700|Heebo:400,500,700');
 
-@font-face {
-    font-family: "Barlow";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../font/barlow/Barlow-Regular.ttf);
-}
+// @font-face {
+//     font-family: "Barlow";
+//     font-style: normal;
+//     font-weight: 400;
+//     src: url(../font/barlow/Barlow-Regular.ttf);
+// }
 
-@font-face {
-    font-family: "Barlow";
-    font-style: normal;
-    font-weight: 500;
-    src: url(../font/barlow/Barlow-Medium.ttf);
-}
+// @font-face {
+//     font-family: "Barlow";
+//     font-style: normal;
+//     font-weight: 500;
+//     src: url(../font/barlow/Barlow-Medium.ttf);
+// }
 
-@font-face {
-    font-family: "Barlow";
-    font-style: normal;
-    font-weight: 600;
-    src: url(../font/barlow/Barlow-SemiBold.ttf);
-}
+// @font-face {
+//     font-family: "Barlow";
+//     font-style: normal;
+//     font-weight: 600;
+//     src: url(../font/barlow/Barlow-SemiBold.ttf);
+// }
 
-@font-face {
-    font-family: "Barlow";
-    font-style: normal;
-    font-weight: 700;
-    src: url(../font/barlow/Barlow-Bold.ttf);
-}
+// @font-face {
+//     font-family: "Barlow";
+//     font-style: normal;
+//     font-weight: 700;
+//     src: url(../font/barlow/Barlow-Bold.ttf);
+// }
 
-@font-face {
-    font-family: "Heebo";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../font/heebo/Heebo-Regular.ttf);
-}
+// @font-face {
+//     font-family: "Heebo";
+//     font-style: normal;
+//     font-weight: 400;
+//     src: url(../font/heebo/Heebo-Regular.ttf);
+// }
 
-@font-face {
-    font-family: "Heebo";
-    font-style: normal;
-    font-weight: 500;
-    src: url(../font/heebo/Heebo-Medium.ttf);
-}
+// @font-face {
+//     font-family: "Heebo";
+//     font-style: normal;
+//     font-weight: 500;
+//     src: url(../font/heebo/Heebo-Medium.ttf);
+// }
 
-@font-face {
-    font-family: "Heebo";
-    font-style: normal;
-    font-weight: 700;
-    src: url(../font/heebo/Heebo-Bold.ttf);
-}
+// @font-face {
+//     font-family: "Heebo";
+//     font-style: normal;
+//     font-weight: 700;
+//     src: url(../font/heebo/Heebo-Bold.ttf);
+// }
 
 b,strong {
     font-weight: 700;
+}
+
+p {
+    font-family: $fonte-secundaria;
 }
 
 %view {
@@ -109,6 +113,9 @@ a {
     opacity: 0.25;
 }
 
+.opacitysemihalf {
+    opacity: 0.75;
+}
 
 
 // **********************
@@ -169,11 +176,18 @@ a {
             transition: $transicao3x;
             margin: 0.25rem 0;
         }
+
+        .site-title {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+        }
     }
 }
 
 .menu-menu-principal-container {
     margin: 0 0 0 auto;
+    width: 390px;
 }
 
 #menu-menu-principal {
@@ -187,6 +201,7 @@ a {
     flex-direction: row;
     list-style: none;
     padding: 0;
+    width: 110%;
 
     .menu-item {
         margin: 0 0.5rem;
@@ -357,6 +372,16 @@ a {
     transform: rotate(-135deg);
 }
 
+
+#menu-item-97 {
+    a:before {
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900;
+        content: '\f023' !important;
+    }
+}
+
+
 @media (max-width: 770px) {
     .navbar {
         background-color: rgba($cor-fundo-secundaria, 1);
@@ -383,20 +408,70 @@ a {
                 }
             }
         }
+        .navbar-top {
+            .contato-esquerda {
+                .hide-on-mobile {
+                    display: none;
+                }
+                a.topo-telefone {
+                    font-size: $txt-tam-18px;
+                }
+            }
+        }
+        .topo-logo {
+            .navbar-brand {
+                img {
+                    margin: 0 0 0 12px;
+                    height: 80px;
+                }
+            }
+        }
     }
 
     .top-nav-collapse {
         background-color: rgba($cor-fundo-secundaria, 0.95);
-
         .topo-logo {
             margin: 0;
             padding: 0;
-
-            .navbar-brand img {
-                height: 70px;
+            .navbar-brand {
+                img {
+                    height: 50px;
+                }
             }
         }
     }
+
+    #menu-menu-principal {
+
+        .menu-item {
+            margin: 0 0.5rem;
+            .sub-menu {
+                display: none;
+                position: relative;
+                z-index: 1;
+                margin: 0 0 10px 0;
+                padding: 0;
+                left: 50%;
+                width: 320px;
+                margin-left: -160px;
+                text-align: center;
+                padding: 0 10px;
+                transition: $transicao1x;
+                opacity: 0;
+                font-size: $txt-tam-14px;
+                a {
+                    padding: 0.5rem 0.5rem;
+                    display: block;
+                    margin: -10px 0;
+                }
+            }
+            &:hover .sub-menu {
+                display: block;
+                opacity: 1;
+            }
+        }
+    }
+    
 }
 
 @media (max-width: 475px) {
@@ -596,6 +671,8 @@ a {
 
 @include botao-padrao-linha(secundario, $cor-pri-top, $cor-pri-mid);
 
+@include botao-padrao-linha(terceario, $cor-ter-low, $cor-ter-mid);
+
 .btn {
     border-radius: 6px;
     transition: $transicao1x;
@@ -616,4 +693,11 @@ a {
     &.home-button {
         width: 360px;
     }
+}
+
+
+@media (max-width: 770px) {
+}
+
+@media (max-width: 475px) {
 }

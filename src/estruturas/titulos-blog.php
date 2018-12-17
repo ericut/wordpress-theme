@@ -7,11 +7,11 @@
     <div class="titulo">
         <div class="view wow fadeIn">
 
-            <?php if(get_the_post_thumbnail()) : ?>
+            <?php if( get_the_post_thumbnail() ) { ?>
                 <img class="imagem-titulo blurred opacityhalf" src="<?php the_post_thumbnail_url(); ?>">
-            <?php else : ?>
+            <?php } else { ?>
                 <img class="imagem-titulo" src="<?= $wp_theme_url; ?>/img/topo-gs-padrao.jpg">
-            <?php endif; ?>
+            <?php } ?>
             
             <div class="mask rgba-black-light pattern-5 d-flex justify-content-center align-items-center">
                 <div class="chamada-container text-center white-text mx-5 wow fadeInUp blog-detalhes">
@@ -38,16 +38,16 @@
                         <?php } elseif ( is_singular( 'orangepaper' ) ) { ?>
                             Orange Paper
                         <?php } elseif ( is_post_type_archive( 'imprensa' ) ) { ?>
-                            Presente na Mídia
+                            <!-- Presente na Mídia -->
                         <?php } elseif ( is_post_type_archive( 'orangepaper' ) ) { ?>
-                            Universidade .GS
+                            <!-- Universidade GS -->
                         <?php } elseif ( is_page( 'blog' ) ) { ?>
                             
                         <?php } else { ?>
                             <?php if ( is_single() ) { ?>
                                 <?php the_category(); ?>
                             <?php } else { ?>
-                                Blog .GS
+                                <!-- Blog GS -->
                             <?php } ?>
                         <?php } ?>
                     </p>

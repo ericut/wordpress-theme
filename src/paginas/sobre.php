@@ -19,10 +19,10 @@
 				<div class="col-md-6 col-sm-12">
 					<div class="interna-titulo timeline">
 						<h2 class="chamada-meio">
-							Nosso negócio é <br>decifrar o seu cliente
+							Nosso negócio é decifrar e <br>influenciar o comportamento <br>do seu cliente
 						</h2>
 						<p class="chamada-baixo">
-							A .GS está desde 2007 no mercado, <br>construindo parcerias e projetos de sucesso.
+							Estamos desde 2007 construindo parcerias projetos de sucesso
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -78,7 +78,7 @@
 						<div class="historia-hexas-shadow baixo"></div>
 					</div>
 					<div class="timeline-info baixo">
-						<p>+ 480 Termos de Capacidade Técnica</p>
+						<p>+ 480 Atestados de Capacidade Técnica</p>
 						<span><img src="<?= $wp_theme_url; ?>/img/internas/01-05-logos-fabrica.png"></span>
 					</div>
 				</div>
@@ -106,7 +106,7 @@
 						<a class="historia-hexas baixo">
 							<div class="hexa-conteudo">
 								<span class="hexa-tit">2013</span>
-								<span class="hexa-desc">Instituto de Pesquisa Convencional</span>
+								<span class="hexa-desc">Instituto de Pesquisa Tradicional</span>
 							</div>
 						</a>
 						<div class="historia-hexas-shadow baixo"></div>
@@ -123,7 +123,7 @@
 						<a class="historia-hexas">
 							<div class="hexa-conteudo">
 								<span class="hexa-tit">2014</span>
-								<span class="hexa-desc">Criação do ZoOmBOX</span>
+								<span class="hexa-desc">Nasce o ZoOmBOX</span>
 							</div>
 						</a>
 						<div class="historia-hexas-shadow"></div>
@@ -185,10 +185,10 @@
 				<div class="col-md-6 col-sm-12">
 					<div class="interna-titulo triade">
 						<h2 class="chamada-meio">
-							Nosso foco é possibilitar a conexão entre o varejo, a indústria e os shoppers!
+							Conectamos o varejo, a indústria e os shoppers de ponta a ponta
 						</h2>
 						<p class="chamada-baixo">
-							Aqui na GS, desenvolvemos metodologias e soluções que atuam de maneira integrada em todos estes segmentos, alcançando resultados únicos no mercado.  
+							Desenvolvemos metodologias e soluções que atuam de maneira integrada em todas estas verticais, alcançando resultados incomparáveis no mercado.
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -222,23 +222,23 @@
 				</div>
 				<div class="col-md-8 col-sm-12">
 					<div class="row">
-						<div class="col-4">
+						<div class="col-md-4 col-sm-12">
 							<div class="diretoria-item">
 								<img src="<?= $wp_theme_url; ?>/img/internas/03-01-diretoria-gibotti.png">
 								<p class="diretoria-nome">
-									Fernando, Gibotti, PhD
+									Fernando Gibotti, PhD
 								</p>
 								<p class="diretoria-cargo">
 									CEO & Founder
 								</p>
 								<p class="diretoria-linkedin">
-									<a href="#">
+									<a href="https://www.linkedin.com/in/fernando-gibotti-b8128b35/" target="_blank">
 										<i class="fab fa-linkedin-in"></i>
 									</a>
 								</p>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-md-4 col-sm-12">
 							<div class="diretoria-item">
 								<img src="<?= $wp_theme_url; ?>/img/internas/03-02-diretoria-simonato.png">
 								<p class="diretoria-nome">
@@ -248,13 +248,13 @@
 									VP Negócios & Co-Founder
 								</p>
 								<p class="diretoria-linkedin">
-									<a href="#">
+									<a href="https://www.linkedin.com/in/simonato/" target="_blank">
 										<i class="fab fa-linkedin-in"></i>
 									</a>
 								</p>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-md-4 col-sm-12">
 							<div class="diretoria-item">
 								<img src="<?= $wp_theme_url; ?>/img/internas/03-03-diretoria-germano.png">
 								<p class="diretoria-nome">
@@ -264,7 +264,7 @@
 									CFO
 								</p>
 								<p class="diretoria-linkedin">
-									<a href="#">
+									<a href="https://www.linkedin.com/in/germano-hernandes-filho-06453339/" target="_blank">
 										<i class="fab fa-linkedin-in"></i>
 									</a>
 								</p>

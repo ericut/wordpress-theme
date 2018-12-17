@@ -33,19 +33,37 @@
 					<?php
 						if( have_posts() ) { 
 					?>
-					<div class="sala-imprensa">
+					<div class="row sala-imprensa">
 						<?php
 							while( have_posts() ) {
 								the_post();
 						?>
-							<a href="<?php the_permalink(); ?>" class="link-post">
-								<div class="imprensa-item view overlay hoverable zoom">
-									<?php the_post_thumbnail('medium_large'); ?>
-									<div class="mascara-item mask flex-center rgba-cor-fundo-primaria">
-										<h4><?php the_title(); ?></h4>
+						<div class="col-md-3">
+								<div class="blog-gs">
+									<div class="card view overlay zoom">
+										<div class="blog-item view overlay">
+											<a href="<?php the_permalink(); ?>" class="link-post d-flex justify-content-center align-content-center">
+												<?php if( has_post_thumbnail() ) { ?>
+													<img class="card-img-top" src="<?php the_post_thumbnail_url('large'); ?>">
+												<?php } else { ?>
+													<img class="card-img-top opacitysemihalf" src="<?= $wp_theme_url; ?>/img/imagem-padrao.jpg">
+												<?php } ?>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<a href="<?php the_permalink(); ?>" class="link-post">
+												<h4 class="card-title"><?php the_title(); ?></h4>
+											</a>
+												<hr>
+												<p class="card-text"><?php the_category(); ?></p>
+											<a href="<?php the_permalink(); ?>" class="link-post">
+												<h5 class="card-readmore">Leia Mais <i class="fa fa-angle-double-right"></i></h5>
+											</a>
+										</div>
 									</div>
 								</div>
-							</a>
+							</div>
 
 						<?php
 								} 
@@ -64,3 +82,17 @@
 	</section>
 
 </main>
+
+						<!-- <div div="col-3">
+								<a href="<?php the_permalink(); ?>" class="link-post">
+									<div class="imprensa-item view overlay hoverable zoom d-flex justify-content-center align-content-center">
+
+										<img src="<?php the_post_thumbnail_url('medium_large'); ?>">
+
+										<div class="mascara-item mask flex-center rgba-cor-fundo-primaria">
+											<h4><?php the_title(); ?></h4>
+										</div>
+									</div>
+								</a>
+							</div>
+						-->

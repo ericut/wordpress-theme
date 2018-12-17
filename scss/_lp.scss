@@ -19,10 +19,14 @@
 
 .carousel {
     height: 95%;
-}
-
-.carousel .carousel-inner {
-    height: 100%;
+    .carousel-inner {
+        height: 100%;
+        .carousel-item {
+            .bg-default-index {
+                display: none;
+            }
+        }
+    }
 }
 
 .carousel .carousel-inner .carousel-item,
@@ -45,6 +49,7 @@
         font-weight: $txt-peso-600;
         line-height: 60px;
         text-transform: uppercase;
+        letter-spacing: -1px;
     }
     .chamada-baixo {
         font-size: $txt-tam-17px;
@@ -71,6 +76,8 @@
     .numero-item {
         padding: 20px 0 10px 0;
         overflow: hidden;
+        width: 250px;
+        margin: 0 auto;
         .numero-img {
             display: inline-block;
             overflow: hidden;
@@ -101,16 +108,35 @@
 
 @media (max-width: 770px) {
     .carousel {
-        height: 70%;
+        height: 90%;
+        .carousel-inner {
+            .carousel-item {
+                .video-intro {
+                    display: none;
+                }
+                .bg-default-index {
+                    background: url('../img/topo-gs-padrao.jpg');
+                    background-size: cover;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    display: block !important;
+                }
+                .force-light-mobile {
+                    background-color: rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
     }
     .chamada-container {
-        margin: 60px 0 0 0 !important;
+        width: 80%;
+        margin: 5px 0 0 0 !important;
         .chamada-topo {
             font-size: $txt-tam-18px;
             line-height: 5px;
         }
         .chamada-meio {
-            font-size: $txt-tam-48px;
+            font-size: $txt-tam-34px;
             line-height: 30px;
         }
         .chamada-baixo {
@@ -121,10 +147,15 @@
         }
     }
     .numeros-container {
-        display: none;
+        display: block;
+        background: none;
+        .coluna-item {
+            padding: 0 5px !important;
+        }
         .numero-item {
-            padding: 10px 0 0 0;
+            padding: 5px 0 0 0;
             text-align: center;
+            width: auto;
             .numero-img {
                 text-align: center;
                 img {
@@ -240,7 +271,7 @@
     }
     .fundo-parallax > .fundo-globular-parallax {
         .fundo-globular {
-            background: url('../img/index/05-bg-globular.png') center center no-repeat;
+            display: none;
         }
     }
 }
@@ -265,6 +296,8 @@
         position: relative;
         z-index: 99999;
         text-shadow: 1px 3px 3px rgba($cor-preta, 0.2);
+        width: 70%;
+        margin: 0 auto;
         .chamada-top {
             font-size: $txt-tam-18px;
             font-weight: $txt-peso-600;
@@ -363,6 +396,7 @@
 @media (max-width: 770px) {
     .ciencia-container, .zoombox-container, .discovery-container, .clientes-container {
         .home-titulo {
+            width: 90%;
             .chamada-top {
                 font-size: $txt-tam-18px;
                 font-weight: $txt-peso-600;
@@ -1015,7 +1049,7 @@
             margin: 10px 0 0 0;
             text-align: center;
             font-family: $fonte-secundaria;
-            font-size: $txt-tam-14px;
+            font-size: $txt-tam-16px;
             font-weight: $txt-peso-400;
         }
     }
@@ -1023,10 +1057,11 @@
 
 .orbita-zoombox {
     position: relative;
+    z-index: 999999;
     .logo-zoombox {
         position: absolute;
         margin: 250px 0 0 40px;
-        z-index: 999999;
+        z-index: 9999999;
         img {
             display: block;
         }
@@ -1037,6 +1072,8 @@
         position: absolute;
         .inteligencia {
             display: block;
+            width: 280px;
+
             .intel-icone {
                 display: inline-block;
                 width: 70px;
@@ -1132,13 +1169,15 @@
         .itens-zoombox {
             z-index: 99999;
             position: relative;
+            width: 100%;
             .thumb-solucao-image {
                 display: inline-block;
-                width: 23%;
+                width: 46%;
             }
             .inteligencia {
                 text-align: center;
                 margin: 0 auto;
+                width: auto;
                  .intel-icone {
                     display: block;
                     width: 40px;
@@ -1208,7 +1247,7 @@
         position: absolute;
         height: 1170px;
         width: 223px;
-        margin: 370px 0 0 -47px;
+        margin: 320px 0 0 -50px;
     }
 }
 
@@ -1314,7 +1353,7 @@
         position: relative;
         width: 100%;
         margin: 0;
-        height: 3150px;
+        height: 3460px;
         .logo-discovery {
             margin: 50px 0 0 0;
             text-align: center;
@@ -1335,6 +1374,7 @@
             text-align: center;
             img {
                 display: block;
+                width: 100%;
             }
         }
         .disc-texto {
@@ -1366,7 +1406,7 @@
             }
             .disc-texto {
                 margin: 30px 0 0 10px;
-                width: 60%;
+                width: 90%;
                 .disc-tit {
                     margin: 10px 0 0 0;
                 }
@@ -1388,7 +1428,7 @@
             }
             .disc-texto {
                 margin: 40px 0 0 10px;
-                width: 60%;
+                width: 90%;
                 .disc-tit {
                     margin: 0 0 0 0;
                 }
@@ -1409,8 +1449,8 @@
                 margin: 30px 0 0 0;
             }
             .disc-texto {
-                margin: 20px 0 0 10px;
-                width: 60%;
+                margin: 40px 0 0 10px;
+                width: 90%;
                 .disc-tit {
                     margin: 0 0 0 0;
                 }
@@ -1603,7 +1643,7 @@
     background-size: cover;
     position: relative;
     z-index: 1;
-    height: 1070px;
+    height: 1150px;
     width: 100%;
     margin: -50px 0 0 0;
     .listagem-clientes {
@@ -1705,6 +1745,9 @@
         .botoes {
             text-align: center;
             margin: 0 0 40px 0;
+            .btn-linha {
+                width: 100%;
+            }
         }
     }
 }

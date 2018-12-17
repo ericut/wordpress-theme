@@ -1,9 +1,9 @@
 <?php
 	/*
-		template name: Universidade .GS
+		template name: Universidade GS
 	*/
 
-	$chamada = "Universidade .GS";
+	$chamada = "Área de Canais";
 
 	$wp_theme_url = get_template_directory_uri();
 	$wp_theme_logic = get_template_directory();

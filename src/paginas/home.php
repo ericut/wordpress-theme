@@ -18,10 +18,10 @@
 				<div class="col-12">
 					<div class="home-titulo ciencia wow fadeInUp">
 						<h2 class="chamada-meio">
-							Somos especialistas<br>em Ciência do Consumo
+							Nossa metodologia é All-in-One
 						</h2>
 						<p  class="chamada-baixo">
-							Desenvolvemos uma metodologia end-to-end exclusiva<br>no mercado, que proporciona aos nossos clientes:
+							Somos proprietários de um modelo end-to-end integrado e exclusivo, que une <strong>ciência do consumo, inteligência analítica, ativação estratégica e mensuração de resultados</strong>
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -32,10 +32,10 @@
 				<div class="col-12">
 					<div class="ciencia-getfish primeiro d-flex align-items-start justify-content-between">
 						<div class="hexa-animado wow fadeInUp">
-							<a class="hexa-padrao hexa-descritiva">
+							<a class="hexa-padrao hexa-descritiva" title="Diagnóstico • Captura de dados">
 								<div class="hexa-conteudo">
-									<span class="hexa-tit">Análise Descritiva</span>
-									<span class="hexa-desc">Captura de Dados, qualificação e análise de comportamento dos consumidores, do negócio e do mercado.</span>
+									<span class="hexa-tit">Diagnóstico</span>
+									<span class="hexa-desc">Captura de dados para criação e desenvolvimento de nuvens de clientes e identificação de oportunidades. <br>Identificação de potencial e oferta concorrente, análise do negócio, viabilidade de expansão e otimização de estratégias de mídia.</span>
 									<span class="bottom-liner"></span>
 								</div>
 							</a>
@@ -45,19 +45,19 @@
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-01-getfish.png">
 								</div>
-								<span class="hexa-texto esquerda"><span>Cliente</span></span>
+								<span class="hexa-texto esquerda"><span></span></span>
 							</a>
 							<a class="mini-hexas hexa-esquerda mini-hexa-loja wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-02-getfish.png">
 								</div>
-								<span class="hexa-texto esquerda"><span>Loja</span></span>
+								<span class="hexa-texto esquerda"><span></span></span>
 							</a>
 							<a class="mini-hexas hexa-esquerda mini-hexa-indice wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-03-getfish.png">
 								</div>
-								<span class="hexa-texto esquerda"><span>Índice de Sacrifício</span></span>
+								<span class="hexa-texto esquerda"><span></span></span>
 							</a>
 						</div>
 						<a class="logo-getfish wow fadeInUp">
@@ -73,38 +73,38 @@
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-04-getfish.png">
 								</div>
-								<span class="hexa-texto direita"><span>Potencial de Faturamento</span></span>
+								<span class="hexa-texto direita"><span></span></span>
 							</a>
 							<a class="mini-hexas hexa-direita mini-hexa-pareto wow rotateInUpRight">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-05-getfish.png">
 								</div>
-								<span class="hexa-texto direita"><span>Pareto</span></span>
+								<span class="hexa-texto direita"><span></span></span>
 							</a>
 							<a class="mini-hexas hexa-direita mini-hexa-missao wow rotateInUpRight">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-06-getfish.png">
 								</div>
-								<span class="hexa-texto direita"><span>Missão de Compra</span></span>
+								<span class="hexa-texto direita"><span></span></span>
 							</a>
 							<a class="mini-hexas hexa-direita mini-hexa-share wow rotateInUpRight">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-07-getfish.png">
 								</div>
-								<span class="hexa-texto direita"><span>Share Domiciliar</span></span>
+								<span class="hexa-texto direita"><span></span></span>
 							</a>
 							<a class="mini-hexas hexa-direita mini-hexa-quantidade wow rotateInUpRight">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-08-getfish.png">
 								</div>
-								<span class="hexa-texto direita" style="margin: -10px 0 0 0;"><span>Quantidade e Frequência de Cliente</span></span>
+								<span class="hexa-texto direita" style="margin: -10px 0 0 0;"><span></span></span>
 							</a>
 						</div>	
 						<div class="hexa-animado wow fadeInUp">
-							<a class="hexa-padrao hexa-preditiva">
+							<a class="hexa-padrao hexa-preditiva" title="Prognóstico Estratégico • Análise e Definição">
 								<div class="hexa-conteudo">
-									<span class="hexa-tit">Análise Preditiva</span>
-									<span class="hexa-desc">Geração de oportunidades comerciais, oportunidades de mercado e oportunidades impulsionamento de  consumo.</span>
+									<span class="hexa-tit">Prognóstico Estratégico</span>
+									<span class="hexa-desc">Análise e definição de oportunidades. <br>Inteligência artificial para clusterização de shoppers.</span>
 									<span class="bottom-liner"></span>
 								</div>
 							</a>
@@ -115,10 +115,10 @@
 				<div class="col-12">
 					<div class="ciencia-getfish terceiro d-flex align-items-start justify-content-start">
 						<div class="hexa-animado wow fadeInUp">
-							<a class="hexa-padrao hexa-prescritiva">
+							<a class="hexa-padrao hexa-prescritiva" title="Ativação de Clientes">
 								<div class="hexa-conteudo">
-									<span class="hexa-tit">Análise Prescritiva</span>
-									<span class="hexa-desc">Clusterização de base de clientes, ativações personalizadas, motores promocionais, gestão ativa de relacionamento com o cliente, direcionamento de conteúdo e recomendação 1:1.</span>
+									<span class="hexa-tit">Ativação de Clientes</span>
+									<span class="hexa-desc">Ações de incentivo ao consumo. <br>Conquista, retenção e reativação de shoppers <br>Plataforma de comunicação inteligente e automatizada.</span>
 									<span class="bottom-liner"></span>
 								</div>
 							</a>
@@ -128,19 +128,19 @@
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-09-getfish.png">
 								</div>
-								<span class="hexa-texto esquerda"><span>Clusters</span></span>
+								<span class="hexa-texto esquerda"><span></span></span>
 							</a>
 							<a class="mini-hexas hexa-esquerda mini-hexa-ativacao wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-10-getfish.png">
 								</div>
-								<span class="hexa-texto esquerda"><span>Ativação Segmentada</span></span>
+								<span class="hexa-texto esquerda"><span></span></span>
 							</a>
 							<a class="mini-hexas hexa-esquerda mini-hexa-promocao wow rotateInUpLeft">
 								<div class="hexa-conteudo">
 									<img src="<?= $wp_theme_url; ?>/img/index/02-11-getfish.png">
 								</div>
-								<span class="hexa-texto esquerda"><span>Promoções Individualizadas</span></span>
+								<span class="hexa-texto esquerda"><span></span></span>
 							</a>
 						</div>
 					</div>
@@ -163,10 +163,10 @@
 				<div class="col-12">
 					<div class="home-titulo zoombox wow fadeInUp ">
 						<h2 class="chamada-meio">
-							ZoOmBOX<br>Muito mais que um CRM!
+							Nossa tecnologia <br>é Performance-Driven
 						</h2>
 						<p  class="chamada-baixo">
-							Desenvolvemos uma metodologia end-to-end exclusiva<br>no mercado, que proporciona aos nossos clientes:
+							Somos proprietários de um ecossistema completo, baseado em Big Data e Spatial Analytics, que oferece todas as soluções para identificação, análise e ativação de shoppers em uma única plataforma
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -174,16 +174,16 @@
 			</div>
 
 			<div class="row">
-
 				<div class="col-md-8 col-sm-12">
 					<div class="orbita-zoombox wow pulse">
 						<div class="logo-zoombox">
-							<img src="<?= $wp_theme_url; ?>/img/index/03-logo-zoombox.png">
+							<img src="<?= $wp_theme_url; ?>/img/index/03-logo-zoombox.png" title="ZoOmBOX GS •  Muito mais que um CRM!">
 						</div>
 						<div id="thumbs" class="itens-zoombox solucoes-mouseover" >
 							<a class="thumb-solucao-image" id="thumb_1" data="<?= $wp_theme_url; ?>/img/index/03-01-inteligencia-detalhe.png"
-							data-title="Inteligência de Captura" data-text="texto marcação 1">
-								<div class="inteligencia intel-captura">	
+							data-title="Inteligência de Captura"
+							 data-text="Plataformas integradas ao ponto de venda, para captura de perfil e identificação de hábitos de consumo.">
+								<div class="inteligencia intel-captura" title="Inteligência de Captura">	
 									<div class="intel-icone">
 										<img src="<?= $wp_theme_url; ?>/img/index/03-01-zoombox.png">
 									</div>
@@ -194,8 +194,9 @@
 								</div>
 							</a>
 							<a class="thumb-solucao-image" id="thumb_2" data="<?= $wp_theme_url; ?>/img/index/03-02-inteligencia-detalhe.png"
-							data-title="Inteligência Analítica" data-text="texto marcação 2">
-								<div class="inteligencia intel-analitica">
+							data-title="Inteligência Analítica"
+							 data-text="Modelos matemáticos e estatísticos para análise, segmentação e ativação de shoppers.">
+								<div class="inteligencia intel-analitica" title="Inteligência Analítica">
 									<div class="intel-icone">
 										<img src="<?= $wp_theme_url; ?>/img/index/03-02-zoombox.png">
 									</div>
@@ -206,8 +207,9 @@
 								</div>
 							</a>
 							<a class="thumb-solucao-image" id="thumb_3" data="<?= $wp_theme_url; ?>/img/index/03-03-inteligencia-detalhe.png"
-							data-title="Inteligência Promocional" data-text="texto marcação 3">
-								<div class="inteligencia intel-promocional">	
+							data-title="Inteligência Promocional"
+							 data-text="Mais de 70 motores promocionais recorrentes e pontuais para impulsionamento de vendas e influência de comportamento de consumo.">
+								<div class="inteligencia intel-promocional" title="Inteligência Promocional">	
 									<div class="intel-icone">
 										<img src="<?= $wp_theme_url; ?>/img/index/03-03-zoombox.png">
 									</div>
@@ -218,8 +220,9 @@
 								</div>
 							</a>
 							<a class="thumb-solucao-image" id="thumb_4" data="<?= $wp_theme_url; ?>/img/index/03-04-inteligencia-detalhe.png"
-							data-title="Inteligência Acionável" data-text="texto marcação 4">
-								<div class="inteligencia intel-acionavel">
+							data-title="Inteligência Acionável"
+							 data-text="Gestão ativa de relacionamento com shopper em diferentes canais. Acompanhamento e mensuração inteligente.">
+								<div class="inteligencia intel-acionavel" title="Inteligência Acionável">
 									<div class="intel-icone">
 										<img src="<?= $wp_theme_url; ?>/img/index/03-04-zoombox.png">
 									</div>
@@ -243,7 +246,7 @@
 							Inteligência de Captura
 						</h3>
 						<p>
-							Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+							Plataformas integradas ao ponto de venda, para captura de perfil e identificação de hábitos de consumo.
 						</p>
 					</div>
 				</div>
@@ -263,10 +266,10 @@
 				<div class="col-12">
 					<div class="home-titulo discovery wow fadeInUp">
 						<h2 class="chamada-meio">
-							Discovery<br>Comunicando com o Universo!
+							Nossa inteligência artificial vai além
 						</h2>
-						<p  class="chamada-baixo">
-							Desenvolvemos uma metodologia end-to-end exclusiva<br>no mercado, que proporciona aos nossos clientes:
+						<p class="chamada-baixo">
+							Nossa plataforma de ativação permite agrupar os consumidores identificados conforme suas tendências de comportamento e executar ativações personalizadas
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -276,7 +279,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="logo-discovery wow fadeInUp">
-						<img src="<?= $wp_theme_url; ?>/img/index/04-logo-discovery.png">
+						<img src="<?= $wp_theme_url; ?>/img/index/04-logo-discovery.png" title="Discovery ZoOmBOX" alt="Discovery ZoOmBOX">
 					</div>
 				</div>
 			</div>
@@ -296,10 +299,10 @@
 						</div>
 						<div class="disc-texto wow fadeInRight">
 							<h4 class="disc-tit">
-								Cluster Dimensional
+								Cluster Multidimensional
 							</h4>
 							<p class="disc-desc">
-								Segmente e ative seus clientes.Entenda o seu comportamento e perfil
+								Cada shopper no seu lugar
 							</p>
 						</div>
 					</div>
@@ -318,10 +321,10 @@
 						</div>
 						<div class="disc-texto wow fadeInRight">
 							<h4 class="disc-tit">
-								Ativação com Qualidade de Entrega
+								Ativação e Recomendação
 							</h4>
 							<p class="disc-desc">
-								Nuvem de dados íntegra e atualizada
+								Automatização de conteúdo e recomendação personalizada de produtos
 							</p>
 						</div>
 					</div>
@@ -340,10 +343,10 @@
 						</div>
 						<div class="disc-texto wow fadeInRight">
 							<h4 class="disc-tit">
-								Monitoramento Inteligente de Resultados
+								Monitoramento On Time
 							</h4>
 							<p class="disc-desc">
-								Compreenda de forma clara a performance das suas campanhas
+								Resultados de ativações e retorno sobre o investimento em tempo real
 							</p>
 						</div>
 					</div>
@@ -356,7 +359,7 @@
 
 		<div class="container sucesso-container fundo-parallax">
 			<div class="fundo-globular-parallax">
-				<div class="fundo-globular-animate">
+				<div class="wow fadeInUp">
 					<div class="fundo-globular"></div>
 				</div>
 			</div>
@@ -365,10 +368,10 @@
 				<div class="col-12">
 					<div class="home-titulo sucesso wow fadeInUp">
 						<h2 class="chamada-meio">
-							Sucesso do Cliente<br>Fique tranquilo!
+							Nós direcionamos a sua jornada
 						</h2>
-						<p  class="chamada-baixo">
-							Desenvolvemos uma metodologia end-to-end exclusiva<br>no mercado, que proporciona aos nossos clientes:
+						<p class="chamada-baixo">
+							Nossa equipe de Sucesso do Negócio tem o compromisso de guiar os nossos shoppers no caminho para os melhores resultados
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -384,7 +387,7 @@
 								<a class="med-hexas hexa-sucesso-logo">
 									<div class="hexa-conteudo">
 										<span class="hexa-logo"><img src="<?= $wp_theme_url; ?>/img/index/05-logo-sucesso.png"></span>
-										<span class="hexa-tit"><span class="hexa-tit-lit">Time de</span>Sucesso do Cliente</span>
+										<span class="hexa-tit"><span class="hexa-tit-lit">Time de</span>Sucesso do Negócio</span>
 									</div>
 								</a>
 							</div>
@@ -406,10 +409,10 @@
 								</div>
 								<div class="sucesso-texto">
 									<h4 class="sucesso-tit">
-										Sucesso do Cliente 01
+										Onboarding
 									</h4>
 									<p class="sucesso-desc">
-										Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup
+										Gestão de implementação e ativação das soluções GS
 									</p>
 								</div>
 							</div>
@@ -420,16 +423,16 @@
 								<div class="sucesso-hexa-icon">
 									<a class="max-hexas">
 										<div class="hexa-conteudo">
-											<img src="<?= $wp_theme_url; ?>/img/index/05-01-sucesso.png">
+											<img src="<?= $wp_theme_url; ?>/img/index/05-02-sucesso.png">
 										</div>
 									</a>
 								</div>
 								<div class="sucesso-texto">
 									<h4 class="sucesso-tit">
-										Sucesso do Cliente 02
+										Universidade GS
 									</h4>
 									<p class="sucesso-desc">
-										Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup
+									Programa de treinamento e capacitação para formação de cientistas do consumo e empoderamento de equipe
 									</p>
 								</div>
 							</div>
@@ -446,16 +449,16 @@
 								<div class="sucesso-hexa-icon">
 									<a class="max-hexas">
 										<div class="hexa-conteudo">
-											<img src="<?= $wp_theme_url; ?>/img/index/05-01-sucesso.png">
+											<img src="<?= $wp_theme_url; ?>/img/index/05-03-sucesso.png">
 										</div>
 									</a>
 								</div>
 								<div class="sucesso-texto">
 									<h4 class="sucesso-tit">
-										Sucesso do Cliente 03
+										Planejamento e Gestão de Ações
 									</h4>
 									<p class="sucesso-desc">
-										Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup
+										Orientação estratégica para a criação de calendário de ativações e tomadas de decisão
 									</p>
 								</div>
 							</div>
@@ -466,16 +469,16 @@
 								<div class="sucesso-hexa-icon">
 									<a class="max-hexas">
 										<div class="hexa-conteudo">
-											<img src="<?= $wp_theme_url; ?>/img/index/05-01-sucesso.png">
+											<img src="<?= $wp_theme_url; ?>/img/index/05-04-sucesso.png">
 										</div>
 									</a>
 								</div>
 								<div class="sucesso-texto">
 									<h4 class="sucesso-tit">
-										Sucesso do Cliente 04
+										Monitoramento de KPI's
 									</h4>
 									<p class="sucesso-desc">
-										Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup Lorem Ipsum Markup
+										Definição dos indicadores mais adequados para o contexto do negócio
 									</p>
 								</div>
 							</div>
@@ -500,7 +503,7 @@
 							Clientes
 						</h2>
 						<p  class="chamada-baixo">
-							Atuamos em todas as regiões do Brasil, levando resultados concretos para o varejo, o atacado e a industria
+							Algumas das empresas que alcançaram resultados surpreendentes com a Metodologia GS
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -564,6 +567,9 @@
 				<div class="col-12">
 					<div class="row d-flex justify-content-center">
 						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-13.png">
+						</div>
+						<div class="col-md-2 col-6">
 							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-14.png">
 						</div>
 						<div class="col-md-2 col-6">
@@ -571,9 +577,6 @@
 						</div>
 						<div class="col-md-2 col-6">
 							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-16.png">
-						</div>
-						<div class="col-md-2 col-6">
-							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-17.png">
 						</div>
 					</div>
 				</div>
@@ -588,6 +591,9 @@
 				<div class="col-12">
 					<div class="row d-flex justify-content-center">
 						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-17.png">
+						</div>
+						<div class="col-md-2 col-6">
 							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-18.png">
 						</div>
 						<div class="col-md-2 col-6">
@@ -599,52 +605,57 @@
 						<div class="col-md-2 col-6">
 							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-21.png">
 						</div>
-						<div class="col-md-2 col-6">
-							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-22.png">
-						</div>
 					</div>
+				</div>
+				<div class="col-12">
+					<p>
+						E mais milhares de marcas em todo o Brasil
+					</p>
 				</div>
 			</div>
 
 			<div class="row listagem-clientes mt-5 wow fadeInUp">
 				<div class="col-md-12 home-titulo clientes">
-					<span class="chamada-top">
+					<!-- <span class="chamada-top">
 						Presente na
-					</span>
+					</span> -->
 					<h2 class="chamada-meio">
-						Imprensa e Mídia
+						GS na Mídia
 					</h2>
+					<p class="chamada-baixo">
+						Nosso know-how é fonte de informação para os maiores veículos de comunicação do Brasil
+					</p>
 					<span class="bottom-liner mt-2"></span>
 				</div>
 				<div class="col-12">
 					<div class="row d-flex justify-content-center">
 						<div class="col-md-2 col-6">
-							<a href="#">
+							<a href="/imprensa">
 								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-01.png">
 							</a>
 						</div>
 						<div class="col-md-2 col-6">
-							<a href="#">
+							<a href="/imprensa">
 								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-02.png">
 							</a>
 						</div>
 						<div class="col-md-2 col-6">
-							<a href="#">
+							<a href="/imprensa">
 								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-03.png">
 							</a>
 						</div>
 						<div class="col-md-2 col-6">
-							<a href="#">
+							<a href="/imprensa">
 								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-04.png">
 							</a>
 						</div>
 						<div class="col-md-2 col-6">
-							<a href="#">
+							<a href="/imprensa">
 								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-05.png">
 							</a>
 						</div>
 						<div class="col-md-2 col-6">
-							<a href="#">
+							<a href="/imprensa">
 								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-06.png">
 							</a>
 						</div>
@@ -673,15 +684,20 @@
 					</div>
 					<div class="row botoes">
 						<div class="col-12">
-							<a class="btn btn-linha botao-principal-linha home-button wow fadeInLeft">
-								Seja um Canal de Negócios
+							<a class="btn btn-linha botao-terceario-linha home-button wow fadeInLeft" href="/contato/#gs-contato">
+								Seja um Cliente GS
 							</a>
 						</div>
 						<div class="col-12">
+							<a class="btn btn-linha botao-principal-linha home-button wow fadeInLeft" href="/contato/#gs-parceiro">
+								Seja um Canal de Negócios GS
+							</a>
+						</div>
+						<!-- <div class="col-12">
 							<a class="btn btn-linha botao-secundario-linha home-button wow fadeInLeft">
 								Carreira
 							</a>
-						</div>
+						</div> -->
 					</div>
 				</div>
 				<div class="col-md-6">

@@ -1,8 +1,15 @@
 //
-// WOW
+// TYPEJS
 //
 
-new WOW().init();
+var typed2 = new Typed('#typed2', {
+    strings: ['No seu <strong>Cliente</strong>', 'No seu <strong>Negócio</strong>', 'Na sua <strong>Marca</strong>'],
+    typeSpeed: 80,
+    backSpeed: 800,
+    fadeOut: true,
+    loop: true,
+    fadeOutDelay: 800,
+});
 
 
 //
@@ -44,7 +51,7 @@ $('.counter-value').each(function () {
             countNum: countTo
         },
         {
-            duration: 2500,
+            duration: 3500,
             easing: 'swing',
             step: function () {
                 $this.text(Math.floor(this.countNum));

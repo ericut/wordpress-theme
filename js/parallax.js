@@ -37,3 +37,13 @@ new ScrollMagic.Scene({triggerElement: "#gs-timeline"})
 .setTween("#gs-timeline > .fundo-timeline", {y: "-40%", ease: Linear.easeNone})
 .addIndicators()
 .addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#gs-contato"})
+.setTween("#gs-contato > .fundo-contato", {y: "-40%", ease: Linear.easeNone})
+.addIndicators()
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#gs-parceiro"})
+.setTween("#gs-parceiro > .fundo-parceiro", {y: "-40%", ease: Linear.easeNone})
+.addIndicators()
+.addTo(controller);

@@ -7,33 +7,102 @@
 
 <main class="pagina-interna" style="background: #ffffff;">
 
-    <section id="gs-contato" class="blog-container">
+    <section id="gs-contato" class="contato-container fundo-parallax">
+
+        <div class="fundo-contato"></div>
         
         <div class="divisores"><div class="blog-top-divisor"></div></div>
 
         <div class="container">
 
             <div class="row">
-                <div class="col-md-12">
-                    <div class="interna-titulo blog">
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="interna-titulo">
+                        <span class="chamada-top">
+                            Seja um
+                        </span>
                         <h2 class="chamada-meio">
-                            teste
+                            Cliente GS
                         </h2>
-                        <p class="chamada-baixo">
-                            teste
-                        </p>
                         <span class="bottom-liner"></span>
+                        <p class="chamada-baixo">
+                            Quer saber como a GS pode gerar resultados para o seu negócio? 
+                        </p>
+                        <p>
+                            Preencha o formulário ao lado que retornaremos o seu contato o mais breve possível. 
+                        </p>
                     </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 text-white">
+                    <p>
+
+                        <?php
+                            the_post();
+                        ?>
+
+                        <?php 
+                            $formcont = get_post_meta($post->ID, 'formulario_contato');
+                            $printin = '';
+                            foreach ($formcont as $formbe) {
+                                $printin .= $formbe;
+                            }
+                            echo apply_filters('the_content',$printin);
+                        ?>
+
+                    </p>
                 </div>
             </div>
 
+        </div>
+
+        <div class="divisores"><div class="blog-bot-divisor"></div></div>
+
+    </section>
+
+    <section id="gs-parceiro" class="parceiro-container fundo-parallax">
+
+        <div class="fundo-parceiro"></div>
+        
+        <div class="divisores"><div class="blog-top-divisor"></div></div>
+
+        <div class="container">
+
             <div class="row">
-                <div class="col-12">
-                    
-                    
-                    contato
 
+                <div class="col-md-6 col-sm-12">
+                    <div class="interna-titulo">
+                        <span class="chamada-top">
+                            Seja um
+                        </span>
+                        <h2 class="chamada-meio">
+                            Canal de Negócios GS
+                        </h2>
+                        <span class="bottom-liner"></span>
+                        <p class="chamada-baixo">
+                            
+                        </p>
+                        <p>
+                            Aqui na GS, nós dividimos pra somar. Temos canais de negócio distribuídos em todos os cantos do país. O nosso Programa de Seleção e Desenvolvimento de Canais periodicamente recruta parceiros que se alinhem com nosso o propósito.<br><br>
+                            Se você deseja a maior empresa de ciência do representarconsumo do país, que proporciona, além de geração permanente de oportunidades, capacitação de mais alto nível e suporte especializado, preencha o formulário ao lado que retornaremos o seu contato o mais breve possível. 
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-sm-12 text-white">
+                    <p>
 
+                        <?php 
+                            $formparc = get_post_meta($post->ID, 'formulario_parceiro');
+                            $printto = '';
+                            foreach ($formparc as $formpart) {
+                                $printto .= $formpart;
+                            }
+                            echo apply_filters('the_content',$printto);
+                        ?>
+
+                    </p>
                 </div>
             </div>
 
