@@ -85,7 +85,7 @@
                         </p>
                         <p>
                             Aqui na GS, nós dividimos pra somar. Temos canais de negócio distribuídos em todos os cantos do país. O nosso Programa de Seleção e Desenvolvimento de Canais periodicamente recruta parceiros que se alinhem com nosso o propósito.<br><br>
-                            Se você deseja a maior empresa de ciência do representarconsumo do país, que proporciona, além de geração permanente de oportunidades, capacitação de mais alto nível e suporte especializado, preencha o formulário ao lado que retornaremos o seu contato o mais breve possível. 
+                            SSe você deseja representar a maior empresa de ciência do consumo do país, que proporciona, além de geração permanente de oportunidades, capacitação de mais alto nível e suporte especializado, preencha o formulário ao lado que retornaremos o seu contato o mais breve possível. 
                         </p>
                     </div>
                 </div>
