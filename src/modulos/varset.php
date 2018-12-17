@@ -1,8 +1,8 @@
 <?php
 
 	// links redes sociais
-	$link_facebook = "https://www.facebook.com/gsgroup.inteligenciaenegocios/";
-	$link_linkedin = "https://www.linkedin.com/company/gs-group/";
+	$link_facebook = "https://www.facebook.com/gs.cienciadoconsumo/";
+	$link_linkedin = "https://www.linkedin.com/company/gs-cienciadoconsumo/";
 
 	// são paulo
 	$endereco_sp = "Av. Das Nações Unidas, 8501 - 17º andar <br/>Pinheiros - São Paulo/SP • Brasil <br/>CEP 05425-070"; 

@@ -16,8 +16,8 @@
                 </div>
                 <div class="col-md-6 col-3">
                     <div class="social-direita">
-                        <a class="rede-social" href="https://www.facebook.com/gsgroup.inteligenciaenegocios" target="_blank" title="Facebook GS"><i class="fab fa-facebook-f"></i></a>
-                        <a class="rede-social" href="https://www.linkedin.com/company/gs-group/" target="_blank" title="LinkedIn GS"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="rede-social" href="<?php echo $link_facebook; ?>" target="_blank" title="Facebook GS"><i class="fab fa-facebook-f"></i></a>
+                        <a class="rede-social" href="<?php echo $link_linkedin; ?>" target="_blank" title="LinkedIn GS"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

@@ -10,8 +10,6 @@
 
 	get_header(); 
 	
-	include($wp_theme_logic . "/src/modulos/varset.php"); 
-	
 	include($wp_theme_logic . "/src/paginas/sobre.php");
 
 	include($wp_theme_logic . "/src/estruturas/rodape.php");

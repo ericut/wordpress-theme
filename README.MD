@@ -14,6 +14,7 @@ brasilgs
 ├── img
 ├── js
 ├── mysql
+├── raiz
 ├── scss
 │   ├── style.scss
 │   └── _varset.scss
@@ -52,6 +53,10 @@ brasilgs
 ## Banco de Dados
 
 SQL está na pasta **mysql**, deve ser importado no phpMyAdmin e configurar no arquivo **wp-config.php** da sua instalação WordPress
+
+## Arquivos Raíz
+
+Os arquivos da pasta **raiz**, devem ser adicionados na raíz do site, juntamente com o arquivo **wp-config.php**
 
 ## WordPress
 
