@@ -1,3 +1,5 @@
+@import "varset";
+
 // **********************
 // **********************
 // PADRÃO HTML BODY TAGS // NECESSÁRIO ALTURA 100%
@@ -494,7 +496,7 @@ a {
 // **********************
 
 .rodape-container {
-    background: url('../img/index/07-bg-rodape.jpg') center bottom no-repeat #1C2331;
+    background: url('../img/index/07-bg-rodape.jpg') center bottom #1C2331;
     color: $cor-branca;
     font-family: $fonte-secundaria;
     display: block;
@@ -532,6 +534,22 @@ a {
 
                 strong {
                     font-weight: $txt-peso-600;
+                }
+            }
+            .rodape-endereco-mapa {
+                display: block;
+                .ver-mapa {
+                    font-family: $fonte-primaria;
+                    font-size: $txt-tam-16px;
+                    font-weight: $txt-peso-500;
+                    transition: $transicao1x;
+                    opacity: 0;
+                }
+                &:hover {
+                    transform: scale(1.025);
+                    .ver-mapa {
+                        opacity: 1;
+                    }
                 }
             }
         }
@@ -576,9 +594,14 @@ a {
     .rede-social-icon {
         transition: $transicao1x;
         font-size: $txt-tam-20px;
-
+        i {
+            transition: $transicao1x;
+        }
         &:hover {
             color: $cor-pri-top;
+            i {
+                transform: scale(1.05);
+            }
         }
     }
 }
@@ -701,3 +724,51 @@ a {
 
 @media (max-width: 475px) {
 }
+
+
+
+// **********************
+// MODALS
+// **********************
+
+.modal-endereco {
+    z-index: 99999999999999999999999999999999999999 !important;
+    position: fixed;
+    background: rgba($cor-fundo-secundaria, 0.7);
+    .modal-dialog {
+        max-width: 1050px !important;
+        margin: 70px auto 0 !important;
+        background: rgba($cor-fundo-secundaria, 0.5);
+        .modal-content {
+            background: rgba($cor-fundo-secundaria, 0.5);
+
+            .modal-footer {
+                border: none;
+            }
+        }
+    }
+}
+
+.modal-imprensa-window {
+    z-index: 99999999999999999999999999999999999999 !important;
+    position: fixed;
+    background: rgba($cor-fundo-secundaria, 0.7);
+    .modal-dialog {
+        max-width: 1050px !important;
+        margin: 70px auto 0 !important;
+        background: rgba($cor-fundo-secundaria, 0.5);
+        .modal-content {
+            border: none;
+            background: none !important;
+            .modal-header {
+                border: none;
+                background: none !important;
+            }
+            .modal-footer {
+                border: none;
+                background: none !important;
+            }
+        }
+    }
+}
+

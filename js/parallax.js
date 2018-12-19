@@ -24,6 +24,11 @@ new ScrollMagic.Scene({triggerElement: ".sucesso-container"})
 .addIndicators()
 .addTo(controller);
 
+new ScrollMagic.Scene({triggerElement: "#gs-depoimentos"})
+.setTween("#gs-depoimentos > .fundo-depoimentos", {y: "-30%", ease: Linear.easeNone})
+.addIndicators()
+.addTo(controller);
+
 // TÍTULO
 
 new ScrollMagic.Scene({triggerElement: "#gs-titulo"})

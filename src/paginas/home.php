@@ -666,6 +666,38 @@
 		</div>
 	</section>
 
+	<!-- <section id="gs-depoimentos" class="depoimentos-container fundo-parallax">
+
+		<div class="fundo-depoimentos"></div>
+
+		<div class="depoimentos-divisor"></div>
+
+		<div class="container">
+			<div class="discovery-rastro wow fadeInUp"></div>
+			<div class="row">
+				<div class="col-12">
+					<div class="home-titulo depoimentos wow fadeInUp">
+						<h2 class="chamada-meio">
+							Depoimentos
+						</h2>
+						<p class="chamada-baixo">
+							Veja o que os nossos parceiros e clientes falam
+						</p>
+						<span class="bottom-liner"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+
+				</div>
+			</div>
+		</div>
+
+		<div class="depoimentos-divisor"></div>
+	</section> -->
+
 	<section id="gs-rodape" class="rodape-container-home">
 		<div class="container rodape-home">
 			<div class="row">
@@ -693,11 +725,6 @@
 								Seja um Canal de Negócios GS
 							</a>
 						</div>
-						<!-- <div class="col-12">
-							<a class="btn btn-linha botao-secundario-linha home-button wow fadeInLeft">
-								Carreira
-							</a>
-						</div> -->
 					</div>
 				</div>
 				<div class="col-md-6">

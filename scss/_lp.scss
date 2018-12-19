@@ -1,3 +1,5 @@
+@import "varset";
+
 // **********************
 // **********************
 // HOME - CAROUSEL
@@ -200,12 +202,18 @@
     100% { transform: rotate(360deg); }
 }
 
+@-webkit-keyframes rodarodarodaroda {
+    0%   { transform: rotate(0); }
+    50%  { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+
 .fundo-parallax {
     overflow: hidden;
 }
 
 .fundo-parallax > .fundo-principal {
-    background: url('../img/index/02-bg-ciencia.jpg');
+    background: url('../img/index/02-bg-ciencia.jpg') center center;
     height: 200%;
     position: absolute;
     top: 0;
@@ -224,7 +232,7 @@
 }
 
 .fundo-parallax > .fundo-discovery {
-    background: url('../img/index/04-bg-discovery.jpg');
+    background: url('../img/index/04-bg-discovery.jpg') center center;
     background-position-y: 100px;
     height: 200%;
     position: absolute;
@@ -249,14 +257,33 @@
         margin-left: -430px;
         width: 860px;
         transition: $transicao2x;
+        opacity: 0.7;
+
+        -webkit-animation-name: rodarodarodaroda;
+        -webkit-animation-duration: 80s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: normal;
+        -webkit-animation-timing-function: ease-in-out;
+        -webkit-animation-delay: 0;
+
         animation-name: rodarodaroda;
-        animation-duration: 60s;
+        animation-duration: 80s;
         animation-iteration-count: infinite;
         animation-direction: normal;
         animation-timing-function: linear;
         animation-delay: 0;
-        opacity: 0.7;
+
+        
     }
+}
+
+.fundo-parallax > .fundo-depoimentos {
+    background: url('../img/index/08-bg-depoimentos.jpg') center top;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 @media (max-width: 770px) {
@@ -286,7 +313,7 @@
 // **********************
 // **********************
 
-.ciencia-container, .zoombox-container, .discovery-container, .clientes-container {
+.ciencia-container, .zoombox-container, .discovery-container, .clientes-container, .depoimentos-container {
     position: relative;
     .home-titulo {
         display: block;
@@ -368,7 +395,7 @@
     }
 }
 
-.ciencia-container, .zoombox-container, .discovery-container, .clientes-container, .rodape-container-home {
+.ciencia-container, .zoombox-container, .discovery-container, .clientes-container, .depoimentos-container, .rodape-container-home {
     .topo-divisor {
         height: 140px;
     }
@@ -387,6 +414,9 @@
     .clientes-divisor {
         height: 70px;
     }
+    .depoimentos-divisor {
+        height: 140px;
+    }
     .rodapetopo-divisor {
         height: 70px;
     }
@@ -394,7 +424,7 @@
 
 
 @media (max-width: 770px) {
-    .ciencia-container, .zoombox-container, .discovery-container, .clientes-container {
+    .ciencia-container, .zoombox-container, .discovery-container, .clientes-container, .depoimentos-container {
         .home-titulo {
             width: 90%;
             .chamada-top {
@@ -421,7 +451,7 @@
             }
         }
     }
-    .ciencia-container, .zoombox-container, .discovery-container, .clientes-container, .rodape-container-home {
+    .ciencia-container, .zoombox-container, .discovery-container, .clientes-container, .depoimentos-container, .rodape-container-home {
         .topo-divisor {
             height: 60px;
         }
@@ -1016,7 +1046,7 @@
 // **********************
 
 .zoombox-container {
-    background: url('../img/index/03-bg-zoombox.png') center top no-repeat;
+    background: url('../img/index/03-bg-zoombox.png') center center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -1666,6 +1696,18 @@
 
 @media (max-width: 475px) {
 }
+
+
+// **********************
+// **********************
+// HOME - DEPOIMENTOS
+// **********************
+// **********************
+
+.depoimentos-container {
+
+}
+
 
 
 // **********************

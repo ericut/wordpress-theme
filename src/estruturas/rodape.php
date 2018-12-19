@@ -2,7 +2,10 @@
 	$wp_theme_url = get_template_directory_uri();
     $wp_theme_logic = get_template_directory();
     
-    include($wp_theme_logic . "/src/modulos/varset.php"); 
+    include($wp_theme_logic . "/src/modulos/varset.php");
+
+    include($wp_theme_logic . "/src/modulos/modals.php");
+
 ?>
 
 <footer class="rodape-container">
@@ -20,28 +23,32 @@
             </div>
             <div class="col-6 col-md-4">
                 <div class="enderecos-container">
-                    <p class="end-icone sp">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </p>
-                    <p class="end-txt">
-                        <?php echo $endereco_sp; ?>
-                    </p>
-                    <p class="end-tel">
-                        <?php echo $telefone_sp; ?>
-                    </p>
+                    <a class="rodape-endereco-mapa" data-toggle="modal" data-target="#enderecoSP">
+                        <p class="end-icone sp">
+                            <i class="fas fa-map-marker-alt"></i> <span class="ver-mapa">Ver Mapa</span>
+                        </p>
+                        <p class="end-txt">
+                            <?php echo $endereco_sp; ?>
+                        </p>
+                        <p class="end-tel">
+                            <?php echo $telefone_sp; ?>
+                        </p>
+                    </a>
                 </div>
             </div>
             <div class="col-6 col-md-4">
                 <div class="enderecos-container">
-                    <p class="end-icone rp">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </p>
-                    <p class="end-txt">
-                        <?php echo $endereco_rp; ?>
-                    </p>
-                    <p class="end-tel">
-                        <?php echo $telefone_rp; ?>
-                    </p>
+                    <a class="rodape-endereco-mapa" data-toggle="modal" data-target="#enderecoRP">
+                        <p class="end-icone rp">
+                            <i class="fas fa-map-marker-alt"></i> <span class="ver-mapa">Ver Mapa</span>
+                        </p>
+                        <p class="end-txt">
+                            <?php echo $endereco_rp; ?>
+                        </p>
+                        <p class="end-tel">
+                            <?php echo $telefone_rp; ?>
+                        </p>
+                    </a>
                 </div>
             </div>
         </div>
