@@ -27,19 +27,19 @@
 							while( have_posts() ) {
 								the_post();
 						?>
-						<div class="col-md-3">
-							<div class="modal fade modal-imprensa-window" id="zoom-<?php the_id(); ?>" tabindex="-1" role="dialog" aria-labelledby="zoomzoomzoom" aria-hidden="true">
-								<div class="modal-dialog modal-notify modal-info" role="document">
-									<div class="modal-content">
-										<div class="modal-header">
-											<a class="btn btn-linha botao-principal-linha ml-auto" data-dismiss="modal">Fechar</a>
-										</div>
-										<img class="card-img-top" src="<?php the_post_thumbnail_url(); ?>">
-										<div class="modal-footer">
-										</div>
+						<div class="modal fade modal-imprensa-window" id="zoom-<?php the_id(); ?>" tabindex="-1" role="dialog" aria-labelledby="zoomzoomzoom" aria-hidden="true">
+							<div class="modal-dialog modal-notify modal-info" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<a class="btn btn-linha botao-principal-linha ml-auto" data-dismiss="modal">Fechar</a>
+									</div>
+									<img class="card-img-top" src="<?php the_post_thumbnail_url(); ?>">
+									<div class="modal-footer">
 									</div>
 								</div>
 							</div>
+						</div>
+						<div class="col-md-3">
 							<div class="blog-gs">
 								<div class="card view overlay zoom mb-3">
 									<div class="blog-item view overlay">
@@ -61,11 +61,11 @@
 										<a href="<?php the_permalink(); ?>" class="link-post">
 											<h4 class="card-title"><?php the_title(); ?></h4>
 										</a>
-											<hr>
+										<!-- <hr>
 										<p class="card-text"><?php the_category(); ?></p>
 										<a href="<?php the_permalink(); ?>" class="link-post">
 											<h5 class="card-readmore">Leia Mais <i class="fa fa-angle-double-right"></i></h5>
-										</a>
+										</a> -->
 										
 									</div>
 								</div>
@@ -73,10 +73,25 @@
 						</div>
 
 						<?php
-								} 
 							}
 						?>
+					</div>
 
+					<div class="row mt-5">
+						<div class="col-md-12 d-flex justify-content-center align-content-stretch paginacao pag-imprensa">
+							<?php the_posts_pagination( array(
+								'mid_size' => 1,
+								'prev_text' => __( 'Anterior', 'textdomain' ),
+								'next_text' => __( 'Próxima', 'textdomain' ),
+							) ); ?>
+							<!-- <div class="btn nav-previous alignleft"><i class="fa fa-angle-double-left"></i> <?php previous_posts_link( 'Página Anterior' ); ?></div>
+							<div class="btn nav-next alignright"><?php next_posts_link( 'Próxima Página' ); ?> <i class="fa fa-angle-double-right"></i></div>	 -->
+						</div>
+					</div>
+
+					<?php
+						}
+					?>
 					</div>
 
 				</div>

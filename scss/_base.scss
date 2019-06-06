@@ -754,7 +754,8 @@ a {
     position: fixed;
     background: rgba($cor-fundo-secundaria, 0.7);
     .modal-dialog {
-        max-width: 1050px !important;
+        width: 90% !important;
+        max-width: 1400px !important;
         margin: 70px auto 0 !important;
         background: rgba($cor-fundo-secundaria, 0.5);
         .modal-content {

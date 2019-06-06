@@ -85,7 +85,7 @@
                         </p>
                         <p>
                             Aqui na GS, nós dividimos pra somar. Temos canais de negócio distribuídos em todos os cantos do país. O nosso Programa de Seleção e Desenvolvimento de Canais periodicamente recruta parceiros que se alinhem com nosso o propósito.<br><br>
-                            SSe você deseja representar a maior empresa de ciência do consumo do país, que proporciona, além de geração permanente de oportunidades, capacitação de mais alto nível e suporte especializado, preencha o formulário ao lado que retornaremos o seu contato o mais breve possível. 
+                            Se você deseja representar a maior empresa de ciência do consumo do país, que proporciona, além de geração permanente de oportunidades, capacitação de mais alto nível e suporte especializado, preencha o formulário ao lado que retornaremos o seu contato o mais breve possível. 
                         </p>
                     </div>
                 </div>
@@ -95,6 +95,56 @@
 
                         <?php 
                             $formparc = get_post_meta($post->ID, 'formulario_parceiro');
+                            $printto = '';
+                            foreach ($formparc as $formpart) {
+                                $printto .= $formpart;
+                            }
+                            echo apply_filters('the_content',$printto);
+                        ?>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="divisores"><div class="blog-bot-divisor"></div></div>
+
+    </section>
+
+    <section id="gs-carreira" class="carreira-container fundo-parallax">
+
+        <div class="fundo-carreira"></div>
+        
+        <div class="divisores"><div class="blog-top-divisor"></div></div>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="interna-titulo">
+                        <span class="chamada-top">
+                            Carreira GS
+                        </span>
+                        <h2 class="chamada-meio">
+                            Trabalhe Conosco
+                        </h2>
+                        <span class="bottom-liner"></span>
+                        <p class="chamada-baixo">
+                            Venha fazer parte do nosso time!
+                        </p>
+                        <p>
+                            Se você deseja uma oportunidade de trabalho na maior empresa de ciência do Consumo do país, confira abaixo as nossas vagas em aberto e envie seu currículo preenchendo o  formulário ao lado. 
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-sm-12 text-white">
+                    <p>
+
+                        <?php 
+                            $formparc = get_post_meta($post->ID, 'formulario_carreira');
                             $printto = '';
                             foreach ($formparc as $formpart) {
                                 $printto .= $formpart;

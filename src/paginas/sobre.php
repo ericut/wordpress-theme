@@ -41,7 +41,7 @@
 			<div class="divisores"><div class="timeline-mid-divisor"></div></div>
 
 			<div class="bg-seta-timeline wow fadeInUp">
-				De 1 milhão para <br>15 milhões de shoppers
+				De 1 milhão para <br>20 milhões de shoppers
 			</div>
 			<div class="bg-hexas-timeline wow fadeInUp">
 			</div>
@@ -182,7 +182,7 @@
 		<div class="container">
 
 			<div class="row">
-				<div class="col-md-6 col-sm-12">
+				<div class="col-md-6 col-sm-12 wow fadeInLeft">
 					<div class="interna-titulo triade">
 						<h2 class="chamada-meio">
 							Conectamos o varejo, a indústria e os shoppers de ponta a ponta
@@ -193,7 +193,7 @@
 						<span class="bottom-liner"></span>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-12">
+				<div class="col-md-6 col-sm-12 wow fadeInRight">
 					<div class="triade-imagem">
 						<img src="<?= $wp_theme_url; ?>/img/internas/02-triade-imagem.png">
 					</div>
@@ -209,10 +209,9 @@
 		<div class="divisores"><div class="diretoria-top-divisor"></div></div>
 
 		<div class="container">
-
 			<div class="row">
 				<div class="col-md-4 col-sm-12">
-					<div class="interna-titulo diretoria">
+					<div class="interna-titulo diretoria wow fadeInLeft">
 						<span class="bottom-liner"></span>
 						<h2 class="chamada-meio">
 							Diretoria
@@ -223,7 +222,7 @@
 				<div class="col-md-8 col-sm-12">
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
-							<div class="diretoria-item">
+							<div class="diretoria-item wow fadeInUp">
 								<img src="<?= $wp_theme_url; ?>/img/internas/03-01-diretoria-gibotti.png">
 								<p class="diretoria-nome">
 									Fernando Gibotti, PhD
@@ -239,7 +238,7 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-12">
-							<div class="diretoria-item">
+							<div class="diretoria-item wow fadeInUp">
 								<img src="<?= $wp_theme_url; ?>/img/internas/03-02-diretoria-simonato.png">
 								<p class="diretoria-nome">
 									Thiago Simonato
@@ -255,7 +254,7 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-12">
-							<div class="diretoria-item">
+							<div class="diretoria-item wow fadeInUp">
 								<img src="<?= $wp_theme_url; ?>/img/internas/03-03-diretoria-germano.png">
 								<p class="diretoria-nome">
 									Germano Hernandes Filho
@@ -277,6 +276,50 @@
 
 		<div class="divisores"><div class="diretoria-bot-divisor"></div></div>
 
+	</section>
+
+	<section id="gs-timegs" class="time-container fundo-parallax">
+
+		<div class="fundo-timegs blurred"></div>
+
+		<div class="divisores"><div class="time-top-divisor"></div></div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="interna-titulo timegs wow fadeInUp">
+						<h2 class="chamada-meio">
+							Equipe Qualificada
+						</h2>
+						<p  class="chamada-baixo">
+							Doutores, mestres, especialistas e técnicos.
+						</p>
+						<p>
+							• Estatística • Geografia • Marketing • Tecnologia • Psicologia • Econometria
+						</p>
+						<span class="bottom-liner"></span>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 mt-5 mb-5 wow fadeInUp">
+					<p class="somostodosgs">
+						<!-- <span class="somos">Somos</span> <span class="hashtag">#</span> -->
+						<span class="frases verticalFlip">
+
+							<span>Somos <strong class="hashtag">#</strong> Phygital</span>
+							<span>Somos <strong class="hashtag">#</strong> DataDriven</span>
+							<span>Somos <strong class="hashtag">#</strong> RetailScientists</span>
+							<span>Somos <strong class="hashtag">#</strong> ModelOwners</span>
+							<!-- <span>PerformanceHunters</span>
+							<span>OpenScourceLovers</span> -->
+							<span>Somos <strong class="hashtag">#</strong> EndToEnd</span>
+
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="divisores"><div class="time-bot-divisor"></div></div>
 	</section>
 
 </main>

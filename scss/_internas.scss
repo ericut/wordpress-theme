@@ -91,7 +91,7 @@
     }
 }
 
-.timeline-container, .triade-container, .diretoria-container, .contato-container, .parceiro-container, .blog-container {
+.timeline-container, .triade-container, .diretoria-container, .contato-container, .parceiro-container, .blog-container, .time-container, .carreira-container {
     .interna-titulo {
         display: block;
         font-family: $fonte-primaria;
@@ -173,6 +173,9 @@
                 font-family: $fonte-secundaria;
             }
         }
+        &.timegs {
+            text-align: center;
+        }
     }
     .interna-descricao {
         display: block;
@@ -218,7 +221,7 @@
             }
         }
     }
-    .timeline-container, .triade-container, .diretoria-container, .contato-container, .parceiro-container, .blog-container {
+    .timeline-container, .triade-container, .diretoria-container, .contato-container, .parceiro-container, .blog-container, .time-container, .carreira-container {
         .interna-titulo {
             .chamada-meio {
                 font-size: $txt-tam-34px;
@@ -288,6 +291,12 @@
     .blog-bot-divisor {
         height: 100px;
     }
+    .time-top-divisor {
+        height: 100px;
+    }
+    .time-bot-divisor {
+        height: 100px;
+    }
 }
 
 
@@ -334,6 +343,13 @@
     }
 }
 
+.time-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+}
+
 .fundo-parallax > .fundo-timeline {
     background: url('../img/internas/01-ags-timeline-bg.jpg');
     height: 200%;
@@ -341,6 +357,15 @@
     top: 50px;
     left: 0;
     width: 100%;
+}
+
+.fundo-parallax > .fundo-timegs {
+    background: url('../img/internas/01-ags-time-bg.jpg') center center;
+    height: 200%;
+    position: absolute;
+    top: -120px;
+    left: -10%;
+    width: 120%;
 }
 
 @mixin historia-hexas-colors($nome, $cor) {
@@ -565,8 +590,6 @@
 
 @media (max-width: 770px) {
     .triade-container {
-        .zoombox-particles {
-        }
         .triade-imagem {
             margin: 0;
             img {
@@ -630,6 +653,108 @@
 }
 @media (max-width: 475px) {
 }
+
+// **********************
+// **********************
+// SOMOS TODOS GS
+// **********************
+// **********************
+
+.somostodosgs {
+    text-align: center;
+    color: $cor-branca;
+    font-size: $txt-tam-48px;
+    display: block;
+    position: relative;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    .frases {
+        font-weight: $txt-peso-600;
+        .hashtag {
+            color: $cor-ter-low;
+        }
+    }
+}
+
+.verticalFlip{
+	text-indent: 8px;
+}
+
+.verticalFlip span {
+	animation: vertical 12.5s linear infinite 0s;
+	-ms-animation: vertical 12.5s linear infinite 0s;
+	-webkit-animation: vertical 12.5s linear infinite 0s;
+
+	opacity: 0;
+    overflow: hidden;
+    
+    width: 100%;
+    display: block;
+    top: 0;    
+    position: absolute;
+    margin: 0 0 0 -50%;
+}
+
+.verticalFlip span:nth-child(2) {
+	animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+
+}
+
+.verticalFlip span:nth-child(3) {
+	animation-delay: 5s;
+	-ms-animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+
+}
+
+.verticalFlip span:nth-child(4) {
+	animation-delay: 7.5s;
+	-ms-animation-delay: 7.5s;
+    -webkit-animation-delay: 7.5s;
+
+}
+
+.verticalFlip span:nth-child(5) {
+	animation-delay: 10s;
+	-ms-animation-delay: 10s;
+    -webkit-animation-delay: 10s;
+
+}
+
+
+@-moz-keyframes vertical {
+	0% { opacity: 0; }
+	5% { opacity: 0; -moz-transform: rotateX(180deg); }
+	10% { opacity: 1; -moz-transform: translateY(0px); }
+	25% { opacity: 1; -moz-transform: translateY(0px); }
+	30% { opacity: 0; -moz-transform: translateY(0px); }
+	80% { opacity: 0; }
+	100% { opacity: 0;}
+}
+
+@-webkit-keyframes vertical {
+	0% { opacity: 0; }
+	5% { opacity: 0; -webkit-transform: rotateX(180deg); }
+	10% { opacity: 1; -webkit-transform: translateY(0px); }
+	25% { opacity: 1; -webkit-transform: translateY(0px); }
+	30% { opacity: 0; -webkit-transform: translateY(0px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+@-ms-keyframes vertical {
+	0% { opacity: 0; }
+	5% { opacity: 0; -ms-transform: rotateX(180deg); }
+	10% { opacity: 1; -ms-transform: translateY(0px); }
+	25% { opacity: 1; -ms-transform: translateY(0px); }
+	30% { opacity: 0; -ms-transform: translateY(0px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
 
 // **********************
 // **********************
@@ -700,6 +825,40 @@
 
 // **********************
 // **********************
+// CARREIRA
+// **********************
+// **********************
+
+.carreira-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    overflow: hidden;
+}
+
+.fundo-parallax > .fundo-carreira {
+    background: url('../img/internas/06-carreira-bg.jpg');
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media (max-width: 770px) {
+    .fundo-parallax > .fundo-parceiro {
+        background-image: none;
+        background: $cor-sec-top;
+    }
+}
+
+@media (max-width: 475px) {
+}
+
+
+// **********************
+// **********************
 // BLOG
 // **********************
 // **********************
@@ -746,9 +905,7 @@
             font-weight: $txt-peso-600;
             text-align: center;
         }
-        p {
 
-        }
     }
     .link-post {
         display: block;
@@ -826,9 +983,7 @@
         font-weight: $txt-peso-600;
         text-align: center;
     }
-    p {
 
-    }
 }
 
 .blog-gs {
@@ -857,9 +1012,7 @@
                 font-weight: $txt-peso-600;
                 text-align: center;
             }
-            p {
-        
-            }
+
             h5 {
                 font-size: $txt-tam-12px;
                 font-weight: $txt-peso-400;
@@ -932,6 +1085,67 @@
     }
 }
 
+.paginacao {
+    .screen-reader-text {
+        display: none;
+    }
+    .page-numbers {
+        background: #f0f0f0;
+        border-radius: 6px;
+        color: $cor-pri-bot;
+        font-size: $txt-tam-14px;
+        padding: 10px;
+        font-weight: $txt-peso-500;
+        transition: $transicao1x;
+        &.current {
+            color: $cor-branca;
+            background: $cor-pri-bot;
+            font-weight: $txt-peso-600;
+            &:hover {
+                transform: scale(1.025);
+                background: $cor-pri-top;
+            }
+        }
+        &:hover {
+            transform: scale(1.1);
+            background: #dddddd;
+            border-bottom: 2px solid $cor-pri-bot;
+        }
+    }
+    &.pag-orangepaper {
+        .page-numbers {
+            color: $cor-sec-top;
+            &.current {
+                color: $cor-branca;
+                background: $cor-sec-top;
+                &:hover {
+                    background: $cor-sec-mid;
+                }
+            }
+            &:hover {
+                background: #dddddd;
+                border-bottom: 2px solid $cor-sec-top;
+            }
+        }
+    }
+    &.pag-imprensa {
+        .page-numbers {
+            color: $cor-ter-top;
+            &.current {
+                color: $cor-branca;
+                background: $cor-ter-top;
+                &:hover {
+                    background: $cor-ter-low;
+                }
+            }
+            &:hover {
+                background: #dddddd;
+                border-bottom: 2px solid $cor-ter-top;
+            }
+        }
+    }
+}
+
 .imagem-detalhe-thumbnail {
     width: 100%;
     position: relative;
@@ -945,12 +1159,12 @@
 }
 
 .gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-width: 25%;
+    -moz-column-width: 25%;
+    column-width: 25%;
 }
 .gallery .pics {
     -webkit-transition: all 350ms ease;
@@ -1021,6 +1235,10 @@
     width: 100%;
 }
 
+.form-enviar-carreira {
+    height: auto;
+}
+
 .btn-enviar {
     cursor: pointer;
     background: $cor-sec-lit;
@@ -1038,6 +1256,19 @@
     cursor: pointer;
     background: $cor-ter-top;
     border: $cor-ter-low;
+    transition: $transicao1x;
+    font-weight: $txt-peso-600;
+    font-size: $txt-tam-16px;
+    color: $cor-branca;
+    &:hover {
+        transform: scale(1.025);
+    }
+}
+
+.btn-enviar-carreira {
+    cursor: pointer;
+    background: $cor-sec-lit;
+    border: $cor-sec-mid;
     transition: $transicao1x;
     font-weight: $txt-peso-600;
     font-size: $txt-tam-16px;

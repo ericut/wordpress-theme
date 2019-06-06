@@ -12,6 +12,10 @@
         <div class="divisores"><div class="blog-top-divisor"></div></div>
 
             <div class="container">
+            
+                <p style="background-color: #aa0000; color: #ffffff; padding: 10px;">
+                    <strong>ATENÇÃO!</strong> Por conta da nossa migração de página, seu antigo login pode não funcionar. Se isso acontecer, refaça o seu cadastro e aguarde a liberação do acesso. 
+                </p>
 
                 <?php
                     if( have_posts() ) { 

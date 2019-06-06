@@ -52,3 +52,13 @@ new ScrollMagic.Scene({triggerElement: "#gs-parceiro"})
 .setTween("#gs-parceiro > .fundo-parceiro", {y: "-40%", ease: Linear.easeNone})
 .addIndicators()
 .addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#gs-carreira"})
+.setTween("#gs-carreira > .fundo-carreira", {y: "-40%", ease: Linear.easeNone})
+.addIndicators()
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#gs-timegs"})
+.setTween("#gs-timegs > .fundo-timegs", {y: "-40%", ease: Linear.easeNone})
+.addIndicators()
+.addTo(controller);

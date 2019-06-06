@@ -28,9 +28,6 @@
 
 		<link rel="stylesheet" href="<?= $wp_theme_url; ?>/style.css">
 
-		<!-- <link rel="stylesheet" href="<?= $wp_theme_url; ?>/css/fa-all.css"> -->
-		<!-- <link rel="stylesheet" href="<?= $wp_theme_url; ?>/css/fa-loading.css"> -->
-
 		<link rel="stylesheet" href="<?= $wp_theme_url; ?>/css/bootstrap.css">
 		<link rel="stylesheet" href="<?= $wp_theme_url; ?>/css/mdb.css">
 		<link rel="stylesheet" href="<?= $wp_theme_url; ?>/css/style.css">

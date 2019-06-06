@@ -371,7 +371,7 @@
 							Nós direcionamos a sua jornada
 						</h2>
 						<p class="chamada-baixo">
-							Nossa equipe de Sucesso do Negócio tem o compromisso de guiar os nossos shoppers no caminho para os melhores resultados
+							Nossa equipe de Sucesso do Negócio tem o compromisso de guiar nossos shoppers no caminho para os melhores resultados
 						</p>
 						<span class="bottom-liner"></span>
 					</div>

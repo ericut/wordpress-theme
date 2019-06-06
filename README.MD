@@ -23,12 +23,17 @@ brasilgs
 │   └── _lp.scss
 ├── src
 │   ├── estruturas
-│       ├── navbar.php
-│       ├── rodape.php
-│       ├── slider.php
-│       ├── titulos-blog.php
-│       └── titulos-interno.php
+│   │   ├── navbar.php
+│   │   ├── rodape.php
+│   │   ├── slider.php
+│   │   ├── titulos-blog.php
+│   │   └── titulos-interno.php
 │   ├── modulos
+│   │   ├── modals.php
+│   │   ├── numeros.php
+│   │   ├── titulos-imagem.php
+│   │   ├── titulos-texto.php
+│   │   └── varset.php
 │   └── paginas
 │       ├── areadecanais.php
 │       ├── contato.php
@@ -49,6 +54,12 @@ brasilgs
 └── ...
 
 ```
+
+Na pasta **src** tem os arquivos necessário que formam as páginas do site. Em *estruturas* ficam as bases padronizadas para formar o site: **navbar, rodapé, slider e titulos**. Em *modulos* são as informações que compõe as estruturas, na pasta tem o arquivo **varset.php** que tem as informações de contato e mapas. Em *paginas* ficam os arquivos que formam cada página do site: **home, sobre, contato, blog etc**; também é composta por arquivos padronizados do WordPress como: **arquivos.php, paginas.php, detalhes.php** que são respectivamente **archive, page, single** interpretado pelo WordPress.
+
+## Tema WordPress
+
+A pasta principal **brasilgs**, deve ser colocada na diretório de temas do WordPress **/wp-content/themes/** e o tema deve ser obrigatóriamente ativado no menu de Temas do WordPress
 
 ## Banco de Dados
 

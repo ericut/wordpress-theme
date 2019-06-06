@@ -14,7 +14,7 @@
 					</div>
 					<div class="numero-info">
 						<div class="numero-qtd">
-							+<span class="counter-value" data-count="15">1</span> milhões
+							+<span class="counter-value" data-count="20">1</span> milhões
 						</div>
 						<div class="numero-txt">
 							Shoppers identificados

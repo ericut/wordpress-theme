@@ -63,3 +63,35 @@
         );
     }
     add_action('init', 'orangepaper_posts_types');
+
+    //mudar o nome da label de posts
+    function change_post_label() {
+        global $menu;
+        global $submenu;
+        $menu[5][0] = 'Blog GS';
+        $submenu['editphp'][5][0] = 'Blog GS';
+        $submenu['editphp'][10][0] = 'Adicionar Post';
+        $submenu['editphp'][16][0] = 'Tags';
+        echo '';
+    }
+    function change_post_object() {
+        global $wp_post_types;
+        $labels = $wp_post_types['post']->labels;
+        $labels->name = 'Blog GS';
+        $labels->singular_name = 'Blog GS';
+        $labels->add_new = 'Adicionar Post';
+        $labels->add_new_item = 'Adicionar Post';
+        $labels->edit_item = 'Editar Postagem';
+        $labels->new_item = 'Postagem';
+        $labels->view_item = 'Ver Postagem';
+        $labels->search_items = 'Buscar Postagem';
+        $labels->not_found = 'Nenhuma Postagem encontrado';
+        $labels->not_found_in_trash = 'Nenhuma Postagem encontrado no Lixo';
+        $labels->all_items = 'Todas as Postagens';
+        $labels->menu_name = 'Postagens';
+        $labels->name_admin_bar = 'Postagens';
+    }
+     
+    add_action( 'admin_menu', 'change_post_label' );
+    add_action( 'init', 'change_post_object' );
+
