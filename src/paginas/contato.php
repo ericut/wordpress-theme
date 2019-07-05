@@ -11,7 +11,7 @@
 
         <div class="fundo-contato"></div>
         
-        <div class="divisores"><div class="blog-top-divisor"></div></div>
+        <div class="divisores my-4"><div class="blog-top-divisor"></div></div>
 
         <div class="container">
 
@@ -65,7 +65,7 @@
 
         <div class="fundo-parceiro"></div>
         
-        <div class="divisores"><div class="blog-top-divisor"></div></div>
+        <div class="divisores my-4"><div class="blog-top-divisor"></div></div>
 
         <div class="container">
 
@@ -116,7 +116,7 @@
 
         <div class="fundo-carreira"></div>
         
-        <div class="divisores"><div class="blog-top-divisor"></div></div>
+        <div class="divisores my-4"><div class="blog-top-divisor"></div></div>
 
         <div class="container">
 

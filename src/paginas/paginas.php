@@ -3,34 +3,28 @@
 	$wp_theme_logic = get_template_directory();
 ?>
 
-<?php include($wp_theme_logic . "/src/estruturas/titulos-interno.php"); ?>
-	
-<main class="pagina-default" style="background: #ffffff;">
+<main class="pagina-default" style="background: none;">
 
-	<section id="gs-page" class="page-container">
-		
-		<div class="container">
+    <section id="gs-page" class="page-container">
 
-			<?php
-                if( have_posts() ) { 
-            ?>
+        <?php
+            if( have_posts() ) { 
+        ?>
 
-                <?php
-                    while( have_posts() ) {
-                        the_post();
-                ?>
+        <?php
+            while( have_posts() ) {
+                the_post();
+        ?>
 
-					<?php the_content(); ?>
+        <?php the_content(); ?>
 
-                <?php
-                    }
-                ?>
+        <?php
+            }
+        ?>
 
-            <?php
-                }
-            ?>
-
-		</div>
+        <?php
+            }
+        ?>
 
 	</section>
 

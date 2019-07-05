@@ -8,6 +8,8 @@
 
 	get_header(); 
 
+	include($wp_theme_logic . "/src/estruturas/navbar.php");
+
 	include($wp_theme_logic . "/src/paginas/arquivos.php");
 
 	include($wp_theme_logic . "/src/estruturas/rodape.php");

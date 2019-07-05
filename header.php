@@ -17,6 +17,7 @@
 
 		<meta name="author" content="GS - Ciência do Consumo">
 		<meta name="title" content="GS - Ciência do Consumo | Ciência, Tecnologia e Inteligência com foco em performance">
+		<meta name="keywords" content="">
 		<!-- <meta name="description" content="Ciência do consumo, inteligência analítica, ativações estratégicas e foco em performance. Unimos varejo, indústria e shoppers de ponta a ponta."> -->
 
 		<title><?php bloginfo("name"); echo " | "; bloginfo("description"); ?></title>
@@ -32,7 +33,10 @@
 		<link rel="stylesheet" href="<?= $wp_theme_url; ?>/css/mdb.css">
 		<link rel="stylesheet" href="<?= $wp_theme_url; ?>/css/style.css">
 
+		<!-- HEADER DO WORDPRESS  -->
 		<?php  wp_head(); ?>
+
+		<!-- TAG DE PERFORMANCE -->
 		<script  type="text/javascript">
 			var t0 = window.performance.now();
 			doSomething();
@@ -40,10 +44,10 @@
 			console.log("Retornando performance GS " + (t1 - t0) + "ms.");
 		</script>
 
+		<!-- VERIFICAÇÃO DO GOOGLE -->
 		<meta name="google-site-verification" content="wkY_853V0HmLUvDC5Megq6ahu-QTCMpEyaEgq5rxtdg" />
 
 	</head>
 
 	<body <?php body_class(); ?>>
-	
-	<?php include($wp_theme_logic . "/src/estruturas/navbar.php"); ?>
+

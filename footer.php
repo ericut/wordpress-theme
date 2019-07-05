@@ -24,6 +24,7 @@
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/scrollmagic/plugins/animation.gsap.min.js"></script>
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/parallax.min.js"></script>
 
+		<!-- TAG DO MAUTIC  -->
 		<script>
 			(function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
 				w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
@@ -32,6 +33,21 @@
 			mt('send', 'pageview');
 		</script>
 		
+		<!-- TAG DO LINKEDIN -->
+		<script type="text/javascript">
+			_linkedin_partner_id = "1297953";
+			window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+			window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+			</script><script type="text/javascript">
+			(function(){var s = document.getElementsByTagName("script")[0];
+			var b = document.createElement("script");
+			b.type = "text/javascript";b.async = true;
+			b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+			s.parentNode.insertBefore(b, s);})();
+		</script>
+		<noscript>
+			<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1297953&fmt=gif" />
+		</noscript>
 	</body>
 
 </html>
