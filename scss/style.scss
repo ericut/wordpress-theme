@@ -4,7 +4,8 @@
 // **********************
 // **********************
 
-@import "varset";
-@import "base";
-@import "lp";
-@import "internas";
+@import "varset";   // VARIÁVEIS
+@import "base";     // BÁSICO DA HOME
+@import "lp";       // HOME
+@import "internas"; // PÁGINAS INTERNTAS
+@import "squads";   // SCSS FOCADO PARA AJUSTES PROVIDOS DA SQUADS
