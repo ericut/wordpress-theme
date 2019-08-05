@@ -332,7 +332,7 @@
         width: 900px;
         height: 400px;
         top: 367px;
-        right: 20px;
+        right: 140px;
         display: block;
         position: absolute;
         background: url("../img/internas/01-bg-seta-timeline.png") center top no-repeat;
@@ -574,12 +574,26 @@
         }
         .bg-seta-timeline {
             background: none;
+            display: none;
         }
         .bg-hexas-timeline {
             background: none;
+            display: none;
+            &.bg-direita {
+                display: none;
+            }
         }
     }
-    
+
+    .timeline-hexas {
+        display: flex;
+        justify-content: center;
+        .col {
+            margin: 0 auto;
+            height: 340px;
+        }
+    }
+
     .fundo-parallax > .fundo-timeline {
         background: $cor-pri-bot;
         background-image: none;
@@ -652,6 +666,10 @@
             font-weight: $txt-peso-600;
         }
         .diretoria-cargo {
+            font-size: $txt-tam-14px;
+        }
+        .diretoria-minicurriculo {
+            padding: 1rem 0;
             font-size: $txt-tam-14px;
         }
         .diretoria-linkedin {

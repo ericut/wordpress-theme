@@ -2191,7 +2191,7 @@ a {
     width: 900px;
     height: 400px;
     top: 367px;
-    right: 20px;
+    right: 140px;
     display: block;
     position: absolute;
     background: url("../img/internas/01-bg-seta-timeline.png") center top no-repeat;
@@ -2469,9 +2469,23 @@ a {
     width: 100%;
     position: relative; }
   .timeline-container .bg-seta-timeline {
-    background: none; }
+    background: none;
+    display: none; }
   .timeline-container .bg-hexas-timeline {
-    background: none; }
+    background: none;
+    display: none; }
+    .timeline-container .bg-hexas-timeline.bg-direita {
+      display: none; }
+  .timeline-hexas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .timeline-hexas .col {
+      margin: 0 auto;
+      height: 340px; }
   .fundo-parallax > .fundo-timeline {
     background: #657204;
     background-image: none; } }
@@ -2517,6 +2531,9 @@ a {
       font-size: 1.125rem;
       font-weight: 600; }
     .diretoria-container .diretoria-item .diretoria-cargo {
+      font-size: 0.875rem; }
+    .diretoria-container .diretoria-item .diretoria-minicurriculo {
+      padding: 1rem 0;
       font-size: 0.875rem; }
     .diretoria-container .diretoria-item .diretoria-linkedin {
       font-size: 1.25rem; }

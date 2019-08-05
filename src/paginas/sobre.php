@@ -187,7 +187,6 @@
 						</a>
 						<div class="historia-hexas-shadow baixo"></div>
 					</div>
->
 				</div>
 			</div>
 
@@ -233,7 +232,7 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-12">
+				<div class="col-md-12 col-sm-12 pb-2">
 					<div class="interna-titulo diretoria wow fadeInLeft">
 						<span class="bottom-liner"></span>
 						<h2 class="chamada-meio">
@@ -242,7 +241,7 @@
 						<span class="bottom-liner"></span>
 					</div>
 				</div>
-				<div class="col-md-8 col-sm-12">
+				<div class="col-md-12 col-sm-12">
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
 							<div class="diretoria-item wow fadeInUp">
@@ -252,6 +251,13 @@
 								</p>
 								<p class="diretoria-cargo">
 									CEO & Founder
+								</p>
+								<p class="diretoria-minicurriculo">
+									Doutor em Computação - INPE<br>
+									Ontology Engineering - University of Münster (Germany)<br>
+									Pós-Graduado em Geographic Information Technologies - Ineversitat Jaume O - Espanha<br>
+									Cursos de atualização nas universidades PenState University (USA), Maine UUniversity (USA) e University of News Brasnwick (Canada)<br>
+									Coordenador/Executor/Consultor de projetos de TI e Inteligência em empresas como Bradesco, JBS/Friboi, Cadbury Adams, Reckitt Benckiser e Petz<br>
 								</p>
 								<p class="diretoria-linkedin">
 									<a href="https://www.linkedin.com/in/fernando-gibotti-b8128b35/" target="_blank">
@@ -269,6 +275,13 @@
 								<p class="diretoria-cargo">
 									VP Negócios & Co-Founder
 								</p>
+								<p class="diretoria-minicurriculo">
+									Pós-Graduado em GeoAnalytics - UFSCar<br>
+									Bacharel em PD-FEF<br>
+									16 anos de experiência em gestão de equipes de desenvolvimento e concepção de produtos de inovação e tecnologia.<br>
+									Planejamento e Execução de Projetos de TI<br>
+									Inteligência em empresas como JBS/Friboi, Reckitt Benckiser e Petz<br>
+								</p>
 								<p class="diretoria-linkedin">
 									<a href="https://www.linkedin.com/in/simonato/" target="_blank">
 										<i class="fab fa-linkedin-in"></i>
@@ -284,6 +297,14 @@
 								</p>
 								<p class="diretoria-cargo">
 									CFO
+								</p>
+								<p class="diretoria-minicurriculo">
+									Pós Graduado em Engenharia-USP<br>
+									Bacharel em Engenharia Civil<br>
+									Presidente Montage SIS Engenharia<br>
+									Ex-Diretor Sinduscon/SP<br>
+									Ex-Presidente Comitê da Bacia do R. Grande<br>
+									Planejamento e Execução de Projetos de TI e Inteligência em empresas como JBS/Friboi, Reckitt Benckiser e Petz<br>
 								</p>
 								<p class="diretoria-linkedin">
 									<a href="https://www.linkedin.com/in/germano-hernandes-filho-06453339/" target="_blank">
