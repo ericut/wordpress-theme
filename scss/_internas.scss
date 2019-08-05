@@ -264,6 +264,9 @@
 .divisores {
     display: block;
     position: relative;
+    .timeline-mid-timeline {
+        height: 50px;
+    }
     .timeline-divisor {
         height: 120px;
     }
@@ -299,6 +302,13 @@
     }
 }
 
+@media (max-width: 770px) {
+    .divisores {
+        .timeline-mid-timeline {
+            height: 0px;
+        }
+    }
+}
 
 // **********************
 // **********************
@@ -319,27 +329,37 @@
         position: relative;
     }
     .bg-seta-timeline {
-        width: 667px;
-        height: 247px;
-        top: 170px;
-        left: 460px;
+        width: 900px;
+        height: 400px;
+        top: 367px;
+        right: 20px;
         display: block;
         position: absolute;
-        background: url('../img/internas/01-bg-seta-timeline.png') center top no-repeat;
+        background: url("../img/internas/01-bg-seta-timeline.png") center top no-repeat;
         
-        text-align: center;
-        font-size: $txt-tam-18px;
-        font-weight: $txt-peso-600;
-        color: $cor-branca;
+        text-align: right;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #ffffff;
+        background-size: contain;
+        p {
+            margin: 0 65px 0 0;
+        }
     }
     .bg-hexas-timeline {
-        width: 900px;
-        height: 177px;
+        width: 450px;
+        height: 160px;
         top: 320px;
-        left: 120px;
+        left: 160px;
         display: block;
         position: absolute;
-        background: url('../img/internas/01-bg-hexas-timeline.png') center top no-repeat;
+        background: url("../img/internas/01-bg-hexas-timeline.png") left top no-repeat;
+        &.bg-direita {
+            background: url("../img/internas/01-bg-hexas-timeline-02.png") left top no-repeat;
+            top: 630px;
+            right: 115px;
+            left: auto;
+        }
     }
 }
 
@@ -351,7 +371,7 @@
 }
 
 .fundo-parallax > .fundo-timeline {
-    background: url('../img/internas/01-ags-timeline-bg.jpg');
+    background: url('../img/internas/01-ags-timeline-bg-big.jpg');
     height: 200%;
     position: absolute;
     top: 50px;
@@ -394,6 +414,7 @@
 @include historia-hexas-colors(2014, $cor-timeline-e);
 @include historia-hexas-colors(2016, $cor-timeline-f);
 @include historia-hexas-colors(2017, $cor-timeline-g);
+@include historia-hexas-colors(2019, $cor-timeline-h);
 
 .historia-hexas {
     position: relative;
@@ -506,28 +527,35 @@
 }
 
 .timeline-hexas {
+    display: flex;
+    &.timeline-esquerda {
+        justify-content: start;
+    }
+    &.timeline-direita {
+        justify-content: end;
+    }
     .col {
-        width: 150px !important;
-        display: block;
-        position: relative;
-        flex-basis: initial;
+        flex-grow: 0;
         .timeline-imagem {
             position: absolute;
             top: -100px;
             text-align: center;
             left: 50%;
-            margin: 0 0 0 -18px;
+            margin: 0 0 0 -25px;
             &.baixo {
                 top: -70px;
             }
         }
         .timeline-info {
-            margin: 60px auto 0;
+            margin: 50px auto 0;
             text-align: center;
             width: 150px;
             color: $cor-branca;
             &.baixo {
-                margin: 100px auto 0;
+                margin: 80px auto 0;
+                p {
+                    margin: 0;
+                }
             }
         }
     }

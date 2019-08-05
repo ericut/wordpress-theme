@@ -19,10 +19,10 @@
 				<div class="col-md-6 col-sm-12">
 					<div class="interna-titulo timeline">
 						<h2 class="chamada-meio">
-							Nosso negócio é decifrar e <br>influenciar o comportamento <br>do seu cliente
+							Somos especialistas <br>no aumento do faturamento <br>do varejo e indústria
 						</h2>
 						<p class="chamada-baixo">
-							Estamos desde 2007 construindo parcerias projetos de sucesso
+							Estamos desde 2007 construindo parcerias e projetos de sucesso 
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -41,12 +41,15 @@
 			<div class="divisores"><div class="timeline-mid-divisor"></div></div>
 
 			<div class="bg-seta-timeline wow fadeInUp">
-				De 1 milhão para <br>20 milhões de shoppers
+				<p>
+					De 1 milhão para <br>20 milhões de shoppers
+				</p>
 			</div>
+
 			<div class="bg-hexas-timeline wow fadeInUp">
 			</div>
 
-			<div class="row timeline-hexas wow fadeInUp">
+			<div class="row timeline-hexas wow fadeInUp timeline-esquerda">
 				<div class="col">
 					<div class="timeline-imagem">
 						<img src="<?= $wp_theme_url; ?>/img/internas/01-timeline-01.png">
@@ -115,6 +118,11 @@
 						<span><img src="<?= $wp_theme_url; ?>/img/internas/01-01-logo-orangepaper.png"></span>
 					</div>
 				</div>
+			</div>
+			<div class="divisores"><div class="timeline-mid-timeline"></div></div>
+			<div class="bg-hexas-timeline bg-direita wow fadeInUp">
+			</div>
+			<div class="row timeline-hexas wow fadeInUp timeline-direita">
 				<div class="col">
 					<div class="timeline-imagem">
 						<img src="<?= $wp_theme_url; ?>/img/internas/01-timeline-05.png">
@@ -166,6 +174,21 @@
 						<span><img src="<?= $wp_theme_url; ?>/img/internas/01-04-logo-discovery.png"></span>
 					</div>
 				</div>
+				<div class="col">
+					<div class="timeline-imagem baixo">
+						<img src="<?= $wp_theme_url; ?>/img/internas/01-timeline-08.png">
+					</div>
+					<div class="historia-hexa-container historia-2019">
+						<a class="historia-hexas baixo">
+							<div class="hexa-conteudo">
+								<span class="hexa-tit">2019</span>
+								<span class="hexa-desc">HUB: Shopper, Varejo e Indústria Relaçãoes Justas e Sustentávei</span>
+							</div>
+						</a>
+						<div class="historia-hexas-shadow baixo"></div>
+					</div>
+>
+				</div>
 			</div>
 
 		</div>
@@ -188,7 +211,7 @@
 							Conectamos o varejo, a indústria e os shoppers de ponta a ponta
 						</h2>
 						<p class="chamada-baixo">
-							Desenvolvemos metodologias e soluções que atuam de maneira integrada em todas estas verticais, alcançando resultados incomparáveis no mercado.
+							Desenvolvemos soluções que atuam de maneira integrada, alcançando resultados incomparáveis no mercado.
 						</p>
 						<span class="bottom-liner"></span>
 					</div>

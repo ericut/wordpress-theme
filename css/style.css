@@ -560,9 +560,11 @@ a {
   .chamada-container .chamada-meio {
     font-size: 4.375rem;
     font-weight: 600;
-    line-height: 60px;
+    line-height: 50px;
     text-transform: uppercase;
     letter-spacing: -1px; }
+    .chamada-container .chamada-meio .change-text {
+      font-size: 3rem; }
   .chamada-container .chamada-baixo {
     font-size: 1.0625rem;
     font-weight: 500; }
@@ -1657,7 +1659,7 @@ a {
   margin: 120px 0 0 0;
   width: 360px; }
   .discovery-infos.disc-cluster .disc-texto .disc-tit {
-    margin: 10px 0 0 0; }
+    margin: 0 0 0 0; }
   .discovery-infos.disc-cluster .disc-texto .disc-desc {
     margin: 10px 0 0 0; }
 
@@ -1884,7 +1886,7 @@ a {
   background-size: cover;
   position: relative;
   z-index: 1;
-  height: 1150px;
+  height: 1250px;
   width: 100%;
   margin: -50px 0 0 0; }
   .clientes-container .listagem-clientes {
@@ -2146,6 +2148,8 @@ a {
 .divisores {
   display: block;
   position: relative; }
+  .divisores .timeline-mid-timeline {
+    height: 50px; }
   .divisores .timeline-divisor {
     height: 120px; }
   .divisores .timeline-mid-divisor {
@@ -2169,6 +2173,10 @@ a {
   .divisores .time-bot-divisor {
     height: 100px; }
 
+@media (max-width: 770px) {
+  .divisores .timeline-mid-timeline {
+    height: 0px; } }
+
 .timeline-container {
   position: relative;
   width: 100%;
@@ -2180,25 +2188,33 @@ a {
     width: 100%;
     position: relative; }
   .timeline-container .bg-seta-timeline {
-    width: 667px;
-    height: 247px;
-    top: 170px;
-    left: 460px;
+    width: 900px;
+    height: 400px;
+    top: 367px;
+    right: 20px;
     display: block;
     position: absolute;
     background: url("../img/internas/01-bg-seta-timeline.png") center top no-repeat;
-    text-align: center;
+    text-align: right;
     font-size: 1.125rem;
     font-weight: 600;
-    color: #ffffff; }
+    color: #ffffff;
+    background-size: contain; }
+    .timeline-container .bg-seta-timeline p {
+      margin: 0 65px 0 0; }
   .timeline-container .bg-hexas-timeline {
-    width: 900px;
-    height: 177px;
+    width: 450px;
+    height: 160px;
     top: 320px;
-    left: 120px;
+    left: 160px;
     display: block;
     position: absolute;
-    background: url("../img/internas/01-bg-hexas-timeline.png") center top no-repeat; }
+    background: url("../img/internas/01-bg-hexas-timeline.png") left top no-repeat; }
+    .timeline-container .bg-hexas-timeline.bg-direita {
+      background: url("../img/internas/01-bg-hexas-timeline-02.png") left top no-repeat;
+      top: 630px;
+      right: 115px;
+      left: auto; }
 
 .time-container {
   position: relative;
@@ -2207,7 +2223,7 @@ a {
   margin: 0 0 0 0; }
 
 .fundo-parallax > .fundo-timeline {
-  background: url("../img/internas/01-ags-timeline-bg.jpg");
+  background: url("../img/internas/01-ags-timeline-bg-big.jpg");
   height: 200%;
   position: absolute;
   top: 50px;
@@ -2291,6 +2307,16 @@ a {
 
 .historia-2017 .historia-hexas-shadow {
   background: #9f3d01; }
+
+.historia-2019 .historia-hexas {
+  background: #ffd5c4; }
+  .historia-2019 .historia-hexas .hexa-conteudo .hexa-tit {
+    color: #9f2d01; }
+  .historia-2019 .historia-hexas .hexa-conteudo .hexa-desc {
+    color: #b93501; }
+
+.historia-2019 .historia-hexas-shadow {
+  background: #9f2d01; }
 
 .historia-hexas {
   position: relative;
@@ -2402,27 +2428,39 @@ a {
   .historia-hexas-shadow.baixo {
     top: 40px; }
 
-.timeline-hexas .col {
-  width: 150px !important;
-  display: block;
-  position: relative;
-  -ms-flex-preferred-size: initial;
-  flex-basis: initial; }
-  .timeline-hexas .col .timeline-imagem {
-    position: absolute;
-    top: -100px;
-    text-align: center;
-    left: 50%;
-    margin: 0 0 0 -18px; }
-    .timeline-hexas .col .timeline-imagem.baixo {
-      top: -70px; }
-  .timeline-hexas .col .timeline-info {
-    margin: 60px auto 0;
-    text-align: center;
-    width: 150px;
-    color: #ffffff; }
-    .timeline-hexas .col .timeline-info.baixo {
-      margin: 100px auto 0; }
+.timeline-hexas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .timeline-hexas.timeline-esquerda {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start; }
+  .timeline-hexas.timeline-direita {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end; }
+  .timeline-hexas .col {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0; }
+    .timeline-hexas .col .timeline-imagem {
+      position: absolute;
+      top: -100px;
+      text-align: center;
+      left: 50%;
+      margin: 0 0 0 -25px; }
+      .timeline-hexas .col .timeline-imagem.baixo {
+        top: -70px; }
+    .timeline-hexas .col .timeline-info {
+      margin: 50px auto 0;
+      text-align: center;
+      width: 150px;
+      color: #ffffff; }
+      .timeline-hexas .col .timeline-info.baixo {
+        margin: 80px auto 0; }
+        .timeline-hexas .col .timeline-info.baixo p {
+          margin: 0; }
 
 @media (max-width: 770px) {
   .timeline-container .container {

@@ -30,8 +30,8 @@
 							Somos Especialistas
 						</p>
 						<h2 class="chamada-meio">
-							<span class="change-text"></span>
-							<span id="typed2" style="white-space:pre;"></span>
+							<span class="change-text">Em aumentar o seu faturamento</span>
+							<!-- <span id="typed2" style="white-space:pre;"></span> -->
 						</h2>
 						<p class="chamada-baixo">
 							Conectamos o varejo, a indústria e o shopper de forma incomparável

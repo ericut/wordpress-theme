@@ -18,10 +18,10 @@
 				<div class="col-12">
 					<div class="home-titulo ciencia wow fadeInUp">
 						<h2 class="chamada-meio">
-							Nossa metodologia é All-in-One
+							Nossa metodologia é All-In-One
 						</h2>
 						<p  class="chamada-baixo">
-							Somos proprietários de um modelo end-to-end integrado e exclusivo, que une <strong>ciência do consumo, inteligência analítica, ativação estratégica e mensuração de resultados</strong>
+							Somos desenvolvedores e proprietários de um ecossistema integrado e totalmente exclusivo no mercado, baseado em Ciência do Consumo, para identificação de oportunidades e ativações estratégicas com foco no aumento de faturamento.
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -32,10 +32,10 @@
 				<div class="col-12">
 					<div class="ciencia-getfish primeiro d-flex align-items-start justify-content-between">
 						<div class="hexa-animado wow fadeInUp">
-							<a class="hexa-padrao hexa-descritiva" title="Diagnóstico • Captura de dados">
+							<a class="hexa-padrao hexa-descritiva" title="Diagnóstico">
 								<div class="hexa-conteudo">
 									<span class="hexa-tit">Diagnóstico</span>
-									<span class="hexa-desc">Captura de dados para criação e desenvolvimento de nuvens de clientes e identificação de oportunidades. <br>Identificação de potencial e oferta concorrente, análise do negócio, viabilidade de expansão e otimização de estratégias de mídia.</span>
+									<span class="hexa-desc">Captura de dados para criação e desenvolvimento de nuvens de clientes e rastreamento de oportunidades de aumento  de faturamento. Identificação do potencial do negócio e oferta concorrente, adequação de PDV, viabilidade de expansão e otimização de estratégias de marketing.</span>
 									<span class="bottom-liner"></span>
 								</div>
 							</a>
@@ -101,10 +101,10 @@
 							</a>
 						</div>	
 						<div class="hexa-animado wow fadeInUp">
-							<a class="hexa-padrao hexa-preditiva" title="Prognóstico Estratégico • Análise e Definição">
+							<a class="hexa-padrao hexa-preditiva" title="Prognóstico">
 								<div class="hexa-conteudo">
-									<span class="hexa-tit">Prognóstico Estratégico</span>
-									<span class="hexa-desc">Análise e definição de oportunidades. <br>Inteligência artificial para clusterização de shoppers.</span>
+									<span class="hexa-tit">Prognóstico</span>
+									<span class="hexa-desc">Definição minuciosa das oportunidades de aumento de faturamento. Inteligência artificial aplicada para identificação das tendências de consumo e preparação da nuvem de clientes para execução das ativações estratégias.</span>
 									<span class="bottom-liner"></span>
 								</div>
 							</a>
@@ -115,10 +115,10 @@
 				<div class="col-12">
 					<div class="ciencia-getfish terceiro d-flex align-items-start justify-content-start">
 						<div class="hexa-animado wow fadeInUp">
-							<a class="hexa-padrao hexa-prescritiva" title="Ativação de Clientes">
+							<a class="hexa-padrao hexa-prescritiva" title="Ativação Estratégica">
 								<div class="hexa-conteudo">
-									<span class="hexa-tit">Ativação de Clientes</span>
-									<span class="hexa-desc">Ações de incentivo ao consumo. <br>Conquista, retenção e reativação de shoppers <br>Plataforma de comunicação inteligente e automatizada.</span>
+									<span class="hexa-tit">Ativação Estratégica</span>
+									<span class="hexa-desc">Ações de incentivo ao consumo, conforme as oportunidades identificadas. Conquista, retenção e reativação de shoppers. Plataforma de comunicação e ativação inteligentes e personalizadas.</span>
 									<span class="bottom-liner"></span>
 								</div>
 							</a>
@@ -166,7 +166,7 @@
 							Nossa tecnologia <br>é Performance-Driven
 						</h2>
 						<p  class="chamada-baixo">
-							Somos proprietários de um ecossistema completo, baseado em Big Data e Spatial Analytics, que oferece todas as soluções para identificação, análise e ativação de shoppers em uma única plataforma
+							Desenvolvemos uma plataforma tecnológica completa, baseada em Big Data e Spatial Analytics, que oferece todas as soluções para identificação, análise, comunicação e ativação de shoppers em uma única ferramenta.
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -182,7 +182,7 @@
 						<div id="thumbs" class="itens-zoombox solucoes-mouseover" >
 							<a class="thumb-solucao-image" id="thumb_1" data="<?= $wp_theme_url; ?>/img/index/03-01-inteligencia-detalhe.png"
 							data-title="Inteligência de Captura"
-							 data-text="Plataformas integradas ao ponto de venda, para captura de perfil e identificação de hábitos de consumo.">
+							data-text="Plataforma integrada ao ponto de venda, para captura de perfil gestão de cadastros e identificação de hábitos de consumo.">
 								<div class="inteligencia intel-captura" title="Inteligência de Captura">	
 									<div class="intel-icone">
 										<img src="<?= $wp_theme_url; ?>/img/index/03-01-zoombox.png">
@@ -195,7 +195,7 @@
 							</a>
 							<a class="thumb-solucao-image" id="thumb_2" data="<?= $wp_theme_url; ?>/img/index/03-02-inteligencia-detalhe.png"
 							data-title="Inteligência Analítica"
-							 data-text="Modelos matemáticos e estatísticos para análise, segmentação e ativação de shoppers.">
+							data-text="Dashboards inteligentes e integrados para conversão de dados em informações relevantes e identificação de oportunidades.">
 								<div class="inteligencia intel-analitica" title="Inteligência Analítica">
 									<div class="intel-icone">
 										<img src="<?= $wp_theme_url; ?>/img/index/03-02-zoombox.png">
@@ -208,7 +208,7 @@
 							</a>
 							<a class="thumb-solucao-image" id="thumb_3" data="<?= $wp_theme_url; ?>/img/index/03-03-inteligencia-detalhe.png"
 							data-title="Inteligência Promocional"
-							 data-text="Mais de 70 motores promocionais recorrentes e pontuais para impulsionamento de vendas e influência de comportamento de consumo.">
+							data-text="Trocar “influência de comportamento de consumo”  por “impulsionamento de comportamento de consumo”.">
 								<div class="inteligencia intel-promocional" title="Inteligência Promocional">	
 									<div class="intel-icone">
 										<img src="<?= $wp_theme_url; ?>/img/index/03-03-zoombox.png">
@@ -221,7 +221,7 @@
 							</a>
 							<a class="thumb-solucao-image" id="thumb_4" data="<?= $wp_theme_url; ?>/img/index/03-04-inteligencia-detalhe.png"
 							data-title="Inteligência Acionável"
-							 data-text="Gestão ativa de relacionamento com shopper em diferentes canais. Acompanhamento e mensuração inteligente.">
+							data-text="Plataforma de relacionamento e ativação de shoppers em diferentes canais. Gestão de performance e mensuração inteligente de resultados.">
 								<div class="inteligencia intel-acionavel" title="Inteligência Acionável">
 									<div class="intel-icone">
 										<img src="<?= $wp_theme_url; ?>/img/index/03-04-zoombox.png">
@@ -269,7 +269,7 @@
 							Nossa inteligência artificial vai além
 						</h2>
 						<p class="chamada-baixo">
-							Nossa plataforma de ativação permite agrupar os consumidores identificados conforme suas tendências de comportamento e executar ativações personalizadas
+							Nossa plataforma de ativação promove a execução de ações hipersegmentadas de relacionamento e engajamento com o shopper, conforme seu perfil, suas tendências e seus  hábitos de consumo.
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -302,7 +302,7 @@
 								Cluster Multidimensional
 							</h4>
 							<p class="disc-desc">
-								Cada shopper no seu lugar
+								Alto nível de identificação das tendências e perfis de comportamento. Cada shopper no seu lugar.
 							</p>
 						</div>
 					</div>
@@ -324,7 +324,7 @@
 								Ativação e Recomendação
 							</h4>
 							<p class="disc-desc">
-								Automatização de conteúdo e recomendação personalizada de produtos
+								Automatização de entrega de conteúdo e recomendação personalizada de produtos, ofertas e descontos exclusivos
 							</p>
 						</div>
 					</div>
@@ -343,10 +343,10 @@
 						</div>
 						<div class="disc-texto wow fadeInRight">
 							<h4 class="disc-tit">
-								Monitoramento On Time
+								Performance On Time
 							</h4>
 							<p class="disc-desc">
-								Resultados de ativações e retorno sobre o investimento em tempo real
+								Conversão das campanhas, desempenho do faturamento,   mudança de comportamento do shopper e ROAS em tempo real, em poucos cliques
 							</p>
 						</div>
 					</div>
@@ -371,7 +371,7 @@
 							Nós direcionamos a sua jornada
 						</h2>
 						<p class="chamada-baixo">
-							Nossa equipe de Sucesso do Negócio tem o compromisso de guiar nossos shoppers no caminho para os melhores resultados
+							Nossa equipe de Sucesso do Negócio tem o compromisso de guiar nossos clientes no caminho para os melhores resultados
 						</p>
 						<span class="bottom-liner"></span>
 					</div>
@@ -536,6 +536,27 @@
 						<div class="col-md-2 col-6">
 							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-06.png">
 						</div>
+
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-22.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-23.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-24.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-27.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-30.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-31.png">
+						</div>
+
+
 						<div class="col-md-2 col-6">
 							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-07.png">
 						</div>
@@ -552,7 +573,7 @@
 							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-11.png">
 						</div>
 						<div class="col-md-2 col-6">
-							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-12.png">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-25.png">
 						</div>
 					</div>
 				</div>
@@ -578,6 +599,9 @@
 						<div class="col-md-2 col-6">
 							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-16.png">
 						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-29.png">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -600,10 +624,13 @@
 							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-19.png">
 						</div>
 						<div class="col-md-2 col-6">
-							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-20.png">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-21.png">
 						</div>
 						<div class="col-md-2 col-6">
-							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-21.png">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-26.png">
+						</div>
+						<div class="col-md-2 col-6">
+							<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/clientes/06-cliente-28.png">
 						</div>
 					</div>
 				</div>
@@ -646,7 +673,7 @@
 						</div>
 						<div class="col-md-2 col-6">
 							<a href="/imprensa">
-								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-04.png">
+								<img class="logo-cliente" src="<?= $wp_theme_url; ?>/img/index/midia/06-midia-07.png">
 							</a>
 						</div>
 						<div class="col-md-2 col-6">
