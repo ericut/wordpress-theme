@@ -564,7 +564,8 @@ a {
     text-transform: uppercase;
     letter-spacing: -1px; }
     .chamada-container .chamada-meio .change-text {
-      font-size: 3rem; }
+      font-size: 62px;
+      line-height: 60px; }
   .chamada-container .chamada-baixo {
     font-size: 1.0625rem;
     font-weight: 500; }

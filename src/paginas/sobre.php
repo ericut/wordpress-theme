@@ -253,11 +253,8 @@
 									CEO & Founder
 								</p>
 								<p class="diretoria-minicurriculo">
-									Doutor em Computação - INPE<br>
-									Ontology Engineering - University of Münster (Germany)<br>
-									Pós-Graduado em Geographic Information Technologies - Ineversitat Jaume O - Espanha<br>
-									Cursos de atualização nas universidades PenState University (USA), Maine UUniversity (USA) e University of News Brasnwick (Canada)<br>
-									Coordenador/Executor/Consultor de projetos de TI e Inteligência em empresas como Bradesco, JBS/Friboi, Cadbury Adams, Reckitt Benckiser e Petz<br>
+									Planejamento e Execução de Projetos de TI<br>
+									Inteligência em empresas como JBS/Friboi, Reckitt Benckiser e Petz<br>
 								</p>
 								<p class="diretoria-linkedin">
 									<a href="https://www.linkedin.com/in/fernando-gibotti-b8128b35/" target="_blank">
@@ -276,9 +273,6 @@
 									VP Negócios & Co-Founder
 								</p>
 								<p class="diretoria-minicurriculo">
-									Pós-Graduado em GeoAnalytics - UFSCar<br>
-									Bacharel em PD-FEF<br>
-									16 anos de experiência em gestão de equipes de desenvolvimento e concepção de produtos de inovação e tecnologia.<br>
 									Planejamento e Execução de Projetos de TI<br>
 									Inteligência em empresas como JBS/Friboi, Reckitt Benckiser e Petz<br>
 								</p>
@@ -299,12 +293,8 @@
 									CFO
 								</p>
 								<p class="diretoria-minicurriculo">
-									Pós Graduado em Engenharia-USP<br>
-									Bacharel em Engenharia Civil<br>
-									Presidente Montage SIS Engenharia<br>
-									Ex-Diretor Sinduscon/SP<br>
-									Ex-Presidente Comitê da Bacia do R. Grande<br>
-									Planejamento e Execução de Projetos de TI e Inteligência em empresas como JBS/Friboi, Reckitt Benckiser e Petz<br>
+									Planejamento e Execução de Projetos de TI<br>
+									Inteligência em empresas como JBS/Friboi, Reckitt Benckiser e Petz<br>
 								</p>
 								<p class="diretoria-linkedin">
 									<a href="https://www.linkedin.com/in/germano-hernandes-filho-06453339/" target="_blank">

@@ -26,11 +26,11 @@
 				<div class="mask rgba-black-strong pattern-5 d-flex justify-content-center align-items-center force-light-mobile">
 					<!-- CONTEÚDO TEXTO -->
 					<div class="chamada-container text-center white-text mx-5 wow fadeInUp">
-						<p class="chamada-topo">
-							Somos Especialistas
-						</p>
+						<!-- <p class="chamada-topo">
+							Somos Especialistas em aumentar 
+						</p> -->
 						<h2 class="chamada-meio">
-							<span class="change-text">Em aumentar o seu faturamento</span>
+							<span class="change-text">Somos Especialistas<br> em aumentaro seu faturamento</span>
 							<!-- <span id="typed2" style="white-space:pre;"></span> -->
 						</h2>
 						<p class="chamada-baixo">
