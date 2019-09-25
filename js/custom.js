@@ -2,14 +2,14 @@
 // TYPEJS
 //
 
-var typed2 = new Typed('#typed2', {
-    strings: ['No seu <strong>Cliente</strong>', 'No seu <strong>Negócio</strong>', 'Na sua <strong>Marca</strong>'],
-    typeSpeed: 80,
-    backSpeed: 800,
-    fadeOut: true,
-    loop: true,
-    fadeOutDelay: 800,
-});
+// var typed2 = new Typed('#typed2', {
+//     strings: ['No seu <strong>Cliente</strong>', 'No seu <strong>Negócio</strong>', 'Na sua <strong>Marca</strong>'],
+//     typeSpeed: 80,
+//     backSpeed: 800,
+//     fadeOut: true,
+//     loop: true,
+//     fadeOutDelay: 800,
+// });
 
 
 //
@@ -17,14 +17,11 @@ var typed2 = new Typed('#typed2', {
 //
 
 $(document).ready(function () {
-        $('.animated-icon1,.animated-icon3,.animated-icon4').click(function () {
-            $(this).toggleClass('open');
-        });
+    $('.animated-icon1,.animated-icon3,.animated-icon4').click(function () {
+        $(this).toggleClass('open');
     });
 
-    $(document).ready(function () {
-
-        $('.navbar-toggler').on('click', function () {
+    $('.navbar-toggler').on('click', function () {
 
         $('.animated-icon1').toggleClass('open');
 
@@ -33,9 +30,7 @@ $(document).ready(function () {
         $('.animated-icon4').toggleClass('open');
 
     });
-
 });
-
 
 //
 // COUNTER - ANIMATION
@@ -62,6 +57,11 @@ $('.counter-value').each(function () {
         }
     );
 });
+
+
+
+
+
 
 // COUNTER ON MIDDLE PAGE
 // var a = 0;

@@ -51,7 +51,7 @@ a {
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   padding: 0 !important;
   display: block;
   z-index: 99999999999999; }
@@ -100,7 +100,6 @@ a {
   margin: 0 0 0 auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   list-style: none;
@@ -133,20 +132,20 @@ a {
         height: 2px;
         background: #9daf0f;
         -webkit-transform: scaleX(0);
-        -ms-transform: scaleX(0);
-        transform: scaleX(0); }
+            -ms-transform: scaleX(0);
+                transform: scaleX(0); }
       #menu-menu-principal .menu-item a:hover:before {
         -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-        transform: scaleX(1); }
+            -ms-transform: scaleX(1);
+                transform: scaleX(1); }
       #menu-menu-principal .menu-item a:hover {
         color: #9daf0f !important; }
     #menu-menu-principal .menu-item.active > .nav-link {
       background: none !important; }
       #menu-menu-principal .menu-item.active > .nav-link:before {
         -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-        transform: scaleX(1); }
+            -ms-transform: scaleX(1);
+                transform: scaleX(1); }
     #menu-menu-principal .menu-item .sub-menu {
       display: none;
       position: absolute;
@@ -185,7 +184,7 @@ a {
   .top-nav-collapse .menu-item:hover .sub-menu {
     background-color: rgba(28, 35, 49, 0.95);
     -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
 
 .animated-icon1 {
   width: 30px;
@@ -193,12 +192,9 @@ a {
   position: relative;
   margin: 0px;
   -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
+      transform: rotate(0deg);
   -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer; }
@@ -212,12 +208,9 @@ a {
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
+      transform: rotate(0deg);
   -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out; }
 
@@ -242,10 +235,8 @@ a {
 .animated-icon1.open span:nth-child(1) {
   top: 11px;
   -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
-  transform: rotate(135deg); }
+      transform: rotate(135deg); }
 
 .animated-icon1.open span:nth-child(2) {
   opacity: 0;
@@ -254,10 +245,8 @@ a {
 .animated-icon1.open span:nth-child(3) {
   top: 11px;
   -webkit-transform: rotate(-135deg);
-  -moz-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
   -ms-transform: rotate(-135deg);
-  transform: rotate(-135deg); }
+      transform: rotate(-135deg); }
 
 #menu-item-97 a:before {
   font-family: "Font Awesome 5 Free" !important;
@@ -265,6 +254,8 @@ a {
   content: '\f023' !important; }
 
 @media (max-width: 770px) {
+  .menu-menu-principal-container {
+    margin: 0 auto; }
   .navbar {
     background-color: #1c2331; }
     .navbar .menu-mobile {
@@ -368,8 +359,8 @@ a {
         opacity: 0; }
       .rodape-container .rodape-enderecos .enderecos-container .rodape-endereco-mapa:hover {
         -webkit-transform: scale(1.025);
-        -ms-transform: scale(1.025);
-        transform: scale(1.025); }
+            -ms-transform: scale(1.025);
+                transform: scale(1.025); }
         .rodape-container .rodape-enderecos .enderecos-container .rodape-endereco-mapa:hover .ver-mapa {
           opacity: 1; }
   .rodape-container .rodape-assinatura {
@@ -394,8 +385,8 @@ a {
           transition: 0.33s all; }
           .rodape-container .rodape-assinatura .rodape-copyright .logo-rodape .logo-gs:hover {
             -webkit-transform: scale(1.025) rotate(-4deg);
-            -ms-transform: scale(1.025) rotate(-4deg);
-            transform: scale(1.025) rotate(-4deg); }
+                -ms-transform: scale(1.025) rotate(-4deg);
+                    transform: scale(1.025) rotate(-4deg); }
   .rodape-container .rede-social-icon {
     -webkit-transition: 0.33s all;
     -o-transition: 0.33s all;
@@ -409,8 +400,8 @@ a {
       color: #9daf0f; }
       .rodape-container .rede-social-icon:hover i {
         -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        transform: scale(1.05); }
+            -ms-transform: scale(1.05);
+                transform: scale(1.05); }
 
 @media (max-width: 770px) {
   .rodape-container {
@@ -490,8 +481,8 @@ a {
     text-transform: capitalize; }
   .btn:hover {
     -webkit-transform: scale(1.025);
-    -ms-transform: scale(1.025);
-    transform: scale(1.025); }
+        -ms-transform: scale(1.025);
+            transform: scale(1.025); }
   .btn.home-button {
     width: 360px; }
 
@@ -632,6 +623,9 @@ a {
     .chamada-container .chamada-meio {
       font-size: 2.125rem;
       line-height: 30px; }
+      .chamada-container .chamada-meio .change-text {
+        font-size: 34px;
+        line-height: 30px; }
     .chamada-container .chamada-baixo {
       font-size: 0.875rem; }
     .chamada-container .bottom-liner {
@@ -665,47 +659,47 @@ a {
 @-webkit-keyframes rodarodaroda {
   0% {
     -webkit-transform: rotate(0);
-    transform: rotate(0); }
+            transform: rotate(0); }
   40% {
     -webkit-transform: rotate(144deg);
-    transform: rotate(144deg); }
+            transform: rotate(144deg); }
   50% {
     -webkit-transform: rotate(180deg) scale(1.025);
-    transform: rotate(180deg) scale(1.025); }
+            transform: rotate(180deg) scale(1.025); }
   60% {
     -webkit-transform: rotate(216deg);
-    transform: rotate(216deg); }
+            transform: rotate(216deg); }
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+            transform: rotate(360deg); } }
 
 @keyframes rodarodaroda {
   0% {
     -webkit-transform: rotate(0);
-    transform: rotate(0); }
+            transform: rotate(0); }
   40% {
     -webkit-transform: rotate(144deg);
-    transform: rotate(144deg); }
+            transform: rotate(144deg); }
   50% {
     -webkit-transform: rotate(180deg) scale(1.025);
-    transform: rotate(180deg) scale(1.025); }
+            transform: rotate(180deg) scale(1.025); }
   60% {
     -webkit-transform: rotate(216deg);
-    transform: rotate(216deg); }
+            transform: rotate(216deg); }
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+            transform: rotate(360deg); } }
 
 @-webkit-keyframes rodarodarodaroda {
   0% {
     -webkit-transform: rotate(0);
-    transform: rotate(0); }
+            transform: rotate(0); }
   50% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); }
+            transform: rotate(360deg); }
   100% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); } }
+            transform: rotate(0deg); } }
 
 .fundo-parallax {
   overflow: hidden; }
@@ -762,12 +756,12 @@ a {
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-delay: 0;
     -webkit-animation-name: rodarodaroda;
-    animation-name: rodarodaroda;
+            animation-name: rodarodaroda;
     animation-duration: 80s;
     animation-iteration-count: infinite;
     animation-direction: normal;
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+            animation-timing-function: linear;
     animation-delay: 0; }
 
 .fundo-parallax > .fundo-depoimentos {
@@ -922,7 +916,7 @@ a {
   .hexa-padrao:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
-    transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-transition: 0.33s all;
     -o-transition: 0.33s all;
     transition: 0.33s all;
@@ -936,7 +930,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
+        transform: rotate(60deg);
     background-color: inherit; }
   .hexa-padrao::before {
     content: '';
@@ -947,7 +941,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(-60deg);
     -ms-transform: rotate(-60deg);
-    transform: rotate(-60deg);
+        transform: rotate(-60deg);
     background-color: inherit; }
   .hexa-padrao .hexa-conteudo {
     position: absolute;
@@ -959,7 +953,7 @@ a {
     top: 50%;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+        transform: translate(0, -50%);
     text-align: center;
     color: #fff; }
     .hexa-padrao .hexa-conteudo .hexa-tit {
@@ -991,7 +985,7 @@ a {
   .med-hexas:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
-    transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-transition: 0.33s all;
     -o-transition: 0.33s all;
     transition: 0.33s all;
@@ -1005,7 +999,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
+        transform: rotate(60deg);
     background-color: inherit; }
   .med-hexas::before {
     content: '';
@@ -1016,7 +1010,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(-60deg);
     -ms-transform: rotate(-60deg);
-    transform: rotate(-60deg);
+        transform: rotate(-60deg);
     background-color: inherit; }
   .med-hexas .hexa-conteudo {
     position: absolute;
@@ -1028,7 +1022,7 @@ a {
     top: 50%;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+        transform: translate(0, -50%);
     text-align: center;
     color: #fff; }
     .med-hexas .hexa-conteudo .hexa-tit {
@@ -1059,7 +1053,7 @@ a {
   .mid-hexas:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
-    transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-transition: 0.33s all;
     -o-transition: 0.33s all;
     transition: 0.33s all;
@@ -1075,7 +1069,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
+        transform: rotate(60deg);
     background-color: inherit; }
   .mid-hexas::before {
     content: '';
@@ -1086,7 +1080,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(-60deg);
     -ms-transform: rotate(-60deg);
-    transform: rotate(-60deg);
+        transform: rotate(-60deg);
     background-color: inherit; }
   .mid-hexas .hexa-conteudo {
     position: absolute;
@@ -1098,7 +1092,7 @@ a {
     top: 50%;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+        transform: translate(0, -50%);
     text-align: center;
     color: #ffffff; }
 
@@ -1114,7 +1108,7 @@ a {
   .mini-hexas:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
-    transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-transition: 0.33s all;
     -o-transition: 0.33s all;
     transition: 0.33s all;
@@ -1130,7 +1124,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
+        transform: rotate(60deg);
     background-color: inherit; }
   .mini-hexas::before {
     content: '';
@@ -1141,7 +1135,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(-60deg);
     -ms-transform: rotate(-60deg);
-    transform: rotate(-60deg);
+        transform: rotate(-60deg);
     background-color: inherit; }
   .mini-hexas .hexa-conteudo {
     position: absolute;
@@ -1153,7 +1147,7 @@ a {
     top: 50%;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+        transform: translate(0, -50%);
     text-align: center;
     color: #ffffff; }
   .mini-hexas .hexa-texto {
@@ -1195,7 +1189,7 @@ a {
   .max-hexas:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
-    transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-transition: 0.33s all;
     -o-transition: 0.33s all;
     transition: 0.33s all;
@@ -1211,7 +1205,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
+        transform: rotate(60deg);
     background-color: inherit; }
   .max-hexas::before {
     content: '';
@@ -1222,7 +1216,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(-60deg);
     -ms-transform: rotate(-60deg);
-    transform: rotate(-60deg);
+        transform: rotate(-60deg);
     background-color: inherit; }
   .max-hexas .hexa-conteudo {
     position: absolute;
@@ -1234,7 +1228,7 @@ a {
     top: 50%;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+        transform: translate(0, -50%);
     text-align: center;
     color: #ffffff; }
 
@@ -1278,7 +1272,7 @@ a {
     .max-hexas:hover {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
-      transform: scale(1.05);
+          transform: scale(1.05);
       -webkit-transition: 0.33s all;
       -o-transition: 0.33s all;
       transition: 0.33s all;
@@ -1294,7 +1288,7 @@ a {
       height: inherit;
       -webkit-transform: rotate(60deg);
       -ms-transform: rotate(60deg);
-      transform: rotate(60deg);
+          transform: rotate(60deg);
       background-color: inherit; }
     .max-hexas::before {
       content: '';
@@ -1305,7 +1299,7 @@ a {
       height: inherit;
       -webkit-transform: rotate(-60deg);
       -ms-transform: rotate(-60deg);
-      transform: rotate(-60deg);
+          transform: rotate(-60deg);
       background-color: inherit; }
     .max-hexas .hexa-conteudo {
       position: absolute;
@@ -1317,7 +1311,7 @@ a {
       top: 50%;
       -webkit-transform: translate(0, -50%);
       -ms-transform: translate(0, -50%);
-      transform: translate(0, -50%);
+          transform: translate(0, -50%);
       text-align: center;
       color: #ffffff; } }
 
@@ -1340,7 +1334,7 @@ a {
     .ciencia-getfish .logo-getfish:hover {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
-      transform: scale(1.05);
+          transform: scale(1.05);
       opacity: 0.9 !important; }
   .ciencia-getfish .hexa-descritiva {
     background-color: #003686; }
@@ -1938,10 +1932,10 @@ a {
     transition: 0.33s all; }
     .rodape-container-home .mapa-brasil:hover {
       -webkit-transform: scale(1.025);
-      -ms-transform: scale(1.025);
-      transform: scale(1.025);
+          -ms-transform: scale(1.025);
+              transform: scale(1.025);
       -webkit-filter: saturate(1) hue-rotate(35deg) brightness(105%);
-      filter: saturate(1) hue-rotate(35deg) brightness(105%); }
+              filter: saturate(1) hue-rotate(35deg) brightness(105%); }
 
 @media (max-width: 770px) {
   .rodape-container-home {
@@ -2331,7 +2325,7 @@ a {
   .historia-hexas:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
-    transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-transition: 0.33s all;
     -o-transition: 0.33s all;
     transition: 0.33s all;
@@ -2347,7 +2341,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
+        transform: rotate(60deg);
     background-color: inherit; }
   .historia-hexas::before {
     content: '';
@@ -2358,7 +2352,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(-60deg);
     -ms-transform: rotate(-60deg);
-    transform: rotate(-60deg);
+        transform: rotate(-60deg);
     background-color: inherit; }
   .historia-hexas .hexa-conteudo {
     position: absolute;
@@ -2370,7 +2364,7 @@ a {
     top: 40%;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+        transform: translate(0, -50%);
     text-align: center; }
     .historia-hexas .hexa-conteudo .hexa-tit {
       font-size: 1.5rem;
@@ -2397,7 +2391,7 @@ a {
   .historia-hexas-shadow:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
-    transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-transition: 0.33s all;
     -o-transition: 0.33s all;
     transition: 0.33s all;
@@ -2413,7 +2407,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
+        transform: rotate(60deg);
     background-color: inherit; }
   .historia-hexas-shadow::before {
     content: '';
@@ -2424,7 +2418,7 @@ a {
     height: inherit;
     -webkit-transform: rotate(-60deg);
     -ms-transform: rotate(-60deg);
-    transform: rotate(-60deg);
+        transform: rotate(-60deg);
     background-color: inherit; }
   .historia-hexas-shadow.baixo {
     top: 40px; }
@@ -2435,16 +2429,16 @@ a {
   display: flex; }
   .timeline-hexas.timeline-esquerda {
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: start; }
+        -ms-flex-pack: start;
+            justify-content: start; }
   .timeline-hexas.timeline-direita {
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: end; }
+        -ms-flex-pack: end;
+            justify-content: end; }
   .timeline-hexas .col {
     -webkit-box-flex: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0; }
+        -ms-flex-positive: 0;
+            flex-grow: 0; }
     .timeline-hexas .col .timeline-imagem {
       position: absolute;
       top: -100px;
@@ -2482,8 +2476,8 @@ a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
+        -ms-flex-pack: center;
+            justify-content: center; }
     .timeline-hexas .col {
       margin: 0 auto;
       height: 340px; }
@@ -2497,7 +2491,6 @@ a {
   height: 100%;
   margin: 0 0 0 0;
   background: -webkit-gradient(linear, left bottom, left top, from(#d25001), to(#fc7b00)) #fc7b00;
-  background: -webkit-linear-gradient(bottom, #d25001, #fc7b00) #fc7b00;
   background: -o-linear-gradient(bottom, #d25001, #fc7b00) #fc7b00;
   background: linear-gradient(to top, #d25001, #fc7b00) #fc7b00; }
   .triade-container .zoombox-particles {
@@ -2563,11 +2556,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+      -ms-flex-align: center;
+          align-items: center; }
   .somostodosgs .frases {
     font-weight: 600; }
     .somostodosgs .frases .hashtag {
@@ -2608,26 +2601,6 @@ a {
   -ms-animation-delay: 10s;
   -webkit-animation-delay: 10s; }
 
-@-moz-keyframes vertical {
-  0% {
-    opacity: 0; }
-  5% {
-    opacity: 0;
-    -moz-transform: rotateX(180deg); }
-  10% {
-    opacity: 1;
-    -moz-transform: translateY(0px); }
-  25% {
-    opacity: 1;
-    -moz-transform: translateY(0px); }
-  30% {
-    opacity: 0;
-    -moz-transform: translateY(0px); }
-  80% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
 @-webkit-keyframes vertical {
   0% {
     opacity: 0; }
@@ -2643,26 +2616,6 @@ a {
   30% {
     opacity: 0;
     -webkit-transform: translateY(0px); }
-  80% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
-@-ms-keyframes vertical {
-  0% {
-    opacity: 0; }
-  5% {
-    opacity: 0;
-    -ms-transform: rotateX(180deg); }
-  10% {
-    opacity: 1;
-    -ms-transform: translateY(0px); }
-  25% {
-    opacity: 1;
-    -ms-transform: translateY(0px); }
-  30% {
-    opacity: 0;
-    -ms-transform: translateY(0px); }
   80% {
     opacity: 0; }
   100% {
@@ -2765,9 +2718,12 @@ a {
     width: 100%;
     max-width: 100%;
     margin: 1% auto;
-    column-count: 2;
-    column-gap: 2%;
-    column-width: 30%;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 2%;
+         column-gap: 2%;
+    -moz-column-width: 30%;
+         column-width: 30%;
     -webkit-column-count: 2;
     -webkit-column-gap: 2%;
     -webkit-column-width: 30%;
@@ -2899,13 +2855,13 @@ a {
     font-weight: 600; }
     .paginacao .page-numbers.current:hover {
       -webkit-transform: scale(1.025);
-      -ms-transform: scale(1.025);
-      transform: scale(1.025);
+          -ms-transform: scale(1.025);
+              transform: scale(1.025);
       background: #9daf0f; }
   .paginacao .page-numbers:hover {
     -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
     background: #dddddd;
     border-bottom: 2px solid #657204; }
 
@@ -3017,8 +2973,8 @@ a {
   color: #ffffff; }
   .btn-enviar:hover {
     -webkit-transform: scale(1.025);
-    -ms-transform: scale(1.025);
-    transform: scale(1.025); }
+        -ms-transform: scale(1.025);
+            transform: scale(1.025); }
 
 .btn-enviar-parceiro {
   cursor: pointer;
@@ -3032,8 +2988,8 @@ a {
   color: #ffffff; }
   .btn-enviar-parceiro:hover {
     -webkit-transform: scale(1.025);
-    -ms-transform: scale(1.025);
-    transform: scale(1.025); }
+        -ms-transform: scale(1.025);
+            transform: scale(1.025); }
 
 .btn-enviar-carreira {
   cursor: pointer;
@@ -3047,8 +3003,8 @@ a {
   color: #ffffff; }
   .btn-enviar-carreira:hover {
     -webkit-transform: scale(1.025);
-    -ms-transform: scale(1.025);
-    transform: scale(1.025); }
+        -ms-transform: scale(1.025);
+            transform: scale(1.025); }
 
 .input-group label {
   display: block;

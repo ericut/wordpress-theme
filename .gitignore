@@ -1,3 +1,6 @@
-*.psd
+/node_modules/
+/node_modules
+*.config
 *.log
-prepos-6.config
+*.psd
+.gitignore

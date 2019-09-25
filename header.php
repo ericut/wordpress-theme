@@ -48,6 +48,16 @@
 		<!-- VERIFICAÇÃO DO GOOGLE -->
 		<meta name="google-site-verification" content="wkY_853V0HmLUvDC5Megq6ahu-QTCMpEyaEgq5rxtdg" />
 
+		<!-- MAPA DE CALOR -->
+		<script type='text/javascript'>
+			window.smartlook||(function(d) {
+			var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+			var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+			c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+			})(document);
+			smartlook('init', '9ff97c5ef1be35f4590c642f2fec2ec45a477b1b');
+		</script>
+
 	</head>
 
 	<body <?php body_class(); ?>>

@@ -385,6 +385,10 @@ a {
 
 
 @media (max-width: 770px) {
+    .menu-menu-principal-container {
+        margin: 0 auto;
+    }
+
     .navbar {
         background-color: rgba($cor-fundo-secundaria, 1);
         .menu-mobile {

@@ -232,7 +232,7 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-sm-12 pb-2">
+				<div class="col-md-3 col-sm-12 pb-2">
 					<div class="interna-titulo diretoria wow fadeInLeft">
 						<span class="bottom-liner"></span>
 						<h2 class="chamada-meio">
@@ -241,7 +241,7 @@
 						<span class="bottom-liner"></span>
 					</div>
 				</div>
-				<div class="col-md-12 col-sm-12">
+				<div class="col-md-9 col-sm-12">
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
 							<div class="diretoria-item wow fadeInUp">
@@ -252,10 +252,10 @@
 								<p class="diretoria-cargo">
 									CEO & Founder
 								</p>
-								<p class="diretoria-minicurriculo">
+								<!-- <p class="diretoria-minicurriculo">
 									Planejamento e Execução de Projetos de TI<br>
 									Inteligência em empresas como JBS/Friboi, Reckitt Benckiser e Petz<br>
-								</p>
+								</!-->
 								<p class="diretoria-linkedin">
 									<a href="https://www.linkedin.com/in/fernando-gibotti-b8128b35/" target="_blank">
 										<i class="fab fa-linkedin-in"></i>
@@ -272,10 +272,10 @@
 								<p class="diretoria-cargo">
 									VP Negócios & Co-Founder
 								</p>
-								<p class="diretoria-minicurriculo">
+								<!-- <p class="diretoria-minicurriculo">
 									Planejamento e Execução de Projetos de TI<br>
 									Inteligência em empresas como JBS/Friboi, Reckitt Benckiser e Petz<br>
-								</p>
+								</!-->
 								<p class="diretoria-linkedin">
 									<a href="https://www.linkedin.com/in/simonato/" target="_blank">
 										<i class="fab fa-linkedin-in"></i>
@@ -292,10 +292,10 @@
 								<p class="diretoria-cargo">
 									CFO
 								</p>
-								<p class="diretoria-minicurriculo">
+								<!-- <p class="diretoria-minicurriculo">
 									Planejamento e Execução de Projetos de TI<br>
 									Inteligência em empresas como JBS/Friboi, Reckitt Benckiser e Petz<br>
-								</p>
+								</!-->
 								<p class="diretoria-linkedin">
 									<a href="https://www.linkedin.com/in/germano-hernandes-filho-06453339/" target="_blank">
 										<i class="fab fa-linkedin-in"></i>

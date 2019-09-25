@@ -16,7 +16,7 @@
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/particles/particles.min.js"></script>
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/particles/particlesjson.min.js"></script>
 
-		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/custom.min.js"></script>
+		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/custom.js"></script>
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/mouseparallax.min.js"></script>
 		
 		<script type="text/javascript" src="<?= $wp_theme_url; ?>/js/scrollmagic/lib/greensock/TweenMax.min.js"></script>

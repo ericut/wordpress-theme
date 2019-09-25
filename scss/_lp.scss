@@ -144,6 +144,11 @@
         .chamada-meio {
             font-size: $txt-tam-34px;
             line-height: 30px;
+
+            .change-text {
+                font-size: 34px;
+                line-height: 30px;
+            }
         }
         .chamada-baixo {
             font-size: $txt-tam-14px;
