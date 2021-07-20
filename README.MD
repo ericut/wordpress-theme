@@ -1,6 +1,6 @@
-# Site Brasil.GS
+# Tema criado para WordPress [Site institucional GS]
 
-O site **Brasil.GS** é um tema em WordPress desenvolvido especialmente para a empresa Brasil.GS.
+O site **GS** é um tema desenvolvido para WordPress.
 Sua arquitetura é baseada no modelo **Atomic Design**, de modo mais simplificado quais seus componentes são representados em módulos, estruturas e páginas. E a utilização de SCSS ajuda na criação de componentes dinâmicos que dão maior profundidade ao site.
 
 ## Arquitetura
@@ -63,11 +63,7 @@ A pasta principal **brasilgs**, deve ser colocada na diretório de temas do Word
 
 ## Banco de Dados
 
-SQL está na pasta **mysql**, deve ser importado no phpMyAdmin e configurar no arquivo **wp-config.php** da sua instalação WordPress
-
-## Arquivos Raíz
-
-Os arquivos da pasta **raiz**, devem ser adicionados na raíz do site, juntamente com o arquivo **wp-config.php**
+SQL está na pasta **mysql**, deve ser importado no phpMyAdmin e configurar no arquivo **wp-config.php** da sua instalação WordPress, este arquivo é uma base para teste do site.
 
 ## WordPress
 
